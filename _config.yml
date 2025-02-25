@@ -7,13 +7,13 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xing Liu 刘行"
+title                    : "Ruijia Zhang 张瑞珈"
 title_separator          : "-"
-name                     : &name "Xing liu"
+name                     : &name "Ruijia Zhang"
 description              : &description "Welcome to my webpage!"
-url                      : https://xinglliu.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://ruijia-z.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "XingLLiu/XingLLiu.github.io"
+repository               : "ruijia-z/ruijia-z.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &xingliu97
+  username               : &ruijia-z
   facebook:
   username               :
   app_id                 :
@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xing Liu"
+  name             : "Ruijia Zhang"
   avatar           : "profile_nanjing.png"
-  bio              : "PhD student of Statistics at Imperial College London"
-  location         : "London, UK"
+  bio              : "Postdoctoral researcher at Peking University"
+  location         : "Beijing, CN"
   employer         :
   pubmed           : #
   googlescholar    : "https://scholar.google.com/citations?user=_s0VPfUAAAAJ&hl=en"
   # email            : ""
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     :  "https://www.researchgate.net/profile/Ruijia-Zhang-9"
   uri              :
   bitbucket        :
   codepen          :
@@ -96,20 +96,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "XingLLiu"
+  github           : "ruijia-z"
+  orcid            : "https://orcid.org/0000-0002-7752-7172"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "xingliu97/"
-  orcid            : # "http://orcid.org/yourorcidurl"
+  linkedin         : ""
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "@xingliu97"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
