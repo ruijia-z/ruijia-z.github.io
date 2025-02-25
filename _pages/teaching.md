@@ -7,7 +7,7 @@ author_profile: true
 
 ## Teaching
 
-[2017-2020] I was a Teaching Assistant for the following courses At Tsinghua University:
+I was a Teaching Assistant for the following courses At Tsinghua University from 2017 to 2020:
 
 - Spring 2020: *Advanced Algebra*.
 - Autumn 2019: *Linear Algebra*.

@@ -8,12 +8,20 @@ author_profile: true
 
 ## Bio
 
-I am a PhD student in the [CDT in StatML](https://statml.io/) programme, which is jointly organized by Imperial Collage London and the University of Oxford.
+I am currently engaged in postdoctoral research at Peking University, working under the guidance of [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
+In 2022, I earned my Ph.D. from Tsinghua University under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
 
-Before commencing my PhD, I completed [Part III](https://www.maths.cam.ac.uk/postgrad/part-iii/current) at [St John's College](https://www.joh.cam.ac.uk/), University of Cambridge, where my focus was on Mathematical Statistics and optimization. Prior to this, I received my Bachelor degree in [Mathematics with Statistcis](https://www.imperial.ac.uk/study/ug/courses/mathematics-department/mathematics-with-statistics-bsc/) from Imperial College London in 2019.
+My research mainly focused on geometric analysis and nonlinear PDEs, particularly on the convergence analysis and asymptotic shape characterization of hypersurface curvature flows in space forms.
 
-I have internship experience at Meta (summer 2022) and JPMorgan (summer 2020). 
 
-I spent my summer in 2019 as a research student at the [Goldenberg Lab](http://goldenberglab.ca/) in Toronto, Canada. There, I worked on using NLP to help fascilitate early-stage diagnosis of Sepsis at [SickKids](https://www.sickkids.ca/). This project was supervised by Dr Anna Goldenberg and Erik Drysdale, and was funded by the [Fields Undergraduate Summer Research Program](http://www.fields.utoronto.ca/activities/19-20/2019-fusrp). A short summary of the project can be found on their website. 
+## Other Experiences
 
-Besides statistics, I spend most of my time hiking, playing the guitar, and volunteering. In February 2021, I joined [Bridges for Enterprise](https://www.bridgesforenterprise.com/) (BfE), a non-profit organisation, as a Global Analytics and Algorithm Manager. BfE is a global non-profit providing pro-bono advisory services to social enterprise startups in the developing world. My job at BfE is to oversee the Data Analytics and Machine Learning projects in its Tech division. Find out more about what they do and their volunteering opportunities on their [website](https://www.bridgesforenterprise.com/).
+- 清华大学数学科学系研究生会文艺部部长 2017/09 - 2018/06
+
+- 清华大学一二·九合唱比赛钢琴伴奏 2017/12
+
+- 四川大学钢琴队 2013/09 - 2017/06
+
+- 四川大学数学科学学院辩论队 2013/09 - 2015/06
+
+- 四川大学数学科学学院青年志愿者服务队宣传部部长 2013/09 - 2015/06
