@@ -8,7 +8,7 @@ author_profile: true
 
 ## Bio
 
-I am currently engaged in postdoctoral research at Peking University, working under the guidance of [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
+I am currently engaged in postdoctoral research at Peking University, working under the guidance of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
 In 2022, I earned my Ph.D. from Tsinghua University under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
 
 My research mainly focused on geometric analysis and nonlinear PDEs, particularly on the convergence analysis and asymptotic shape characterization of hypersurface curvature flows in space forms.
