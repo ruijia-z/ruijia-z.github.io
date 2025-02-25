@@ -8,9 +8,9 @@ redirect_from:
   - /main.html
 ---
 
-Hi there! My name is Ruijia Zhang. I am a PhD student in Statistics at Imperial College London. I joined the [EPSRC CDT in Modern Statistics and Statistical Machine Learning at Imperial and Oxford](https://statml.io/) in 2020, where I have been advised by Professor [Axel Gandy](https://wwwf.imperial.ac.uk/~agandy/) and Dr [Andrew Duncan](http://wwwf.imperial.ac.uk/~aduncan/). I am also a visiting student in the [Fundamentals of Statistical Machine Learning](https://fsml-ucl.github.io/) research group at UCL.
-
-My research interests lie in the intersection of kernel methods and computational statistics. Specifically, I am exploring the applications of Kernelized Stein Discrepancy to address challenges in computational statistics, including areas such as distribution testing, particle-based inference and parameter estimation.
+Hi there! My name is Ruijia Zhang. I am currently engaged in postdoctoral research at Peking University, working under the guidance of [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
+In 2022, I earned my Ph.D. from Tsinghua University under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
+My research focused on geometric analysis and nonlinear PDE, particularly focusing on the convergence analysis and asymptotic shape characterization of hypersurface curvature flows in space forms.
 
 ## Education 
 :mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, <span class="grey">Peking University</span>, 2023-Now \
@@ -22,8 +22,7 @@ My research interests lie in the intersection of kernel methods and computationa
 
 ## Teaching
 
-### Tsinghua University
-I was a Teaching Assistant for the following courses:
+[2017-2020] At TSU, I was a Teaching Assistant for the following courses:
 - Spring 2020: *Advanced Algebra*.
 - Autumn 2019: *Linear Algebra*.
 - Spring 2019: *Calculus A*. 
