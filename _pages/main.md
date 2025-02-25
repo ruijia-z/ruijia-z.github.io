@@ -10,25 +10,7 @@ redirect_from:
 
 Hi there! My name is Ruijia Zhang. I am currently engaged in postdoctoral research at Peking University, working under the guidance of [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
 In 2022, I earned my Ph.D. from Tsinghua University under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
-My research focused on geometric analysis and nonlinear PDE, particularly focusing on the convergence analysis and asymptotic shape characterization of hypersurface curvature flows in space forms.
-
-## Education 
-:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, <span class="grey">Peking University</span>, 2023-Now \
-:mortar_board: PhD in Department of Mathematical Sciences, <span class="grey">Tsinghua University</span>, 2017-2022 \
-:mortar_board: BSc in Mathematics, <span class="grey">Sichuan University</span>, 2013-2017
-
-## Resources
-[Here](https://github.com/XingLLiu/ImperialCollegePosterTemplate) is an **unofficial** LaTex poster template for maths/stats projects with a Imperial College theme. See the links therein for references.
-
-## Teaching
-
-[2017-2020] At TSU, I was a Teaching Assistant for the following courses:
-- Spring 2020: *Advanced Algebra*.
-- Autumn 2019: *Linear Algebra*.
-- Spring 2019: *Calculus A*. 
-- Autumn 2018: *Linear Algebra*.
-- Spring 2018: *Linear Algebra*.
-- Autumn 2017: *Calculus A*. 
+My research focused on geometric analysis and nonlinear PDE, particularly on the convergence analysis and asymptotic shape characterization of hypersurface curvature flows in space forms.
 
 ## News
 - [12/2024] I successfully defended my PhD thesis! A huge thank-you to my examiners Dr. [Nikolas Kantas](https://www.ma.imperial.ac.uk/~nkantas/) and Prof. [Chris Oates](https://oates.work/) for the insightful discussions during the viva!
@@ -50,6 +32,25 @@ My research focused on geometric analysis and nonlinear PDE, particularly focusi
 - [09/2022] I finished my internship at [Meta](https://research.facebook.com/), where I worked on multi-task active learning methods for e-commerce.
 
 - [01/2022] Our paper [Grassmann Stein Variational Gradient Descent](https://proceedings.mlr.press/v151/liu22a.html) has been accepted by AISTATS 2022.
+
+
+## Education 
+:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, <span class="grey">Peking University</span>, 2023-Now \
+:mortar_board: PhD in Department of Mathematical Sciences, <span class="grey">Tsinghua University</span>, 2017-2022 \
+:mortar_board: BSc in Mathematics, <span class="grey">Sichuan University</span>, 2013-2017
+
+## Resources
+[Here](https://github.com/XingLLiu/ImperialCollegePosterTemplate) is an **unofficial** LaTex poster template for maths/stats projects with a Imperial College theme. See the links therein for references.
+
+## Teaching
+
+[2017-2020] At TSU, I was a Teaching Assistant for the following courses:
+- Spring 2020: *Advanced Algebra*.
+- Autumn 2019: *Linear Algebra*.
+- Spring 2019: *Calculus A*. 
+- Autumn 2018: *Linear Algebra*.
+- Spring 2018: *Linear Algebra*.
+- Autumn 2017: *Calculus A*. 
 
 <!-- ## Contact
 ### Email

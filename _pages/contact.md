@@ -16,12 +16,10 @@ UK
 
 
 ### Email
-[firstname].[lastname]16 [at] imperial.ac.uk
+- 545900054@qq.com
 
 ### Address
-Office 617 \
-Huxley Building \
-180 Queen's Gate, South Kensington \
-London SW7 2AZ \
-UK
+Peking University, No. 5 Yiheyuan Road \
+Beijing, Haidian District\
+China
 
