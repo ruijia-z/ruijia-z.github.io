@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Ruijia Zhang"
   avatar           : "profile_nanjing.png"
-  bio              : "Postdoctoral researcher at Peking University"
-  location         : "Beijing, CN"
+  bio              : "Postdoctoral Fellow at Peking University"
+  location         : "Beijing"
   employer         :
   pubmed           : #
   googlescholar    : "https://scholar.google.com/citations?user=_s0VPfUAAAAJ&hl=en"
@@ -103,7 +103,7 @@ author:
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : ""
+  linkedin         : 
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username

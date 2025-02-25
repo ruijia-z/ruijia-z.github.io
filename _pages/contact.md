@@ -16,7 +16,7 @@ UK
 
 
 ### Email
-- 545900054@qq.com
+- zhangrj@pku.edu.cn
 
 ### Address
 Peking University, No. 5 Yiheyuan Road \
