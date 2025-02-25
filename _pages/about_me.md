@@ -3,7 +3,7 @@ title: "About Me"
 permalink: /about_me/
 author_profile: true
 ---
-[Short CV](http://ruijia-z.github.io/files/CV_Xing_LIU.pdf)
+[Short CV](http://ruijia-z.github.io/files/CV_zh_zrj.pdf)
 
 
 ## Bio
