@@ -1,5 +1,5 @@
 ---
-title: "Teaching"
+title: ""
 permalink: /teaching/
 author_profile: true
 ---
@@ -17,3 +17,4 @@ author_profile: true
 - Autumn 2017: *Calculus A*. 
 
 ## Materials
+
