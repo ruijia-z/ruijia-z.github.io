@@ -12,7 +12,7 @@ Hi there! My name is Ruijia Zhang. I am currently engaged in postdoctoral resear
 In 2022, I earned my Ph.D. from Tsinghua University under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
 My research mainly focused on geometric analysis and nonlinear PDE, particularly on the convergence analysis and asymptotic shape characterization of hypersurface curvature flows in space forms.
 
-My short CV can be downloaded [here](http://ruijia-z.github.io/files/CV_Xing_LIU.pdf).
+My short CV can be downloaded [here](http://ruijia-z.github.io/files/CV_zh_zrj.pdf).
 
 ## News
 - [08/2024] My new preprint [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.arxiv.org/abs/2408.10781) is out! 
