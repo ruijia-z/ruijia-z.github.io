@@ -84,7 +84,7 @@ author:
   avatar           : "zrj.png"
   bio              : "Postdoctoral Fellow at Peking University"
   location         : "Beijing"
-  employer         :
+  employer         : "PKU"
   pubmed           : #
   googlescholar    : "https://scholar.google.com/citations?user=_s0VPfUAAAAJ&hl=en"
   # email            : ""
@@ -96,8 +96,8 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ruijia-z"
   orcid            : "https://orcid.org/0000-0002-7752-7172"
+  github           : "ruijia-z"
   google_plus      :
   keybase          :
   instagram        :
