@@ -1,10 +1,8 @@
 ---
-title: "Research"
+title: ""
 permalink: /research/
 author_profile: true
 ---
-
-
 
 
 ## Publication 
@@ -18,3 +16,13 @@ author_profile: true
 - [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.arxiv.org/abs/2408.09428) (with [Han Hong](https://faculty.bjtu.edu.cn/10121/)), arXiv:2408.09428.
 
 - [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.arxiv.org/abs/2408.10781), arXiv:2408.10781.
+
+
+## Research Projects 
+
+- [03/2023] 北京大学博雅博士后项目, 在研
+
+- [12/2023], 国家经费资助博士后, 在研
+
+- [11/2023] 中国博士后科学基金面上资助, 在研
+
