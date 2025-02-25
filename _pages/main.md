@@ -8,24 +8,28 @@ redirect_from:
   - /main.html
 ---
 
-Hi there! My name is Xing ([pronunciation](https://translate.google.co.uk/?sl=zh-CN&tl=en&text=%E8%A1%8C&op=translate); similar to "H'sing"). I am a PhD student in Statistics at Imperial College London. I joined the [EPSRC CDT in Modern Statistics and Statistical Machine Learning at Imperial and Oxford](https://statml.io/) in 2020, where I have been advised by Professor [Axel Gandy](https://wwwf.imperial.ac.uk/~agandy/) and Dr [Andrew Duncan](http://wwwf.imperial.ac.uk/~aduncan/). I am also a visiting student in the [Fundamentals of Statistical Machine Learning](https://fsml-ucl.github.io/) research group at UCL.
+Hi there! My name is Ruijia Zhang. I am a PhD student in Statistics at Imperial College London. I joined the [EPSRC CDT in Modern Statistics and Statistical Machine Learning at Imperial and Oxford](https://statml.io/) in 2020, where I have been advised by Professor [Axel Gandy](https://wwwf.imperial.ac.uk/~agandy/) and Dr [Andrew Duncan](http://wwwf.imperial.ac.uk/~aduncan/). I am also a visiting student in the [Fundamentals of Statistical Machine Learning](https://fsml-ucl.github.io/) research group at UCL.
 
 My research interests lie in the intersection of kernel methods and computational statistics. Specifically, I am exploring the applications of Kernelized Stein Discrepancy to address challenges in computational statistics, including areas such as distribution testing, particle-based inference and parameter estimation.
 
 ## Education 
-:mortar_board: PhD in Modern Statistics and Statistical Machine Learning, 2020-2024, <span class="grey">Imperial College London</span> \
-:mortar_board: MASt (Part III) in Mathematical Statistics, 2019-2020, <span class="grey">University of Cambridge</span> \
-:mortar_board: BSc in Mathematics with Statistics, 2016-2019, <span class="grey">Imperial College London</span>
+:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, <span class="grey">Peking University</span>, 2023-Now \
+:mortar_board: PhD in Department of Mathematical Sciences, <span class="grey">Tsinghua University</span>, 2017-2022 \
+:mortar_board: BSc in Mathematics, <span class="grey">Sichuan University</span>, 2013-2017
 
 ## Resources
 [Here](https://github.com/XingLLiu/ImperialCollegePosterTemplate) is an **unofficial** LaTex poster template for maths/stats projects with a Imperial College theme. See the links therein for references.
 
 ## Teaching
-I am/was a Teaching Assistant for the following courses:
-- Autumn 2023: *M.Sc. in Statistics Orientation Week*. Led by Dr [Oliver Ratmann](https://www.imperial.ac.uk/people/oliver.ratmann05).
-- Spring 2023: *Mathematical Foundations of Machine Learning*. Lectured by Dr [Anastasia Borovykh](https://abrvkh.github.io/).
-- Spring 2022: *Exploratory Data Analysis and Visualisation*. Lectured by Dr [James Martin](https://www.imperial.ac.uk/people/james.martin).
-- Autumn 2021: *Applicable Maths*. Lectured by Dr [James Martin](https://www.imperial.ac.uk/people/james.martin).
+
+### Tsinghua University
+I was a Teaching Assistant for the following courses:
+- Spring 2020: *Advanced Algebra*.
+- Autumn 2019: *Linear Algebra*.
+- Spring 2019: *Calculus A*. 
+- Autumn 2018: *Linear Algebra*.
+- Spring 2018: *Linear Algebra*.
+- Autumn 2017: *Calculus A*. 
 
 ## News
 - [12/2024] I successfully defended my PhD thesis! A huge thank-you to my examiners Dr. [Nikolas Kantas](https://www.ma.imperial.ac.uk/~nkantas/) and Prof. [Chris Oates](https://oates.work/) for the insightful discussions during the viva!
