@@ -29,9 +29,9 @@ My short CV can be downloaded [here](http://ruijia-z.github.io/files/CV_zh_zrj.p
 - [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.arxiv.org/abs/2408.10781), arXiv:2408.10781.
 
 ## Education 
-:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, <span class="grey">Peking University</span>, 2023-Now \
-:mortar_board: PhD in Department of Mathematical Sciences, <span class="grey">Tsinghua University</span>, 2017-2022 \
-:mortar_board: BSc in Mathematics, <span class="grey">Sichuan University</span>, 2013-2017
+:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, Peking University, 2023-Now (under the mentorship of professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm))\
+:mortar_board: PhD in Department of Mathematical Sciences, Tsinghua University, 2017-2022 (under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm))\
+:mortar_board: BSc in Mathematics, Sichuan University, 2013-2017
 
 
 
