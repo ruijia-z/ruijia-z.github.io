@@ -28,8 +28,8 @@ My short CV can be downloaded [here](http://ruijia-z.github.io/files/CV_zh_zrj.p
 - [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.arxiv.org/abs/2408.09428) (with [Han Hong](https://faculty.bjtu.edu.cn/10121/)), arXiv:2408.09428.
 - [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.arxiv.org/abs/2408.10781), arXiv:2408.10781.
 
-## Education 
-:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, Peking University, 2023-Now (under the mentorship of professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm))\
+## Education&Employment
+:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, Peking University, 2023-Now (under the mentorship of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm))\
 :mortar_board: PhD in Department of Mathematical Sciences, Tsinghua University, 2017-2022 (under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm))\
 :mortar_board: BSc in Mathematics, Sichuan University, 2013-2017
 
