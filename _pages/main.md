@@ -18,7 +18,7 @@ My short CV can be downloaded [here](http://ruijia-z.github.io/files/CV_zh_zrj.p
 - [08/2024] My new preprint [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.arxiv.org/abs/2408.10781) is out! 
 - [08/2024] Our new preprint [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.arxiv.org/abs/2408.09428) is out! This is a joint work with Dr [Han Hong](https://faculty.bjtu.edu.cn/10121/).
 - [03/2023] I will commence my postdoctoral research at Peking University under the mentorship of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
-- [12/2022] I earned my Ph.D. from Tsinghua University.
+- [01/2023] I earned my Ph.D. from Tsinghua University.
 
 
 ## Publication 
