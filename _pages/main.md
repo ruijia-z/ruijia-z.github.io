@@ -20,7 +20,6 @@ Please feel free to contact me if you are interested in my research.
 - [08/2025] My paper [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.sciencedirect.com/science/article/abs/pii/S000187082500386X) has been accepted for publication and published in *Advances in Mathematics*.
 - [08/2025] I have joined the School of Mathematics, Sun Yat-sen University as an Assistant Professor.
 - [07/2025] I completed my postdoctoral research at Peking University, under the guidance of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
-- [03/2023] I will commence my postdoctoral research at Peking University under the mentorship of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
 - [01/2023] I earned my Ph.D. from Tsinghua University.
 
 
