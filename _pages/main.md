@@ -29,7 +29,7 @@ Please feel free to contact me if you are interested in my research.
 - [A flow approach to the prescribed Gaussian curvature problem in $\mathbb{H}^{n+1}$](https://www.degruyter.com/document/doi/10.1515/acv-2022-0033/html) (with [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm)), *Advances in Calculus of Variations*, 2024, 17(3), 521–543.
 - [A curvature flow approach to $L^p$ Christoffel-Minkowski problem for $1<p<k+1$](https://link.springer.com/article/10.1007/s00025-023-02069-0), *Results in Mathematics*, 2024, 79(2), Paper No. 53, 22 pp.
 - [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.arxiv.org/abs/2408.09428) (with [Han Hong](https://faculty.bjtu.edu.cn/10121/)), arXiv:2408.09428.
-- [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm)), arXiv:2603.15345.
+- [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu), arXiv:2603.15345.
 
 ## Education&Employment
 :mortar_board: Assistant Professor in the School of Mathematics, Sun Yat-sen University, 2025-now \
