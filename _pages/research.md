@@ -5,7 +5,7 @@ author_profile: true
 ---
 
 
-## Publication 
+## Publication & Preprints
 
 - [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.sciencedirect.com/science/article/abs/pii/S000187082500386X), *Advances in Mathematics*, Volume 480, Part A, 2025.
   
