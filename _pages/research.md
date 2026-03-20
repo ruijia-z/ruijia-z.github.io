@@ -19,6 +19,8 @@ author_profile: true
   
 - [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu), arXiv:2603.15345.
 
+- [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm)), arXiv:2603.19045.
+
 
 
 ## Research Projects 
