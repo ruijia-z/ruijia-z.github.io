@@ -16,7 +16,7 @@ My research interests lie in differential geometry and partial differential equa
 Please feel free to contact me if you are interested in my research.
 
 ## News
-- [08/2025] Our paper [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.sciencedirect.com/science/article/abs/pii/S0022123626003095) has been accepted for publication and published in *Journal of Functional Analysis*.
+- [08/2026] Our paper [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.sciencedirect.com/science/article/abs/pii/S0022123626003095) has been accepted for publication and published in *Journal of Functional Analysis*.
 - [03/2026] Our new preprint [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045) is out! This is a joint work with Professor [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm).
 - [03/2026] Our new preprint [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345) is out! This is a joint work with Professor [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu.
 - [08/2025] My paper [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.sciencedirect.com/science/article/abs/pii/S000187082500386X) has been accepted for publication and published in *Advances in Mathematics*.
