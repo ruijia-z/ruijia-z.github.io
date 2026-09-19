@@ -17,6 +17,8 @@ author_profile: true
   
 - [A curvature flow approach to $L^p$ Christoffel-Minkowski problem for $1<p<k+1$](https://link.springer.com/article/10.1007/s00025-023-02069-0), *Results in Mathematics*, 2024, 79(2), Paper No. 53, 22 pp.
   
+- [Interior Hessian estimates for Hessian quotient equations](https://arxiv.org/abs/2608.19087), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm)), arXiv:2608.19087.
+
 - [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu), arXiv:2603.15345.
 
 - [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm)), arXiv:2603.19045.
