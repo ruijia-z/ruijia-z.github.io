@@ -2,6 +2,9 @@
 #main.research-main { max-width: 1400px; }
 .page.page--ledger { width: 100%; float: none; margin: 0; padding: 0; }
 .page--ledger .page__inner-wrap { float: none; width: 100%; }
+@media (min-width: 1200px) {
+  .page.page--ledger { width: 83.0508474576%; float: right; padding-left: 4.2372881356%; }
+}
 .research-ledger { --ink: #202a3b; --muted: #626d7f; --line: #dde3ec; --blue: #365e9d; color: var(--ink); font-size: 16px; line-height: 1.65; }
 .research-ledger *, .weekly-archive * { box-sizing: border-box; }
 .research-ledger [hidden] { display: none !important; }

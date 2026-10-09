@@ -2,7 +2,7 @@
 title: "Research"
 permalink: /research/
 excerpt: "中文研究台账与周报：Hessian 方程、曲率流、凸几何、几何分析，以及 AI 数学科研进展。"
-author_profile: false
+author_profile: true
 research_ledger: true
 ---
 
