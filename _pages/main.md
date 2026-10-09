@@ -1,57 +1,29 @@
 ---
 permalink: /
-title: ""
-excerpt: "About me"
+title: "Ruijia Zhang 张瑞珈"
+excerpt: "Differential geometry and partial differential equations at Sun Yat-sen University."
 author_profile: true
-redirect_from: 
+redirect_from:
   - /main/
   - /main.html
+  - /about_me/
+  - /about_me.html
 ---
 
-Hi there! My name is Ruijia Zhang. I am currently an Assistant Professor at the School of Mathematics, Sun Yat-sen University, Guangzhou, starting from August 2025. 
+I am an Assistant Professor at the [School of Mathematics, Sun Yat-sen University](https://math.sysu.edu.cn/), Guangzhou, where I have been working since August 2025.
 
-I completed my postdoctoral research at Peking University in July 2025, under the guidance of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm). Before that,
-in 2023, I earned my Ph.D. from Tsinghua University under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
-My research interests lie in differential geometry and partial differential equations, with a recent focus on geometric flows and their applications.
-Please feel free to contact me if you are interested in my research.
+My research interests are differential geometry and partial differential equations, especially geometric flows and their applications. See [Research]({{ '/research/' | relative_url }}) for my publications, preprints and research projects.
 
-## News
-- [08/2026] Our new preprint [Interior Hessian estimates for Hessian quotient equations](https://arxiv.org/abs/2608.19087) is out! This is a joint work with Professor [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm).
-- [08/2026] Our paper [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.sciencedirect.com/science/article/abs/pii/S0022123626003095) has been accepted for publication and published in *Journal of Functional Analysis*.
-- [03/2026] Our new preprint [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045) is out! This is a joint work with Professor [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm).
-- [03/2026] Our new preprint [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345) is out! This is a joint work with Professor [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu.
-- [08/2025] My paper [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.sciencedirect.com/science/article/abs/pii/S000187082500386X) has been accepted for publication and published in *Advances in Mathematics*.
-- [08/2025] I have joined the School of Mathematics, Sun Yat-sen University as an Assistant Professor.
-- [07/2025] I completed my postdoctoral research at Peking University, under the guidance of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
-- [01/2023] I earned my Ph.D. from Tsinghua University.
+## Education and Employment
 
+- **August 2025–present:** Assistant Professor, School of Mathematics, Sun Yat-sen University.
+- **2023–July 2025:** Postdoctoral Researcher, Key Laboratory of Mathematics and Its Applications, Peking University. Mentor: Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm).
+- **2017–early 2023:** Ph.D., Department of Mathematical Sciences, Tsinghua University. Advisor: Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm).
+- **2013–2017:** B.Sc. in Mathematics, Sichuan University.
 
-## Publication&Preprints
-- [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.sciencedirect.com/science/article/abs/pii/S0022123626003095) (with [Han Hong](https://faculty.bjtu.edu.cn/10121/)), *The Journal of Functional Analysis*, 2027, Volume 292, Issue 1.
-- [$C^2$ estimates for $k$-Hessian equations and a rigidity theorem](https://www.sciencedirect.com/science/article/abs/pii/S000187082500386X), *Advances in Mathematics*, Volume 480, Part A, 2025.
-- [Asymptotic convergence for a class of anisotropic curvature flows](https://www.sciencedirect.com/science/article/abs/pii/S0022123622000805) (with [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm) and Botong Xu), *The Journal of Functional Analysis*, 2022, 282(12), Paper No. 109460, 34 pp.
-- [A flow approach to the prescribed Gaussian curvature problem in $\mathbb{H}^{n+1}$](https://www.degruyter.com/document/doi/10.1515/acv-2022-0033/html) (with [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm)), *Advances in Calculus of Variations*, 2024, 17(3), 521–543.
-- [A curvature flow approach to $L^p$ Christoffel-Minkowski problem for $1<p<k+1$](https://link.springer.com/article/10.1007/s00025-023-02069-0), *Results in Mathematics*, 2024, 79(2), Paper No. 53, 22 pp.
-- [Interior Hessian estimates for Hessian quotient equations](https://arxiv.org/abs/2608.19087), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm)), arXiv:2608.19087.
-- [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu), arXiv:2603.15345.
-- [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045), (with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm)), arXiv:2603.19045.
+## Recent News
 
-## Education&Employment
-:mortar_board: Assistant Professor in the School of Mathematics, Sun Yat-sen University, 2025-now \
-:mortar_board: Postdoctor in Key Laboratory of Mathematics and Its Applications, Peking University, 2023-2025 (under the mentorship of Professor [Yuguang Shi](https://www.math.pku.edu.cn/jsdw/js_20180628175159671361/s_20180628175159671361/69954.htm))\
-:mortar_board: PhD in Department of Mathematical Sciences, Tsinghua University, 2017-2022 (under the supervision of Professor [Haizhong Li](https://www.math.tsinghua.edu.cn/info/1125/1931.htm))\
-:mortar_board: BSc in Mathematics, Sichuan University, 2013-2017
-
-
-
-
-<!-- ## Contact
-### Email
-[firstname].[lastname]16 [at] imperial.ac.uk
-
-### Address
-Office 617 \
-Huxley Building \
-180 Queen's Gate, South Kensington \
-London SW7 2AZ \
-UK -->
+- **August 2026:** New preprint with Weisong Dong: [Interior Hessian estimates for Hessian quotient equations](https://arxiv.org/abs/2608.19087).
+- **August 2026:** Our paper with Han Hong, [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.sciencedirect.com/science/article/abs/pii/S0022123626003095), has appeared online in *Journal of Functional Analysis*.
+- **March 2026:** New preprint with Weisong Dong: [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045).
+- **March 2026:** New preprint with Weisong Dong and Sirui Xu: [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345).

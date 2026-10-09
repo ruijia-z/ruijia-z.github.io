@@ -4,22 +4,13 @@ permalink: /contact/
 author_profile: true
 ---
 
-<!-- ### Address
-Office 617 \
-Huxley Building \
-180 Queen's Gate, South Kensington \
-London SW7 2AZ \
-UK
+## Email
 
-### Email
-[firstname].[lastname]16 [at] imperial.ac.uk -->
+[{{ site.author.email }}](mailto:{{ site.author.email }})
 
+## Address
 
-### Email
-zhangrj@pku.edu.cn
-
-### Address
-Peking University, No. 5 Yiheyuan Road \
-Beijing, Haidian District\
+School of Mathematics<br>
+Sun Yat-sen University<br>
+Guangzhou 510275<br>
 China
-
