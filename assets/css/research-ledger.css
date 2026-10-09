@@ -5,19 +5,19 @@
 @media (min-width: 1200px) {
   .page.page--ledger { width: 83.0508474576%; float: right; padding-left: 4.2372881356%; }
 }
-.research-ledger { --ink: #202a3b; --muted: #626d7f; --line: #dde3ec; --blue: #365e9d; color: var(--ink); font-size: 16px; line-height: 1.65; }
+.research-ledger { --ink: #202a3b; --muted: #626d7f; --line: #dde3ec; --blue: #365e9d; color: var(--ink); font-family: inherit; font-size: inherit; line-height: inherit; }
 .research-ledger *, .weekly-archive * { box-sizing: border-box; }
 .research-ledger [hidden] { display: none !important; }
 .ledger-intro { display: flex; align-items: flex-start; gap: 24px; justify-content: space-between; }
 .page__content .ledger-eyebrow { margin: 0 0 10px; color: #798397; letter-spacing: .13em; font-size: 11px; font-weight: 650; }
-.page__content .ledger-intro h2 { margin: 0 0 12px; border: 0; padding: 0; font-size: clamp(25px, 3vw, 34px); letter-spacing: -.03em; }
-.page__content .ledger-description { max-width: 870px; margin: 0; font-size: 14px; color: var(--muted); line-height: 1.9; }
+.page__content .ledger-intro h2 { margin: 0 0 12px; border: 0; padding: 0; font-size: 1.563em; letter-spacing: normal; }
+.page__content .ledger-description { max-width: 870px; margin: 0; font-size: .9em; color: var(--muted); line-height: inherit; }
 .ledger-archive-link { white-space: nowrap; border: 1px solid var(--line); border-radius: 6px; padding: 8px 15px; font-size: 13px; text-decoration: none !important; }
 .ledger-scan-line { display: flex; gap: 16px; justify-content: space-between; margin: 22px 0 7px; font-size: 12px; color: var(--muted); }
 .page__content .ledger-note { font-size: 12px; line-height: 1.7; color: var(--muted); margin: 6px 0 16px; }
 .ledger-stats { display: flex; flex-wrap: wrap; gap: 18px 34px; padding: 18px 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); margin-bottom: 24px; }
 .ledger-stat { display: flex; align-items: baseline; gap: 8px; }
-.ledger-stat strong { font-family: Georgia, serif; font-size: 29px; line-height: 1; color: var(--ink); }
+.ledger-stat strong { font-family: inherit; font-variant-numeric: tabular-nums; font-size: 29px; line-height: 1; color: var(--ink); }
 .ledger-stat span { font-size: 12px; color: var(--muted); }
 .ledger-stat--open strong { color: #a2671a; }
 .ledger-stat--watch strong { color: #776291; }
@@ -52,7 +52,7 @@
 .ledger-card summary::-webkit-details-marker { display: none; }
 .ledger-card summary::after { content: '+'; position: absolute; right: 22px; top: 24px; font-size: 20px; color: #7c8da7; }
 .ledger-card details[open] > summary::after { content: '−'; }
-.page__content .ledger-card h3 { font-size: 17px; line-height: 1.6; margin: 0 0 9px; color: var(--ink); letter-spacing: -.015em; }
+.page__content .ledger-card h3 { font-size: 1.25em; line-height: 1.5; margin: 0 0 9px; color: var(--ink); letter-spacing: normal; }
 .ledger-badges { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
 .ledger-badge { display: inline-block; padding: 2px 8px; background: #f1f3f6; color: #637084; border-radius: 12px; font-size: 11px; line-height: 1.6; }
 .ledger-badge--open { color: #946015; background: #fbf0d9; }
@@ -61,12 +61,13 @@
 .ledger-badge--watch { color: #76608c; background: #f0ebf6; }
 .ledger-badge--released { color: #466f79; background: #eaf3f4; }
 .ledger-badge--priority { background: transparent; border: 1px solid #dad8e8; color: #6b5b87; padding: 1px 8px; }
-.page__content .ledger-summary { margin: 11px 0 0; font-size: 13px; line-height: 1.8; color: var(--muted); }
-.ledger-detail { padding: 0 22px 22px 52px; display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 30px; font-size: 13px; }
+.page__content .ledger-summary { margin: 11px 0 0; font-size: .9em; line-height: inherit; color: var(--muted); }
+.ledger-detail { padding: 0 22px 22px 52px; display: grid; grid-template-columns: minmax(0, 1fr) 260px; gap: 30px; font-size: .9em; }
 .ledger-body { min-width: 0; }
-.ledger-field { display: grid; grid-template-columns: 60px minmax(0, 1fr); gap: 8px; margin: 0 0 13px; }
-.ledger-field dt { font-size: 11px; color: #7a8494; padding-top: 3px; font-weight: 600; }
-.ledger-field dd { margin: 0; line-height: 1.85; overflow-wrap: anywhere; min-width: 0; }
+.ledger-field { display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 8px; margin: 0 0 13px; }
+.page__content .ledger-field { font-size: 1em; }
+.ledger-field dt { margin-top: 0; font-size: .8em; color: #7a8494; padding-top: 3px; font-weight: 600; }
+.ledger-field dd { margin: 0; font-size: inherit; line-height: inherit; overflow-wrap: anywhere; min-width: 0; }
 .ledger-field--known dt { color: #2d8174; }
 .ledger-field--gap dt { color: #a46578; }
 .ledger-sources { border-left: 1px solid #e9ecf2; padding-left: 20px; color: var(--muted); font-size: 12px; min-width: 0; overflow-wrap: anywhere; }
@@ -82,8 +83,8 @@
 .ledger-empty { padding: 50px 20px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 8px; font-size: 14px; }
 .research-ledger .MathJax_Display { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
 .weekly-archive { margin-top: 45px; padding-top: 24px; border-top: 1px solid #dde3ec; }
-.page__content .weekly-archive h2 { border: 0; margin: 0 0 8px; font-size: 22px; }
-.page__content .weekly-archive > p { color: #758092; font-size: 13px; }
+.page__content .weekly-archive h2 { border: 0; margin: 0 0 8px; font-size: 1.563em; }
+.page__content .weekly-archive > p { color: #758092; font-size: .9em; }
 .weekly-archive-list { list-style: none; padding: 0; margin: 15px 0; }
 .weekly-archive-list li { border-top: 1px solid #edf0f4; padding: 15px 0; display: grid; grid-template-columns: 190px minmax(0,1fr); gap: 12px; }
 .weekly-archive-list a { font-size: 15px; text-decoration: none; }
@@ -114,10 +115,8 @@
   .ledger-card summary { padding: 17px 32px 17px 37px; }
   .ledger-card summary::after { right: 12px; top: 20px; }
   .ledger-bookmark { top: 16px; left: 3px; font-size: 21px !important; }
-  .page__content .ledger-card h3 { font-size: 15px; }
   .ledger-detail { padding: 0 15px 18px; }
   .ledger-field { grid-template-columns: 1fr; gap: 3px; }
-  .ledger-field dt { font-size: 11px; }
   .weekly-archive-list li { grid-template-columns: 1fr; gap: 5px; }
 }
 @media print {
