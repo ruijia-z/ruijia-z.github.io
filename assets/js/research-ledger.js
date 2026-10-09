@@ -66,7 +66,8 @@
   function field(parent,title,text,cls) {
     if (!text) return;
     var dl = el('dl','ledger-field' + (cls ? ' ledger-field--'+cls : ''));
-    dl.append(el('dt','',title),el('dd','',text)); parent.append(dl);
+    var heading = el('dt','',title); heading.lang='en';
+    dl.append(heading,el('dd','',text)); parent.append(dl);
   }
   data.entries.forEach(function (e) {
     var card = el('article','ledger-card'); card.id = 'entry-'+e.id;
@@ -78,6 +79,10 @@
     });
     var details = el('details'), summary = el('summary');
     var h = el('h3','',e.title); h.id='title-'+e.id;
+    if (e.title_en) {
+      var englishTitle = el('span','ledger-title-en','“'+e.title_en+'”');
+      englishTitle.lang = 'en'; h.append(englishTitle); h.title = e.title_en;
+    }
     card.setAttribute('aria-labelledby',h.id);
     var badges = el('div','ledger-badges');
     badges.append(badge(labels.status[e.status],e.status),badge(labels.evidence[e.evidence]));
@@ -85,9 +90,10 @@
     badges.append(badge(labels.priority[e.priority],'priority'));
     summary.append(h,badges,el('p','ledger-summary',e.summary));
     var detail = el('div','ledger-detail'), body = el('div','ledger-body');
-    field(body,e.kind === 'ai' ? '跟踪对象' : '精确范围',e.formulation);
-    field(body,'已知进展',e.known,'known'); field(body,'缺口 / 边界',e.gap,'gap');
-    field(body,'核心方法',e.method); field(body,'关联与推荐',e.relevance); field(body,'下一步',e.next_step);
+    field(body,e.kind === 'ai' ? 'Research focus' : 'Statement & assumptions',e.formulation);
+    field(body,e.kind === 'ai' ? 'Reported progress' : 'Known results',e.known,'known');
+    field(body,'Gaps & limitations',e.gap,'gap');
+    field(body,'Methods',e.method); field(body,'Why it matters',e.relevance); field(body,'Next steps',e.next_step);
     var foot = el('div','ledger-foot');
     foot.append(el('span','','来源日期 '+e.source_date),el('span','','最近核查 '+e.checked_on));
     foot.append(link('条目直达',window.location.pathname+'?entry='+encodeURIComponent(e.id)+'#ledger'));
@@ -96,7 +102,8 @@
     var history = el('div','ledger-history');
     (e.history || []).forEach(function (item) { history.append(el('div','',item.date+' · '+item.note)); });
     body.append(history);
-    var aside = el('aside','ledger-sources'); aside.append(el('h4','','原始来源 / 核查深度'));
+    var aside = el('aside','ledger-sources');
+    var sourceHeading = el('h4','','Sources & review depth'); sourceHeading.lang='en'; aside.append(sourceHeading);
     e.source_ids.forEach(function (id) {
       var s = data.sources[id]; if (!s) return;
       var source = el('div','ledger-source');
@@ -106,7 +113,7 @@
     detail.append(body,aside); details.append(summary,detail); card.append(star,details);
     details.addEventListener('toggle',function () { if (details.open) typeset(detail); });
     cardMap.set(e.id,card); detailMap.set(e.id,details);
-    e._search = [e.title,e.summary,e.formulation,e.known,e.gap,e.method,e.relevance,e.next_step,e.company,e.topics.map(function(t){return topics.get(t);}).join(' '),e.source_ids.map(function(id){var s=data.sources[id];return s.title+' '+s.authors;}).join(' ')].join(' ').normalize('NFKC').toLocaleLowerCase();
+    e._search = [e.title,e.title_en,e.summary,e.formulation,e.known,e.gap,e.method,e.relevance,e.next_step,e.company,e.topics.map(function(t){return topics.get(t);}).join(' '),e.source_ids.map(function(id){var s=data.sources[id];return s.title+' '+s.authors;}).join(' ')].join(' ').normalize('NFKC').toLocaleLowerCase();
   });
   [
     [data.entries.length,'条记录',''],
@@ -169,7 +176,6 @@
   $('ledger-more').addEventListener('click',function(){limit+=8;apply();});
   $('ledger-app').hidden=false;
   apply();
-  if (!target && selected().length) detailMap.get(selected()[0].id).open=true;
   if(target)requestAnimationFrame(function(){cardMap.get(target).scrollIntoView({block:'start'});});
   typeset(root);
 })();

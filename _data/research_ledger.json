@@ -183,6 +183,7 @@
     {
       "id": "hessian-compactness",
       "title": "Hessian 商方程：用紧性重建内部二阶估计",
+      "title_en": "Interior Hessian Quotient Estimates via Compactness",
       "kind": "result",
       "status": "preprint",
       "topics": [
@@ -218,6 +219,7 @@
     {
       "id": "hessian-gradient-extension",
       "title": "Hessian 商估计：能否替换倒数凹性假设？",
+      "title_en": "Can Reciprocal Concavity Be Replaced in Hessian Quotient Estimates?",
       "kind": "question",
       "status": "watch",
       "topics": [
@@ -253,6 +255,7 @@
     {
       "id": "oblique-endpoint",
       "title": "斜导数问题：从 γ > 1 到退化端点 γ = 1",
+      "title_en": "Oblique Boundary Problems: From γ > 1 to the Degenerate Endpoint γ = 1",
       "kind": "question",
       "status": "watch",
       "topics": [
@@ -289,6 +292,7 @@
     {
       "id": "mcf-stability",
       "title": "消失时间几乎最大，初始超曲面是否几乎为球？",
+      "title_en": "Does Nearly Maximal Extinction Time Force an Almost Spherical Initial Hypersurface?",
       "kind": "question",
       "status": "open",
       "topics": [
@@ -325,6 +329,7 @@
     {
       "id": "mcf-ambient",
       "title": "尖锐消失时间估计能否扩展到非正曲率环境？",
+      "title_en": "Can Sharp Extinction-Time Bounds Extend to Nonpositive Ambient Curvature?",
       "kind": "question",
       "status": "open",
       "topics": [
@@ -361,6 +366,7 @@
     {
       "id": "robin-asymptotics",
       "title": "Robin 边界下：斜率发散，但归一化量仍有极限",
+      "title_en": "Robin Boundary Conditions: Diverging Slopes and Convergent Normalized Quantities",
       "kind": "result",
       "status": "preprint",
       "topics": [
@@ -396,6 +402,7 @@
     {
       "id": "log-bm-audit",
       "title": "log-Brunn–Minkowski：跟踪一般情形的新证明声明",
+      "title_en": "The Logarithmic Brunn–Minkowski Conjecture: Tracking a Claimed General Proof",
       "kind": "question",
       "status": "watch",
       "topics": [
@@ -434,6 +441,7 @@
     {
       "id": "allen-cahn-stable",
       "title": "Allen–Cahn：三维稳定解的一维性新稿",
+      "title_en": "Stable Allen–Cahn Solutions in Three Dimensions: A New One-Dimensionality Preprint",
       "kind": "result",
       "status": "preprint",
       "topics": [
@@ -470,6 +478,7 @@
     {
       "id": "bernoulli-stable",
       "title": "自由边界 Allen–Cahn 与 Bernoulli 的三维稳定分类",
+      "title_en": "Three-Dimensional Classification of Stable Free-Boundary Allen–Cahn and Bernoulli Solutions",
       "kind": "result",
       "status": "established",
       "topics": [
@@ -506,6 +515,7 @@
     {
       "id": "q-curvature-rigidity",
       "title": "球面 Q 曲率型方程：全维数刚性新稿",
+      "title_en": "Rigidity of a Q-Curvature-Type Equation on Spheres in Every Dimension N ≥ 3",
       "kind": "result",
       "status": "preprint",
       "topics": [
@@ -541,6 +551,7 @@
     {
       "id": "openai-math-release",
       "title": "OpenAI 公开数学文稿与证明材料仓库",
+      "title_en": "OpenAI’s Public Repository of Mathematical Manuscripts and Proof Materials",
       "kind": "ai",
       "status": "released",
       "topics": [
@@ -577,6 +588,7 @@
     {
       "id": "anthropic-flt",
       "title": "Anthropic：大规模 Lean 形式化与 Prove2Me",
+      "title_en": "Anthropic: Large-Scale Lean Formalization and Prove2Me",
       "kind": "ai",
       "status": "released",
       "topics": [
@@ -613,6 +625,7 @@
     {
       "id": "haiku55",
       "title": "Anthropic 发布 Haiku 5.5：研究流程中的轻量任务",
+      "title_en": "Anthropic Haiku 5.5: Lightweight Tasks in Research Workflows",
       "kind": "ai",
       "status": "released",
       "topics": [
@@ -648,6 +661,7 @@
     {
       "id": "multiagent-evidence",
       "title": "多 agent 的共识不等于独立验证",
+      "title_en": "Multi-Agent Consensus Is Not Independent Verification",
       "kind": "ai",
       "status": "released",
       "topics": [

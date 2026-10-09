@@ -11,6 +11,7 @@ Public entry: https://ruijia-z.github.io/research/
 - `assets/css/research-ledger.css`: responsive styling scoped to Research.
 - Keep the Research page's `author_profile: true` and the shared personal-profile sidebar. On narrow screens, use the theme's compact profile above the ledger.
 - Inherit the site's shared font family, including statistics numerals. Preserve the ledger's compact font sizes and spacing; a font-family adjustment must not enlarge its typography.
+- Each entry has a Chinese `title` and an English `title_en` translation, shown in quotation marks below it and included in search. Keep detail field headings in English and detail prose at 11px. The default list starts fully collapsed; an explicit entry permalink may open its target.
 - `_pages/research-updates/YYYYMMDD-YYYYMMDD.md`: dated, immutable Chinese issue snapshots. Keep the existing `weekly_update`, `week_end` and permalink convention so the archive discovers them.
 - The original first English issue is retained at `/research/20261002-20261009/en/` and has `weekly_update: false` to avoid duplicate archive entries.
 

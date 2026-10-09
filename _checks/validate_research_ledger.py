@@ -36,7 +36,7 @@ for item in data['entries']:
     for k in ['source_date', 'added_on', 'updated_on', 'checked_on']:
         assert dt.date.fromisoformat(item[k]) <= scan_date, (uid, k)
     assert item['updated_on'] >= item['added_on'], uid
-    for k in ['title', 'summary', 'formulation', 'known', 'gap', 'method', 'relevance', 'next_step']:
+    for k in ['title', 'title_en', 'summary', 'formulation', 'known', 'gap', 'method', 'relevance', 'next_step']:
         assert isinstance(item[k], str) and item[k].strip(), (uid, k)
         assert not re.search(r'</?[a-zA-Z][^>]*>', item[k]), (uid, k, 'HTML')
     for week in item['issues']:
