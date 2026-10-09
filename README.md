@@ -7,7 +7,9 @@ This site uses Jekyll and AcademicPages (based on Minimal Mistakes). See `LICENS
 ## Content
 
 - `_pages/main.md`: introduction, education, employment, recent news, publications, preprints and research projects.
-- `_pages/research.md`: weekly research update index, generated from issue metadata.
+- `_pages/research.md`: Chinese research ledger and weekly archive, compatible with the existing issue metadata.
+- `_data/research_ledger.json`: current problem/result/AI entries, primary sources, verification depth and update history.
+- `_includes/research-ledger.html`, `assets/js/research-ledger.js`, `assets/css/research-ledger.css`: search, filters, details, browser-local stars and responsive layout.
 - `_pages/research-updates/`: individual weekly issues, each with a permanent URL.
 - `_pages/teaching.md`: teaching experience.
 - `_pages/talks.md` and `_data/talks.yml`: talks, maintained in one list.
@@ -36,9 +38,18 @@ author_profile: true
 ---
 ```
 
-The Research index and sitemap discover the page automatically and sort issues newest first. Keep date strings quoted and `weekly_update` a boolean. Use a unique permalink for every issue.
+The Research index and sitemap discover the page automatically and sort issues newest first. Keep date strings quoted and `weekly_update` a boolean. Use a unique permalink for every issue. The first issue's original English version remains at `/research/20261002-20261009/en/` with `weekly_update: false`.
 
-For each item, verify the submission or revision date, authors, main theorem assumptions and original source. Explain the result, method and relevance. Distinguish new results from new proofs, revisions and seminar announcements; label preprints accurately. Link to the specific version summarized, and do not imply that a full proof has been independently checked when only its statements and strategy have been read. This archive is maintained manually; no scheduled publication job is configured.
+For each item, verify the submission or revision date, authors, main theorem assumptions and original source. Explain the result, method and relevance. Distinguish new results from new proofs, revisions and seminar announcements; label preprints accurately. Link to the specific version summarized, and do not imply that a full proof has been independently checked when only its statements and strategy have been read.
+
+The weekly scan covers geometric analysis and relevant AI-company research. Its scheduling state is recorded in the ledger. The research task runs through ChatGPT; static GitHub Pages does not itself run an LLM. See [_archive/research-ledger-maintenance.md](_archive/research-ledger-maintenance.md) for scope, evidence rules and publishing instructions. Past weekly pages are snapshots; ledger entries are the latest state.
+
+Validate updates with:
+
+```sh
+python _checks/validate_research_ledger.py
+node --check assets/js/research-ledger.js
+```
 
 ## Preview
 

@@ -1,0 +1,44 @@
+<div class="research-ledger" id="ledger" lang="zh-CN">
+  <div class="ledger-intro">
+    <div>
+      <p class="ledger-eyebrow">GEOMETRIC ANALYSIS · AI · WEEKLY</p>
+      <h2>研究问题与进展</h2>
+      <p class="ledger-description">从 Hessian 方程与曲率流出发，追踪凸几何、共形几何、变分与自由边界、极小曲面中的问题与方法；同时关注 OpenAI、Anthropic 等公司的数学科研与工具进展。</p>
+    </div>
+    <a class="ledger-archive-link" href="#weekly-reports">阅读周报 <span aria-hidden="true">↗</span></a>
+  </div>
+  <div class="ledger-scan-line">
+    <span>{% if site.data.research_ledger.schedule.enabled %}每周五扫描与复查{% else %}每周更新{% endif %} · 北京时间</span>
+    <span>最近核查 <time>{{ site.data.research_ledger.last_scan.checked_on }}</time></span>
+  </div>
+  <p class="ledger-note">{{ site.data.research_ledger.last_scan.note }} “待解决”指所引原文明确提出；预印本、官方声明与独立验证分别记录。</p>
+  <div id="ledger-app" hidden>
+    <div id="ledger-stats" class="ledger-stats" aria-label="全部台账统计"></div>
+    <div class="ledger-controls">
+      <div class="ledger-toolbar">
+        <label class="ledger-search"><span class="screen-reader-text">搜索研究台账</span><input id="ledger-query" type="search" placeholder="搜索问题、作者、方法、公司或来源…" autocomplete="off"></label>
+        <div id="ledger-kind" class="ledger-segments" role="group" aria-label="条目类型"></div>
+      </div>
+      <div id="ledger-topics" class="ledger-topics" role="group" aria-label="研究领域"></div>
+      <div class="ledger-filters">
+        <label><span class="screen-reader-text">状态</span><select id="ledger-status"><option value="">全部状态</option><option value="open">待解决（原文提出）</option><option value="partial">部分解决</option><option value="preprint">预印本进展</option><option value="established">已发表结果</option><option value="watch">待核验</option><option value="released">官方发布</option></select></label>
+        <label><span class="screen-reader-text">证据类型</span><select id="ledger-evidence"><option value="">全部证据</option><option value="explicit">原文明确</option><option value="extension">编辑延伸</option><option value="theorem">论文结果</option><option value="official">官方报告</option></select></label>
+        <label><span class="screen-reader-text">公司</span><select id="ledger-company"><option value="">全部机构</option></select></label>
+        <label><span class="screen-reader-text">排序</span><select id="ledger-sort"><option value="priority">推荐阅读顺序</option><option value="source">来源日期最新</option><option value="updated">最近核查</option></select></label>
+        <label class="ledger-star-filter"><input id="ledger-starred" type="checkbox"> 只看收藏</label>
+        <button type="button" id="ledger-reset" class="ledger-reset">重置</button>
+      </div>
+    </div>
+    <div class="ledger-results-line"><p id="ledger-result-count" role="status" aria-live="polite"></p><span>点击条目展开详情 · ☆ 收藏保存在本浏览器</span></div>
+    <p id="ledger-storage-note" class="ledger-note" hidden>浏览器未允许保存收藏，本次收藏仅在当前页面有效。</p>
+    <div id="ledger-entries" class="ledger-entries"></div>
+    <div id="ledger-empty" class="ledger-empty" hidden>没有符合条件的条目。试试其他关键词，或点击“重置”。</div>
+    <button type="button" id="ledger-more" class="ledger-more" hidden>显示更多</button>
+  </div>
+  <noscript>
+    <p>开启 JavaScript 可使用搜索、筛选和收藏。也可直接阅读下方周报及来源：</p>
+    <ul>{% for entry in site.data.research_ledger.entries %}{% assign first_source = entry.source_ids | first %}<li><a href="{{ site.data.research_ledger.sources[first_source].url | escape }}">{{ entry.title | escape }}</a></li>{% endfor %}</ul>
+  </noscript>
+</div>
+<script type="application/json" id="research-ledger-data">{{ site.data.research_ledger | jsonify | replace: '<', '\u003c' }}</script>
+<script defer src="{{ '/assets/js/research-ledger.js' | relative_url }}"></script>

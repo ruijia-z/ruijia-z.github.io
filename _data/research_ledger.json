@@ -1,0 +1,684 @@
+{
+  "schema_version": 1,
+  "title": "研究问题与进展",
+  "last_scan": {
+    "checked_on": "2026-10-09",
+    "period_start": "2026-10-02",
+    "period_end": "2026-10-09",
+    "note": "首期精选建档，兼收近期背景；非全量论文扫描。"
+  },
+  "schedule": {
+    "enabled": true,
+    "label": "每周五更新",
+    "timezone": "Asia/Shanghai"
+  },
+  "topics": [
+    {
+      "id": "hessian",
+      "label": "Hessian / 椭圆 PDE"
+    },
+    {
+      "id": "flows",
+      "label": "曲率流"
+    },
+    {
+      "id": "convex",
+      "label": "凸几何"
+    },
+    {
+      "id": "conformal",
+      "label": "共形几何"
+    },
+    {
+      "id": "variational",
+      "label": "变分 / 自由边界"
+    },
+    {
+      "id": "minimal",
+      "label": "极小曲面"
+    },
+    {
+      "id": "ai",
+      "label": "AI 与数学"
+    }
+  ],
+  "sources": {
+    "liu26": {
+      "title": "Hessian Estimates for Convex Solutions of Hessian Quotient Equations via Compactness",
+      "authors": "Jianxiang Liu",
+      "url": "https://arxiv.org/abs/2610.08442v1",
+      "date": "2026-10-06",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "主定理与证明路线"
+    },
+    "hujiang26": {
+      "title": "Oblique boundary value problems for n-1type augmented Hessian equations",
+      "authors": "Zhibo Hu · Feida Jiang",
+      "url": "https://arxiv.org/abs/2610.11400v1",
+      "date": "2026-10-08",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "Theorems 1.1–1.4；Remark 1.3"
+    },
+    "choi26": {
+      "title": "Sharp dynamical isoperimetric principle for mean curvature flow",
+      "authors": "Beomjun Choi · Wenkui Du · Seung Chul Park · Junseo Youn",
+      "url": "https://arxiv.org/abs/2610.10461v1",
+      "date": "2026-10-07",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "Theorem 1.1；证明路线；Remark 6.5"
+    },
+    "pu26": {
+      "title": "Asymptotic Dynamics of Forced Curvature Flow in a Planar Strip with Robin Boundary Conditions",
+      "authors": "Tianhong Pu · Xiaoqian Xin · Lixia Yuan · Xiaoyu Zhang",
+      "url": "https://arxiv.org/abs/2610.08270v1",
+      "date": "2026-10-06",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "Theorem 1.1 与初值条件"
+    },
+    "gui26": {
+      "title": "Rigidity of a Q-curvature-type problem on S^N in every dimension N ≥ 3",
+      "authors": "Changfeng Gui · Yeyao Hu · Tuoxin Li · Juncheng Wei · Zhantong Xie · Zikai Ye",
+      "url": "https://arxiv.org/abs/2610.11338v1",
+      "date": "2026-10-08",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "Theorem 1.1；Remark 1.3；证明路线"
+    },
+    "lu26": {
+      "title": "Logarithmic Brunn–Minkowski Inequality under n−2 Reflection Symmetries",
+      "authors": "XiaoRui Lu",
+      "url": "https://arxiv.org/abs/2608.20730v3",
+      "date": "2026-09-28",
+      "version": "v3（修订）",
+      "type": "paper",
+      "read_depth": "Introduction；Theorems 1.2、1.4"
+    },
+    "openai-lbm": {
+      "title": "The logarithmic Brunn–Minkowski conjecture",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/tree/main/preprints/The-logarithmic-Brunn-Minkowski-conjecture-September-23-2026",
+      "date": "2026-09-23",
+      "version": "仓库文稿；题名日期",
+      "type": "official",
+      "read_depth": "目录声明；未复核证明"
+    },
+    "liuwei26": {
+      "title": "Stable De Giorgi conjecture of the Allen–Cahn equation in R³",
+      "authors": "Yong Liu · Tianci Luo · Kelei Wang · Juncheng Wei · Yong Wei · Ke Wu",
+      "url": "https://arxiv.org/abs/2609.21680v1",
+      "date": "2026-09-18",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "摘要与书目；未复核全文"
+    },
+    "chan25": {
+      "title": "Global Stable Solutions to the Free Boundary Allen–Cahn and Bernoulli Problems in 3D are One-Dimensional",
+      "authors": "Hardy Chan · Xavier Fernández-Real · Alessio Figalli · Joaquim Serra",
+      "url": "https://arxiv.org/abs/2503.21245v2",
+      "date": "2026-09-25",
+      "version": "v2；初稿 2025-03-27",
+      "type": "paper",
+      "read_depth": "摘要、版本及期刊 DOI 元数据"
+    },
+    "openai-release": {
+      "title": "Sharing AI progress in mathematics",
+      "authors": "OpenAI",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "date": "2026-10-06",
+      "version": "官方发布",
+      "type": "official",
+      "read_depth": "官方全文"
+    },
+    "openai-repo": {
+      "title": "openai/math — README 与验证说明",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math",
+      "date": "2026-10-09",
+      "version": "本次访问快照；非发布日期",
+      "type": "official",
+      "read_depth": "README；未批量验证文稿或 Lean 工程"
+    },
+    "anthropic-flt": {
+      "title": "Formalizing Fermat’s Last Theorem",
+      "authors": "Anthropic · Tianyi Peng 与合作者",
+      "url": "https://www.anthropic.com/news/formalizing-fermats-last-theorem",
+      "date": "2026-09-04",
+      "version": "官方报告",
+      "type": "official",
+      "read_depth": "官方全文与代码入口；未本地复跑"
+    },
+    "anthropic-flt-code": {
+      "title": "anthropics/fermats-last-theorem",
+      "authors": "Anthropic",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "date": "2026-09-04",
+      "version": "公告配套仓库",
+      "type": "official",
+      "read_depth": "仓库入口；未独立构建"
+    },
+    "haiku55": {
+      "title": "Introducing Claude Haiku 5.5",
+      "authors": "Anthropic",
+      "url": "https://www.anthropic.com/claude-haiku-5-5",
+      "date": "2026-10-07",
+      "version": "官方发布",
+      "type": "official",
+      "read_depth": "官方能力、定位与使用范围说明"
+    },
+    "multiagent26": {
+      "title": "Patterns and problems in emerging multiagent systems",
+      "authors": "Anthropic Frontier Red Team",
+      "url": "https://www.anthropic.com/research/multiagent-systems",
+      "date": "2026-08-13",
+      "version": "官方研究报告",
+      "type": "official",
+      "read_depth": "实验描述与限制"
+    }
+  },
+  "entries": [
+    {
+      "id": "hessian-compactness",
+      "title": "Hessian 商方程：用紧性重建内部二阶估计",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-06",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "liu26"
+      ],
+      "summary": "Jianxiang Liu 给出凸解内部估计的新证明，价值在于证明机制的变化。",
+      "formulation": "光滑凸解；方程为 $\\sigma_n/\\sigma_{n-2}=1$，或 $\\sigma_n/\\sigma_{n-1}=f(x,u,Du)>0$；后一情形要求 $1/f$ 对梯度变量凹。",
+      "known": "重新证明 Lu、Fung 的相关估计，不是首次得到这两类估计。",
+      "gap": "一般容许解不在本文凸解结论中。",
+      "method": "修正 Legendre 变换、强极小值原理与面积公式。",
+      "relevance": "与 Hessian 商方程直接衔接，可比较紧性法和 Jacobi 不等式法。",
+      "next_step": "精读 Theorems 1.1–1.2，核对常数依赖与变换后的椭圆性。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "hessian-gradient-extension",
+      "title": "Hessian 商估计：能否替换倒数凹性假设？",
+      "kind": "question",
+      "status": "watch",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "extension",
+      "source_date": "2026-10-06",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 2,
+      "source_ids": [
+        "liu26"
+      ],
+      "summary": "从当前定理的结构限制出发，先检查可替代条件及反例。",
+      "formulation": "保留光滑凸解和 $f>0$，考察 $\\sigma_n/\\sigma_{n-1}=f(x,u,Du)$ 中 $D^2_{pp}(1/f)\\leq0$ 的替代条件。",
+      "known": "上述新证明在倒数凹性条件下成立。",
+      "gap": "这是编辑延伸，尚未确认一般情形是否已有定理或反例。",
+      "method": "先检查梯度依赖在 Legendre 变换后的作用。",
+      "relevance": "适合作为先验估计方法的边界测试。",
+      "next_step": "先检索已有反例，再精确定义可放宽的假设。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "oblique-endpoint",
+      "title": "斜导数问题：从 γ > 1 到退化端点 γ = 1",
+      "kind": "question",
+      "status": "watch",
+      "topics": [
+        "hessian",
+        "conformal"
+      ],
+      "evidence": "extension",
+      "source_date": "2026-10-08",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "hujiang26"
+      ],
+      "summary": "Hu–Jiang 的新稿利用 γ > 1 的结构获得全局估计；端点需要另行研究。",
+      "formulation": "$F(\\gamma\\Delta u\\,I-D^2u-A)=B$ 配斜导数边界条件；考察 $\\gamma=1$ 时应补充哪些几何或结构条件。",
+      "known": "γ > 1 时无需区域凸性；存在唯一性另需半线性斜导数数据、上下解、单调性和增长条件。",
+      "gap": "原文未覆盖端点；不能据此断言端点的一切版本都开放。",
+      "method": "统一椭圆性、边界屏障、连续性法。",
+      "relevance": "连接 Hessian 估计与共形几何中的边值问题。",
+      "next_step": "从 Remark 1.3 出发核对端点文献，追踪估计常数是否随 γ → 1 发散。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "mcf-stability",
+      "title": "消失时间几乎最大，初始超曲面是否几乎为球？",
+      "kind": "question",
+      "status": "open",
+      "topics": [
+        "flows",
+        "convex"
+      ],
+      "evidence": "explicit",
+      "source_date": "2026-10-07",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "choi26"
+      ],
+      "summary": "Choi、Du、Park、Youn 提出消失时间尖锐不等式的定量稳定性问题。",
+      "formulation": "欧氏空间光滑有界域，以 $\\delta=1-2nT_{\\rm ext}(|\\mathbb S^n|/P(\\Omega))^{2/n}$ 衡量亏损；寻找 δ 对偏离球程度的控制。",
+      "known": "新稿给出 δ ≥ 0 及等号刚性。",
+      "gap": "定量稳定性在 Remark 6.5 中列为问题；距离和归一化仍需选定。",
+      "method": "外极小包、椭圆正则化、Minkowski 不等式。",
+      "relevance": "把流的刚性结论推进到可量化的几何估计。",
+      "next_step": "先在凸光滑类检验候选距离与尺度；上式亏损记号为编辑整理。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "mcf-ambient",
+      "title": "尖锐消失时间估计能否扩展到非正曲率环境？",
+      "kind": "question",
+      "status": "open",
+      "topics": [
+        "flows",
+        "minimal"
+      ],
+      "evidence": "explicit",
+      "source_date": "2026-10-07",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 2,
+      "source_ids": [
+        "choi26"
+      ],
+      "summary": "原文另提出 Cartan–Hadamard 环境及高余维推广。",
+      "formulation": "考察完备单连通、截面曲率非正的环境中，相应弱流是否满足欧氏型尖锐寿命估计。",
+      "known": "当前所引主定理处理欧氏空间中的超曲面。",
+      "gap": "推广不能由欧氏结论直接推出；高余维还需明确弱流定义。",
+      "method": "需要替代欧氏 Minkowski 不等式及其刚性环节。",
+      "relevance": "连接几何不等式、环境曲率与弱流。",
+      "next_step": "先分别研究环境曲率和余维；该拆分是编辑建议。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "robin-asymptotics",
+      "title": "Robin 边界下：斜率发散，但归一化量仍有极限",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-06",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 2,
+      "source_ids": [
+        "pu26"
+      ],
+      "summary": "Pu、Xin、Yuan、Zhang 描述受迫平面曲率流的长期退化与曲率集中。",
+      "formulation": "$V=H+b$，$b>0$；正、偶、光滑相容初值。归一化斜率结论另需 $0<u_0^{\\prime}/u_0<1$。",
+      "known": "离开对称轴，$u_x/u\\to1$、$u_t/u\\to b$；水平测度 $H\\,dx$ 向轴上原子集中。",
+      "gap": "这是平面 Robin 模型，不能直接视为高维曲率流收敛定理。",
+      "method": "行波比较、零点数方法与归一化变量。",
+      "relevance": "提示如何在梯度无统一界时寻找合适的极限量。",
+      "next_step": "区分 H dx 与曲率弧长测度，检查端点和内部收敛的差别。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "log-bm-audit",
+      "title": "log-Brunn–Minkowski：跟踪一般情形的新证明声明",
+      "kind": "question",
+      "status": "watch",
+      "topics": [
+        "convex",
+        "ai"
+      ],
+      "evidence": "explicit",
+      "source_date": "2026-10-06",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "lu26",
+        "openai-lbm",
+        "openai-repo"
+      ],
+      "summary": "传统开放问题遇到新的 AI 证明声明，应进入证据复核流程。",
+      "formulation": "原点对称凸体的对数 Minkowski 组合是否满足 $V(K+_{0,\\lambda}L)\\geq V(K)^{1-\\lambda}V(L)^\\lambda$？",
+      "known": "Lu 的 v3 给出带 n−2 个正交反射对称性的结果；OpenAI 仓库另有声称处理一般情形的文稿。",
+      "gap": "本台账尚未复核该文稿证明及对应形式化覆盖，暂不标成已解决或继续断言完全开放。",
+      "method": "比较切片方法、谱方法与新稿论证。",
+      "relevance": "与 Minkowski 问题、支撑函数和凸几何直接相连。",
+      "next_step": "检查精确定理、假设、修订记录、Lean 对应声明及独立评议。",
+      "company": "OpenAI",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "allen-cahn-stable",
+      "title": "Allen–Cahn：三维稳定解的一维性新稿",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "variational",
+        "minimal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-09-18",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "liuwei26"
+      ],
+      "summary": "Liu、Luo、Wang、Wei、Wei、Wu 报告三维稳定分类，并推出四维单调解结论。",
+      "formulation": "对象是 $\\mathbb R^3$ 中 Allen–Cahn 方程的有界稳定整解。",
+      "known": "摘要报告一维性和局部曲率估计；不是所有维数的分类。",
+      "gap": "此次仅核对摘要和书目，尚未完成全文审查。",
+      "method": "将稳定性转为零水平集上的弱稳定不等式，结合 Gauss–Bonnet。",
+      "relevance": "可与几何 PDE 的曲率估计、吹起极限和稳定极小曲面比较。",
+      "next_step": "作为历史基线精读，不把 9 月结果写成本周首次发表。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "bernoulli-stable",
+      "title": "自由边界 Allen–Cahn 与 Bernoulli 的三维稳定分类",
+      "kind": "result",
+      "status": "established",
+      "topics": [
+        "variational",
+        "minimal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-09-25",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "chan25"
+      ],
+      "summary": "Chan、Fernández-Real、Figalli、Serra 的工作提供相邻领域的方法基线。",
+      "formulation": "研究三维全局稳定单相 Bernoulli 解及自由边界版本的 Allen–Cahn 方程。",
+      "known": "论文给出一维分类及相关局部曲率估计；版本记录列有 JAMS DOI 10.1090/jams/1074。",
+      "gap": "自由边界版本与光滑势 Allen–Cahn 是不同问题；不能直接互换结论。",
+      "method": "稳定性、自由边界曲率估计与极小曲面思想。",
+      "relevance": "拓展到变分、自由边界与几何分析的交汇。",
+      "next_step": "先比较两个问题的二次变分和边界项；此次未逐行复核证明。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "q-curvature-rigidity",
+      "title": "球面 Q 曲率型方程：全维数刚性新稿",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "conformal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-08",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 2,
+      "source_ids": [
+        "gui26"
+      ],
+      "summary": "Gui、Hu、Li、Wei、Xie、Ye 报告 N ≥ 3 时的一类球面方程刚性。",
+      "formulation": "方程 $\\alpha P_Nu+(N-1)!(1-e^{Nu}/\\int e^{Nu}dw)=0$，$\\alpha\\geq1/2$ 且 $\\alpha\\ne1$；$dw$ 为归一化球面测度，$P_N$ 见原文定义。",
+      "known": "主定理称每个 H^(N/2) 弱解均为常数，包含奇数维的非局部算子。",
+      "gap": "α = 1 有非平凡共形解族，必须排除。",
+      "method": "谱隙与归一化密度最大值的上下估计。",
+      "relevance": "为共形几何中的刚性、谱与非局部 PDE 提供交叉阅读入口。",
+      "next_step": "精读 Theorem 1.1 和归一化密度估计，保留参数限制。",
+      "company": "",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "openai-math-release",
+      "title": "OpenAI 公开数学文稿与证明材料仓库",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-10-06",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "openai-release",
+        "openai-repo"
+      ],
+      "summary": "数学研究输出开始以文稿、代码、修订记录和部分 Lean 证明共同发布。",
+      "formulation": "跟踪 openai/math 的研究结论、形式化覆盖、纠错与版本变化。",
+      "known": "官方称材料由内部模型生成；README 明确说明各结果验证阶段不同，部分未形式化文稿可能存在问题。",
+      "gap": "文稿数量不等于独立且获确认的已解决问题数量。",
+      "method": "文稿与形式化证明对照、固定版本、重放验证。",
+      "relevance": "可为相关 PDE 与凸几何问题提供候选证明，也提高了逐项核查的重要性。",
+      "next_step": "优先跟踪与本台账条目重叠的结论；未将整个仓库标记为已验证。",
+      "company": "OpenAI",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-flt",
+      "title": "Anthropic：大规模 Lean 形式化与 Prove2Me",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-09-04",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 3,
+      "source_ids": [
+        "anthropic-flt",
+        "anthropic-flt-code"
+      ],
+      "summary": "官方报告用 Claude 与多 agent 工作流完成费马大定理的形式化。",
+      "formulation": "关注大型证明的定理依赖管理、并行协作和形式化检查。",
+      "known": "报告采用 Prove2Me 的依赖图管理定理，并公开 Lean 工程与声明比较工具入口。",
+      "gap": "这里的新进展是验证工程，不是首次证明费马大定理；本站未独立构建完整工程。",
+      "method": "定理依赖图、声明与证明分离、检索复用。",
+      "relevance": "可借鉴到长篇 PDE 证明中引理依赖和审查任务的组织。",
+      "next_step": "从小型可重放引理开始，检查最终声明、公理与依赖闭包。",
+      "company": "Anthropic",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "haiku55",
+      "title": "Anthropic 发布 Haiku 5.5：研究流程中的轻量任务",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-10-07",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 1,
+      "source_ids": [
+        "haiku55"
+      ],
+      "summary": "官方将其定位于高频、低成本任务；对文献筛选和元数据整理有潜在用途。",
+      "formulation": "观察模型成本、工具能力和 agent 分工的变化。",
+      "known": "发布页强调摘要、分类、上下文整理与子任务，并提供可调 effort。",
+      "gap": "通用评测表现不能直接等同于研究级数学证明能力。",
+      "method": "适合作为分层工作流中的候选轻量角色，需实际评测。",
+      "relevance": "上述数学使用建议为编辑判断，不是该公司已验证的数学结论。",
+      "next_step": "用小型文献分类与引用核对任务评测准确率，再决定是否纳入工作流。",
+      "company": "Anthropic",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    },
+    {
+      "id": "multiagent-evidence",
+      "title": "多 agent 的共识不等于独立验证",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-08-13",
+      "added_on": "2026-10-09",
+      "updated_on": "2026-10-09",
+      "checked_on": "2026-10-09",
+      "priority": 2,
+      "source_ids": [
+        "multiagent26"
+      ],
+      "summary": "Anthropic 的多 agent 研究揭示信息共享、协调与判断中的失败模式。",
+      "formulation": "关注同一证据在多个 agent 间传播时是否形成虚假互证。",
+      "known": "官方实验讨论趋同行为、隐藏信息利用不足及来源可信度判断。",
+      "gap": "这些不是数学证明基准，不能据此量化数学 agent 的正确率。",
+      "method": "保留来源、记录分歧，区分独立推导与转述。",
+      "relevance": "提示数学科研系统为关键引理设计可核查的验证，而不是只统计赞成票。",
+      "next_step": "将这一点作为方法背景；不是本周新发布。",
+      "company": "Anthropic",
+      "issues": [
+        "20261002-20261009"
+      ],
+      "history": [
+        {
+          "date": "2026-10-09",
+          "note": "首期建档；核查深度见来源。"
+        }
+      ]
+    }
+  ]
+}
