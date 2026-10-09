@@ -187,6 +187,7 @@ defaults:
     values:
       layout: single
       author_profile: true
+      hide_page_title: true
 
 # Sass/SCSS
 sass:
