@@ -10,7 +10,7 @@ Public entry: https://ruijia-z.github.io/research/
 - `assets/js/research-ledger.js`: search, combined filters, ordering, details, browser-local bookmarks and permalink handling. Data is rendered with `textContent`, not `innerHTML`.
 - `assets/css/research-ledger.css`: responsive styling scoped to Research.
 - Keep the Research page's `author_profile: true` and the shared personal-profile sidebar. On narrow screens, use the theme's compact profile above the ledger.
-- Inherit the site's shared font family and body type scale; keep ledger prose aligned with homepage paragraphs. Avoid nested `dl`/`dd` font-size reductions and separate numeral fonts.
+- Inherit the site's shared font family, including statistics numerals. Preserve the ledger's compact font sizes and spacing; a font-family adjustment must not enlarge its typography.
 - `_pages/research-updates/YYYYMMDD-YYYYMMDD.md`: dated, immutable Chinese issue snapshots. Keep the existing `weekly_update`, `week_end` and permalink convention so the archive discovers them.
 - The original first English issue is retained at `/research/20261002-20261009/en/` and has `weekly_update: false` to avoid duplicate archive entries.
 
