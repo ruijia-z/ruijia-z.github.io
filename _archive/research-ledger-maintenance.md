@@ -6,7 +6,7 @@ Public entry: https://ruijia-z.github.io/research/
 ## Content architecture
 
 - `_data/research_ledger.json`: current ledger state, source registry, review history and scheduling label.
-- `_includes/research-ledger.html`: accessible controls, embedded JSON and no-JavaScript fallback.
+- `_includes/research-ledger.html`: accessible password gate, controls and embedded JSON. Research entries, scan metadata, statistics and controls remain hidden until password validation succeeds. Without JavaScript, show only the request to enable JavaScript and unlock; never restore the old source-list fallback.
 - `assets/js/research-ledger.js`: search, combined filters, ordering, details, browser-local bookmarks and permalink handling. Data is rendered with `textContent`, not `innerHTML`.
 - `assets/css/research-ledger.css`: responsive styling scoped to Research.
 - Keep the Research page's `author_profile: true` and the shared personal-profile sidebar. On narrow screens, use the theme's compact profile above the ledger.
@@ -44,6 +44,15 @@ Entry IDs and topic IDs are lowercase hyphenated slugs. Dates are ISO `YYYY-MM-D
 
 Bookmarks are stored only in the visitor's local browser; they are not account-synced and are never sent to the site owner. Empty searches, blocked storage and disabled JavaScript must remain usable. Test mobile width, combined filters, detail links, sort order and bookmark persistence when changing the frontend.
 
+## Research-entry access gate
+
+The Research ledger has a password entry form. The verifier in `assets/js/research-ledger.js` uses SHA-256 via Web Crypto; it never persists the submitted password or an unlock flag. Every page load starts locked, including entry permalinks. Correct verification initializes the existing ledger, preserves permalink behavior and local bookmarks, and reveals the protected wrapper. Keep both `ledger-protected` and `ledger-app` hidden in the initial HTML to prevent a flash of entries. Weekly articles remain separate public snapshots.
+
+This is a presentation gate, not server authentication or encryption. The embedded JSON, public repository and its history remain publicly retrievable. Do not describe this mechanism as protection for confidential research notes. A future requirement for private data needs authenticated server-side delivery and an appropriate private source repository.
+
+For frontend changes, verify initial lock, wrong password, correct password, reload locking, entry permalinks, disabled JavaScript, unavailable Web Crypto, mobile layout and ordinary ledger filters/bookmarks. A weekly data-only update must preserve this gate.
+
 ## Scheduling
 
 The weekly scan is scheduled through ChatGPT, not through a browser-open timer or a GitHub Action with embedded API keys. The task reads this guide and the latest repo on each run. Its successful configuration is reflected in `schedule.enabled`; do not claim that creating a static page alone enables automatic research. Credentials and automation IDs must not be embedded in public site data.
+

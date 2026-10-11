@@ -7,6 +7,20 @@
     </div>
     <a class="ledger-archive-link" href="#weekly-reports">阅读周报 <span aria-hidden="true">↗</span></a>
   </div>
+  <section id="ledger-access" class="ledger-access" aria-labelledby="ledger-access-title">
+    <h3 id="ledger-access-title">研究条目已锁定</h3>
+    <p class="ledger-access-description">请输入访问密码，查看研究问题、数学进展与 AI 动态。</p>
+    <form id="ledger-access-form" method="post">
+      <label for="ledger-password">访问密码</label>
+      <div class="ledger-access-fields">
+        <input id="ledger-password" name="password" type="password" inputmode="numeric" autocomplete="current-password" placeholder="请输入密码" minlength="6" maxlength="6" pattern="[0-9]{6}" required disabled aria-describedby="ledger-access-hint ledger-access-message">
+        <button id="ledger-unlock" type="submit" disabled>解锁研究条目</button>
+      </div>
+      <p id="ledger-access-hint" class="ledger-access-hint">解锁仅在本次页面打开期间有效，刷新后将重新锁定。</p>
+      <p id="ledger-access-message" class="ledger-access-message" role="alert" hidden></p>
+    </form>
+  </section>
+  <div id="ledger-protected" hidden>
   <div class="ledger-scan-line">
     <span>{% if site.data.research_ledger.schedule.enabled %}每周五扫描与复查{% else %}每周更新{% endif %} · 北京时间</span>
     <span>最近核查 <time>{{ site.data.research_ledger.last_scan.checked_on }}</time></span>
@@ -35,10 +49,9 @@
     <div id="ledger-empty" class="ledger-empty" hidden>没有符合条件的条目。试试其他关键词，或点击“重置”。</div>
     <button type="button" id="ledger-more" class="ledger-more" hidden>显示更多</button>
   </div>
-  <noscript>
-    <p>开启 JavaScript 可使用搜索、筛选和收藏。也可直接阅读下方周报及来源：</p>
-    <ul>{% for entry in site.data.research_ledger.entries %}{% assign first_source = entry.source_ids | first %}<li><a href="{{ site.data.research_ledger.sources[first_source].url | escape }}">{{ entry.title | escape }}</a></li>{% endfor %}</ul>
-  </noscript>
+  </div>
+  <noscript><p class="ledger-note">请开启 JavaScript 后输入密码解锁研究条目。</p></noscript>
 </div>
 <script type="application/json" id="research-ledger-data">{{ site.data.research_ledger | jsonify | replace: '<', '\u003c' }}</script>
-<script defer src="{{ '/assets/js/research-ledger.js' | relative_url }}"></script>
+<script defer src="{{ '/assets/js/research-ledger.js' | relative_url }}?v=20261011-gate1"></script>
+

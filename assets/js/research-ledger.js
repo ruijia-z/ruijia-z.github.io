@@ -4,9 +4,70 @@
   var root = document.getElementById('ledger');
   var payload = document.getElementById('research-ledger-data');
   if (!root || !payload) return;
+  var access = document.getElementById('ledger-access');
+  var form = document.getElementById('ledger-access-form');
+  var input = document.getElementById('ledger-password');
+  var message = document.getElementById('ledger-access-message');
+  var submit = document.getElementById('ledger-unlock');
+  var protectedContent = document.getElementById('ledger-protected');
+  if (!access || !form || !input || !message || !submit || !protectedContent) return;
+  // This is a presentation gate for a public static site, not server authentication.
+  // Never store the password or an unlock flag in a URL, cookie or browser storage.
+  var passwordDigest = '685c8ce4c97e5d41bc25bc8ac1261cffb8f68718064307d90733f5789615d380';
+  var unlocking = false, unlocked = false;
+  function accessError(text) {
+    message.textContent = text;
+    message.hidden = false;
+  }
+  form.addEventListener('submit', async function (event) {
+    event.preventDefault();
+    if (unlocking || unlocked) return;
+    if (!window.crypto || !window.crypto.subtle || !window.TextEncoder) {
+      accessError('当前浏览器不支持密码验证，请使用新版浏览器通过 HTTPS 打开本站。');
+      return;
+    }
+    unlocking = true;
+    submit.disabled = true;
+    submit.textContent = '正在验证…';
+    form.setAttribute('aria-busy', 'true');
+    input.removeAttribute('aria-invalid');
+    message.hidden = true;
+    var password = input.value;
+    input.value = '';
+    try {
+      var digest = await window.crypto.subtle.digest('SHA-256', new TextEncoder().encode(password));
+      password = '';
+      var hex = Array.from(new Uint8Array(digest)).map(function (b) { return b.toString(16).padStart(2, '0'); }).join('');
+      if (hex !== passwordDigest) {
+        input.setAttribute('aria-invalid', 'true');
+        accessError('密码不正确，请重新输入。');
+        input.focus();
+        return;
+      }
+      initializeLedger();
+      unlocked = true;
+      access.hidden = true;
+      protectedContent.hidden = false;
+      var query = document.getElementById('ledger-query');
+      query.focus({preventScroll: true});
+    } catch (_) {
+      protectedContent.hidden = true;
+      accessError('暂时无法解锁，请刷新页面后重试。');
+    } finally {
+      password = '';
+      unlocking = false;
+      submit.disabled = false;
+      submit.textContent = '解锁研究条目';
+      form.removeAttribute('aria-busy');
+    }
+  });
+  input.disabled = false;
+  submit.disabled = false;
+  // Do not parse or render any research entry before password verification.
+  function initializeLedger() {
   var data;
-  try { data = JSON.parse(payload.textContent); } catch (_) { return; }
-  if (!Array.isArray(data.entries) || !data.sources) return;
+  data = JSON.parse(payload.textContent);
+  if (!Array.isArray(data.entries) || !data.sources) throw new Error('Invalid ledger data');
   var $ = function (id) { return document.getElementById(id); };
   var labels = {
     status: {open:'待解决 · 原文提出', partial:'部分解决', preprint:'预印本进展', established:'已发表结果', watch:'待核验', released:'官方发布'},
@@ -178,4 +239,6 @@
   apply();
   if(target)requestAnimationFrame(function(){cardMap.get(target).scrollIntoView({block:'start'});});
   typeset(root);
+  }
 })();
+
