@@ -27,6 +27,7 @@
       return;
     }
     unlocking = true;
+    input.disabled = true;
     submit.disabled = true;
     submit.textContent = '正在验证…';
     form.setAttribute('aria-busy', 'true');
@@ -55,10 +56,13 @@
       accessError('暂时无法解锁，请刷新页面后重试。');
     } finally {
       password = '';
+      input.value = '';
+      input.disabled = false;
       unlocking = false;
       submit.disabled = false;
       submit.textContent = '解锁研究条目';
       form.removeAttribute('aria-busy');
+      if (!unlocked) input.focus();
     }
   });
   input.disabled = false;
