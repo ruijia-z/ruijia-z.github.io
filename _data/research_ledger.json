@@ -2,10 +2,28 @@
   "schema_version": 1,
   "title": "研究问题与进展",
   "last_scan": {
-    "checked_on": "2026-10-09",
-    "period_start": "2026-10-02",
-    "period_end": "2026-10-09",
-    "note": "首期精选建档，兼收近期背景；非全量论文扫描。"
+    "checked_on": "2026-10-16",
+    "period_start": "2026-10-09",
+    "period_end": "2026-10-16",
+    "search_start": "2026-10-08",
+    "note": "本期精选扫描：检索 10-08 起的重叠区间；新预印本、旧修订补核和官方公告分开记录。未逐篇审完证明，未独立构建 Lean 工程；个别旧稿正文获取受限，见周报核查范围。",
+    "pending_rechecks": [
+      {
+        "source_id": "liu26",
+        "since": "2026-10-08",
+        "reason": "本次仅检索到原稿书目信息，正文获取失败；下次需继续核对版本和证明范围。"
+      },
+      {
+        "source_id": "pu26",
+        "since": "2026-10-08",
+        "reason": "本次仅取得检索返回的 v1 书目/摘要；正文完整复查未完成。"
+      },
+      {
+        "source_id": "chan25",
+        "since": "2026-10-08",
+        "reason": "arXiv 版本元数据已复核；本次未取得 AMS 全文，不重复声称证明审查。"
+      }
+    ]
   },
   "schedule": {
     "enabled": true,
@@ -177,6 +195,150 @@
       "version": "官方研究报告",
       "type": "official",
       "read_depth": "实验描述与限制"
+    },
+    "liwu26quotient": {
+      "title": "Interior Hessian estimates for k-convex solutions of Hessian quotient equations",
+      "authors": "Zhisu Li · Ke Wu",
+      "url": "https://arxiv.org/abs/2610.18252v1",
+      "date": "2026-10-13",
+      "version": "v1；正文署期 10-11，arXiv 提交 10-13",
+      "type": "paper",
+      "read_depth": "2026-10-16：摘要、Theorem 1.1、分离传播—doubling—紧性证明框架；未逐行复核全篇。"
+    },
+    "hung26twopoint": {
+      "title": "A new approach to interior estimates for fully nonlinear elliptic equations",
+      "authors": "Jui-Yun Hung · Jiakun Liu · Neil Trudinger",
+      "url": "https://arxiv.org/html/2610.15457v1",
+      "date": "2026-10-11",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-16：Theorems 1.1–1.2、(2.10)–(2.11)、第 3 节两点函数；核对一个各向异性二次函数测试；未审完证明。"
+    },
+    "wang26shrinkers": {
+      "title": "Rigidity of Immersed Gauss Curvature Shrinkers in Euclidean Space",
+      "authors": "Jiahao Wang",
+      "url": "https://arxiv.org/html/2610.14554v1",
+      "date": "2026-10-10",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-16：Theorem 1.1、摘要与极体/有限面积证明路线；未全篇审计。"
+    },
+    "brauner26radon": {
+      "title": "Radon Transforms of Projection Functions and Aleksandrov–Fenchel Inequalities",
+      "authors": "Leo Brauner · Oscar Ortega-Moreno · Franz E. Schuster",
+      "url": "https://arxiv.org/html/2610.18268v1",
+      "date": "2026-10-13",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-16：Theorems 1–2、平均混合体积双线性形式及共同负半定超平面的机制；未复核全部辅助引理。"
+    },
+    "baumbach26cone": {
+      "title": "On the Solution Sets of the Cone-Volume Map",
+      "authors": "Tom Baumbach · Zhang Chen · Martin Henk",
+      "url": "https://arxiv.org/html/2610.21533v1",
+      "date": "2026-10-15",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-16：Theorems 1.3、1.5–1.6，Corollary 1.4 后的光滑性说明，以及对称类与一般类的区别。"
+    },
+    "ji26entire": {
+      "title": "Sharp conditions for fully nonlinear equations with (n-1)-Hessian matrix: Part I. Monge–Ampère case",
+      "authors": "Jingwen Ji · Feida Jiang · Mengni Li",
+      "url": "https://arxiv.org/html/2610.15693v1",
+      "date": "2026-10-11",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-16：摘要、Theorems 1.1–1.2 的解类别、q 范围及条件 (A)/(B)；未逐项验证积分判据证明。"
+    },
+    "daniels26generic": {
+      "title": "Generic mean curvature flow has finitely many singularities",
+      "authors": "J. M. Daniels-Holgate · Or Hershkovits · Gábor Székelyhidi",
+      "url": "https://arxiv.org/html/2610.12763v1",
+      "date": "2026-10-09",
+      "version": "v1；提交时间 10-08 22:13 UTC，即北京时间 10-09",
+      "type": "paper",
+      "read_depth": "2026-10-16：Theorem 1、Corollary 2、证明提纲；高维平均凸性和一重球/柱奇点条件已核对；未审完 60 页。"
+    },
+    "simons26ai": {
+      "title": "Simons Foundation Launches $15M Effort To Help Mathematicians Navigate AI Era",
+      "authors": "Simons Foundation · Anthropic · OpenAI",
+      "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+      "date": "2026-10-15",
+      "version": "官方公告",
+      "type": "official",
+      "read_depth": "2026-10-16：公告正文及 OpenAI 10-15 更新交叉核对；属于研究资助与资源安排，不是结果正确性背书。"
+    },
+    "gemini4argon26": {
+      "title": "Gemini 4 Argon: Built to solve your hardest problems",
+      "authors": "Google · Google DeepMind",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
+      "date": "2026-10-13",
+      "version": "面向开发者与用户的可用性公告；不是首次命名日期",
+      "type": "official",
+      "read_depth": "2026-10-16：10-13 发布正文与同日模型卡；未独立测试研究数学、Lean 或长证明能力。"
+    },
+    "hujiang26v2": {
+      "title": "Oblique boundary value problems for (n−1)-type augmented Hessian equations",
+      "authors": "Zhibo Hu · Feida Jiang",
+      "url": "https://arxiv.org/html/2610.11400v2",
+      "date": "2026-10-09",
+      "version": "v2；原始提交 10-08",
+      "type": "paper",
+      "read_depth": "2026-10-16：版本记录、主定理范围与 Remark 1.3；未将版本更新等同于端点已解决。"
+    },
+    "openai-history-20261008": {
+      "title": "openai/math — October 7 corrections and withdrawals",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/history.md",
+      "date": "2026-10-08",
+      "version": "10-07 修订公告；10-08 UTC 入库；固定提交快照",
+      "type": "official",
+      "read_depth": "2026-10-16：完整修订说明与提交日期；3 篇撤回、14 篇修订为旧修订补核，非本周新撤稿。"
+    },
+    "openai-repo-20261016": {
+      "title": "openai/math — fixed repository snapshot",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/README.md",
+      "date": "2026-10-16",
+      "version": "访问快照；固定提交 1581d4cbdd69a0faf34b2089614fe2a814316a6a，该提交为 10-12 UTC 的维护更新",
+      "type": "official",
+      "read_depth": "2026-10-16：README、10-08 起的提交记录及 history.md；未批量构建全部形式化工程。"
+    },
+    "openai-lbm-intro-20261016": {
+      "title": "The logarithmic Brunn–Minkowski conjecture — introduction and main statement",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/The-logarithmic-Brunn-Minkowski-conjecture-September-23-2026/build/introduction.tex",
+      "date": "2026-09-23",
+      "version": "文稿题名日期；固定提交 1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "type": "official",
+      "read_depth": "2026-10-16：主定理与 Wulff 体定义；没有独立复核整篇解析证明。"
+    },
+    "openai-lbm-lean-20261016": {
+      "title": "OAI.LogBrunnMinkowski.main — Lean source",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Geometry/LogVolume/BrunnMinkowski.lean",
+      "date": "2026-10-16",
+      "version": "访问快照；固定提交 1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "type": "official",
+      "read_depth": "2026-10-16：读取最终 main 声明、凸体/原点对称/Wulff 组合定义；文本检索非构建验证，未重放依赖闭包。"
+    },
+    "openai-lbm-comparator-20261016": {
+      "title": "LogBrunnMinkowski Comparator configuration",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/LogBrunnMinkowski.json",
+      "date": "2026-10-16",
+      "version": "访问快照；固定提交 1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "type": "official",
+      "read_depth": "2026-10-16：核对目标 OAI.LogBrunnMinkowski.main 及 permitted_axioms；未运行 Comparator。"
+    },
+    "anthropic-evaluators26": {
+      "title": "An update on independent evaluators",
+      "authors": "Anthropic",
+      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "date": "2026-10-15",
+      "version": "官方风险评估合作公告",
+      "type": "official",
+      "read_depth": "2026-10-16：公告正文；METR 等评估的是前沿模型风险，并非数学定理逐条验证。"
     }
   },
   "entries": [
@@ -192,27 +354,33 @@
       "evidence": "theorem",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
+      "updated_on": "2026-10-16",
       "checked_on": "2026-10-09",
       "priority": 3,
       "source_ids": [
-        "liu26"
+        "liu26",
+        "liwu26quotient"
       ],
       "summary": "Jianxiang Liu 给出凸解内部估计的新证明，价值在于证明机制的变化。",
       "formulation": "光滑凸解；方程为 $\\sigma_n/\\sigma_{n-2}=1$，或 $\\sigma_n/\\sigma_{n-1}=f(x,u,Du)>0$；后一情形要求 $1/f$ 对梯度变量凹。",
-      "known": "重新证明 Lu、Fung 的相关估计，不是首次得到这两类估计。",
+      "known": "原条目记录的是既有凸解估计的紧性重证。另见 10-13 Li–Wu 的 k-凸常数右端商方程结果；不能据后者推断变右端 f(x,u,Du) 的估计。",
       "gap": "一般容许解不在本文凸解结论中。",
       "method": "修正 Legendre 变换、强极小值原理与面积公式。",
       "relevance": "与 Hessian 商方程直接衔接，可比较紧性法和 Jacobi 不等式法。",
-      "next_step": "精读 Theorems 1.1–1.2，核对常数依赖与变换后的椭圆性。",
+      "next_step": "待重新取得原稿正文，复查版本与常数依赖，再与 Li–Wu 的分离传播和 doubling 方法比较。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "补充 10-13 Li–Wu 的常数右端 k-凸商方程结果作对照；原稿正文此次未取得，保留原先核查日，待续核。"
         }
       ]
     },
@@ -228,27 +396,33 @@
       "evidence": "extension",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 2,
       "source_ids": [
-        "liu26"
+        "liu26",
+        "liwu26quotient"
       ],
       "summary": "从当前定理的结构限制出发，先检查可替代条件及反例。",
       "formulation": "保留光滑凸解和 $f>0$，考察 $\\sigma_n/\\sigma_{n-1}=f(x,u,Du)$ 中 $D^2_{pp}(1/f)\\leq0$ 的替代条件。",
-      "known": "上述新证明在倒数凹性条件下成立。",
-      "gap": "这是编辑延伸，尚未确认一般情形是否已有定理或反例。",
+      "known": "Li–Wu 新稿覆盖 k−ℓ=1 或 2 的 k-凸解，但右端为常数 1；原条目中 f(x,u,Du) 的倒数凹性替换问题未被该主定理处理。",
+      "gap": "仍未核实去掉倒数凹性后的最一般版本是否已有反例或其他结构条件；不标成已解决，也不宣称它是新开放问题。",
       "method": "先检查梯度依赖在 Legendre 变换后的作用。",
       "relevance": "适合作为先验估计方法的边界测试。",
       "next_step": "先检索已有反例，再精确定义可放宽的假设。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "逐项比较 Li–Wu Theorem 1.1：右端恒为 1，不能据此关闭原来含梯度右端的结构条件问题；仍为编辑延伸。"
         }
       ]
     },
@@ -265,27 +439,34 @@
       "evidence": "extension",
       "source_date": "2026-10-08",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
-        "hujiang26"
+        "hujiang26",
+        "hujiang26v2",
+        "ji26entire"
       ],
       "summary": "Hu–Jiang 的新稿利用 γ > 1 的结构获得全局估计；端点需要另行研究。",
       "formulation": "$F(\\gamma\\Delta u\\,I-D^2u-A)=B$ 配斜导数边界条件；考察 $\\gamma=1$ 时应补充哪些几何或结构条件。",
-      "known": "γ > 1 时无需区域凸性；存在唯一性另需半线性斜导数数据、上下解、单调性和增长条件。",
+      "known": "v2 的全局正则性理论仍使用 γ>1 的结构；Remark 1.3 区分 γ=1。Ji–Jiang–Li 的全空间 (n−1)-Monge–Ampère 次解结果不能直接给出斜导数边值估计。",
       "gap": "原文未覆盖端点；不能据此断言端点的一切版本都开放。",
       "method": "统一椭圆性、边界屏障、连续性法。",
       "relevance": "连接 Hessian 估计与共形几何中的边值问题。",
       "next_step": "从 Remark 1.3 出发核对端点文献，追踪估计常数是否随 γ → 1 发散。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "补记 10-09 的 v2，复查 Remark 1.3；γ=1 的全空间次解新稿与有界域斜导数边值问题不同，状态不变。"
         }
       ]
     },
@@ -302,8 +483,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
         "choi26"
@@ -317,12 +498,17 @@
       "next_step": "先在凸光滑类检验候选距离与尺度；上式亏损记号为编辑整理。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "复查原稿 Remark 6.5(3) 与相关新流论文；本次检索未找到可确认关闭该精确定量稳定性问题的结果。"
         }
       ]
     },
@@ -339,27 +525,32 @@
       "evidence": "explicit",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 2,
       "source_ids": [
         "choi26"
       ],
       "summary": "原文另提出 Cartan–Hadamard 环境及高余维推广。",
       "formulation": "考察完备单连通、截面曲率非正的环境中，相应弱流是否满足欧氏型尖锐寿命估计。",
-      "known": "当前所引主定理处理欧氏空间中的超曲面。",
+      "known": "所引主定理处理欧氏空间；Remark 6.4 另讨论二维曲面在 Cartan–Hadamard 环境中的预期估计，不能把预期公式写成已证定理。",
       "gap": "推广不能由欧氏结论直接推出；高余维还需明确弱流定义。",
       "method": "需要替代欧氏 Minkowski 不等式及其刚性环节。",
       "relevance": "连接几何不等式、环境曲率与弱流。",
       "next_step": "先分别研究环境曲率和余维；该拆分是编辑建议。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "复查 Remark 6.4 与 6.5(2)：文中已有二维情形的预期路线，一般维数/余维推广未获本次可核验的新解。"
         }
       ]
     },
@@ -375,7 +566,7 @@
       "evidence": "theorem",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
+      "updated_on": "2026-10-16",
       "checked_on": "2026-10-09",
       "priority": 2,
       "source_ids": [
@@ -390,12 +581,17 @@
       "next_step": "区分 H dx 与曲率弧长测度，检查端点和内部收敛的差别。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "本次仅检索到原文 v1 的书目/摘要信息，未取得可完整复查的正文；保留原核查日与状态。"
         }
       ]
     },
@@ -412,29 +608,37 @@
       "evidence": "explicit",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
         "lu26",
         "openai-lbm",
-        "openai-repo"
+        "openai-repo",
+        "openai-lbm-intro-20261016",
+        "openai-lbm-lean-20261016",
+        "openai-lbm-comparator-20261016"
       ],
-      "summary": "传统开放问题遇到新的 AI 证明声明，应进入证据复核流程。",
+      "summary": "一般原点对称情形的声明已有对应 Lean 主声明及核对配置；本站仍未完成独立重放。",
       "formulation": "原点对称凸体的对数 Minkowski 组合是否满足 $V(K+_{0,\\lambda}L)\\geq V(K)^{1-\\lambda}V(L)^\\lambda$？",
-      "known": "Lu 的 v3 给出带 n−2 个正交反射对称性的结果；OpenAI 仓库另有声称处理一般情形的文稿。",
-      "gap": "本台账尚未复核该文稿证明及对应形式化覆盖，暂不标成已解决或继续断言完全开放。",
-      "method": "比较切片方法、谱方法与新稿论证。",
+      "known": "Lu 的反射对称部分结果仍为 v3。OpenAI 文稿及 OAI.LogBrunnMinkowski.main 均声明原点对称、紧凸且内非空的凸体之间的 Wulff 组合体积不等式，0≤t≤1；已核对基本定义。",
+      "gap": "目录、源文件和 Comparator 配置的存在不等同于已在本站独立验证。尚未运行构建、声明比较器或完整公理/依赖审计；一般非对称锥体积映射的新非唯一性也不是本题的反例。",
+      "method": "先对齐解析定理、Lean 定义与目标声明，再在固定版本重放构建和 Comparator。",
       "relevance": "与 Minkowski 问题、支撑函数和凸几何直接相连。",
-      "next_step": "检查精确定理、假设、修订记录、Lean 对应声明及独立评议。",
+      "next_step": "独立重放 OAI.LogBrunnMinkowski.main；配置仅允许 propext、Quot.sound、Classical.choice，但仍需核实实际依赖闭包。",
       "company": "OpenAI",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "证据升级：读取固定提交的解析主声明、Lean 最终声明/基本定义与 Comparator 配置；尚未独立构建，保留待核验。"
         }
       ]
     },
@@ -451,8 +655,8 @@
       "evidence": "theorem",
       "source_date": "2026-09-18",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
         "liuwei26"
@@ -466,12 +670,17 @@
       "next_step": "作为历史基线精读，不把 9 月结果写成本周首次发表。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "复查 arXiv 摘要及版本，检索范围内未取得可核实的后续修订或撤稿；维持预印本，不把稳定解分类扩大到所有维数。"
         }
       ]
     },
@@ -488,8 +697,8 @@
       "evidence": "theorem",
       "source_date": "2026-09-25",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
         "chan25"
@@ -503,12 +712,17 @@
       "next_step": "先比较两个问题的二次变分和边界项；此次未逐行复核证明。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "复查 arXiv v2 与期刊 DOI 元数据；AMS 全文本次未取得，未重新审查证明，不改变已发表结果标签。"
         }
       ]
     },
@@ -524,8 +738,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-08",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 2,
       "source_ids": [
         "gui26"
@@ -539,12 +753,17 @@
       "next_step": "精读 Theorem 1.1 和归一化密度估计，保留参数限制。",
       "company": "",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "复查摘要与版本仍为 v1；继续保留 N≥3、α≥1/2 且 α≠1 的范围，未发现经核实的参数扩张。"
         }
       ]
     },
@@ -560,28 +779,36 @@
       "evidence": "official",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
         "openai-release",
-        "openai-repo"
+        "openai-repo",
+        "openai-repo-20261016",
+        "openai-history-20261008",
+        "simons26ai"
       ],
       "summary": "数学研究输出开始以文稿、代码、修订记录和部分 Lean 证明共同发布。",
       "formulation": "跟踪 openai/math 的研究结论、形式化覆盖、纠错与版本变化。",
-      "known": "官方称材料由内部模型生成；README 明确说明各结果验证阶段不同，部分未形式化文稿可能存在问题。",
-      "gap": "文稿数量不等于独立且获确认的已解决问题数量。",
+      "known": "10-15 官方更新宣布向 Simons 合作投入 500 万美元。仓库 history.md 另记载 10-07 的 3 篇撤回、14 篇修订及依赖引用更新；这属于本次补核的旧修订，不是 10-09–16 的新撤稿。",
+      "gap": "资助、文稿数量及形式化目录均不能代替逐条正确性核查；本次未批量重放仓库。",
       "method": "文稿与形式化证明对照、固定版本、重放验证。",
       "relevance": "可为相关 PDE 与凸几何问题提供候选证明，也提高了逐项核查的重要性。",
       "next_step": "优先跟踪与本台账条目重叠的结论；未将整个仓库标记为已验证。",
       "company": "OpenAI",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "加入 10-15 Simons 合作；补核 10-07 撤稿/修订及 10-08 提交，明确其不是本周新增撤稿；固定当前仓库快照。"
         }
       ]
     },
@@ -597,8 +824,8 @@
       "evidence": "official",
       "source_date": "2026-09-04",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 3,
       "source_ids": [
         "anthropic-flt",
@@ -613,12 +840,17 @@
       "next_step": "从小型可重放引理开始，检查最终声明、公理与依赖闭包。",
       "company": "Anthropic",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "复查官方公告与 10-08 起仓库提交记录（查询无返回项）；仍为形式化工程公告，未独立构建。"
         }
       ]
     },
@@ -634,8 +866,8 @@
       "evidence": "official",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 1,
       "source_ids": [
         "haiku55"
@@ -649,12 +881,17 @@
       "next_step": "用小型文献分类与引用核对任务评测准确率，再决定是否纳入工作流。",
       "company": "Anthropic",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "重新核对官方发布日期仍为 10-07；不把重读公告计为本周新模型发布，状态不变。"
         }
       ]
     },
@@ -670,27 +907,361 @@
       "evidence": "official",
       "source_date": "2026-08-13",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-09",
-      "checked_on": "2026-10-09",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
       "priority": 2,
       "source_ids": [
-        "multiagent26"
+        "multiagent26",
+        "anthropic-evaluators26"
       ],
       "summary": "Anthropic 的多 agent 研究揭示信息共享、协调与判断中的失败模式。",
       "formulation": "关注同一证据在多个 agent 间传播时是否形成虚假互证。",
       "known": "官方实验讨论趋同行为、隐藏信息利用不足及来源可信度判断。",
-      "gap": "这些不是数学证明基准，不能据此量化数学 agent 的正确率。",
+      "gap": "10-15 的 METR 等合作是模型风险评估安排，不是这些模型在研究数学中逐条证明正确的独立认证。",
       "method": "保留来源、记录分歧，区分独立推导与转述。",
       "relevance": "提示数学科研系统为关键引理设计可核查的验证，而不是只统计赞成票。",
       "next_step": "将这一点作为方法背景；不是本周新发布。",
       "company": "Anthropic",
       "issues": [
-        "20261002-20261009"
+        "20261002-20261009",
+        "20261009-20261016"
       ],
       "history": [
         {
           "date": "2026-10-09",
           "note": "首期建档；核查深度见来源。"
+        },
+        {
+          "date": "2026-10-16",
+          "note": "结合 10-15 独立评估公告复查验证边界：模型风险评估、多个 agent 同意和数学定理验证是不同证据。"
+        }
+      ]
+    },
+    {
+      "id": "hessian-quotient-kconvex",
+      "title": "Hessian 商：k-凸解的常数右端内估计",
+      "title_en": "Interior Hessian Estimates for k-Convex Hessian Quotient Equations",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-13",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 3,
+      "source_ids": [
+        "liwu26quotient"
+      ],
+      "summary": "Li–Wu 将定量分离传播、doubling 与紧性串联，用于指标相差 1 或 2 的商方程。",
+      "formulation": "$\\sigma_k(D^2u)/\\sigma_\\ell(D^2u)=1$，$2\\leq k\\leq n$、$0\\leq\\ell<k$、$k-\\ell\\in\\{1,2\\}$；光滑 k-凸解。",
+      "known": "Theorem 1.1 报告球内 Hessian 界依赖 n、k 与 C¹ 范数；在较大球结合梯度估计得到依赖高度界的形式。",
+      "gap": "右端是常数，不能直接替代含梯度右端的估计；未独立复核全部证明。",
+      "method": "定量分离传播 → doubling 不等式 → 紧性。",
+      "relevance": "直接连接 Hessian 商与容许锥中的先验估计，适合与凸解 Legendre/紧性路线比较。",
+      "next_step": "优先精读 Theorem 1.1、doubling 环节与第 4 节对一般 Hessian 方程的结构要求。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "two-point-interior-review",
+      "title": "两点最大值法重证内估计：MA 常数依赖待核验",
+      "title_en": "Two-Point Interior Estimates: Monge–Ampère Constants Require Review",
+      "kind": "result",
+      "status": "watch",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-11",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 3,
+      "source_ids": [
+        "hung26twopoint"
+      ],
+      "summary": "Hung–Liu–Trudinger 给出只微分一次的证明路线；σ₂ 与 Monge–Ampère 部分应分开核查。",
+      "formulation": "Theorem 1.2：$n\\geq2$、$\\lambda(D^2u)\\in\\Gamma_2$、$\\sigma_2(D^2u)=1$ 的 C³ 解，报告内部 Hessian 界依赖梯度范数。",
+      "known": "论文将两点最大值原理用于内估计；MA 部分 Theorem 1.1 取正 C¹ 右端和严格凸解。",
+      "gap": "MA 证明 (2.11) 的凸性模量常数只列 n、行列式界和区域；固定 det=1 的各向异性二次函数显示需补核对 u 或归一化的依赖。不是对整篇论文的完整反证。",
+      "method": "两点增量函数、一次线性化与矩阵比较。",
+      "relevance": "将几何流中的两点法引入 Hessian 内估计，方法联系直接；同时提醒严格凸性与定量凸性不可混同。",
+      "next_step": "先核查 σ₂ Theorem 1.2；对 MA 部分确认截面归一化、凸性模量及常数依赖后再引用其最强表述。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "immersed-gauss-shrinker",
+      "title": "高斯曲率收缩子：从浸入到凸性与球刚性",
+      "title_en": "Rigidity of Immersed Gauss Curvature Shrinkers",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-10",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 3,
+      "source_ids": [
+        "wang26shrinkers"
+      ],
+      "summary": "Jiahao Wang 的新稿不预设凸性，而先从收缩子方程推出全局严格凸性。",
+      "formulation": "连通、闭、可定向的光滑浸入 $X:M^m\\to\\mathbb R^{m+1}$，$m\\geq2$；选定全局单位法向并满足 $K=\\langle X,\\nu\\rangle$。",
+      "known": "Theorem 1.1 声明浸入实际上是到单位球的嵌入。",
+      "gap": "这是定态分类；不能由此直接推出任意非凸初值的流全时存在或归一化收敛。",
+      "method": "正高斯曲率分支、极浸入、有限面积引理与面积测度的一阶矩。",
+      "relevance": "连接曲率方程、极体与 Minkowski 面积测度，适合学习如何把局部椭圆分支升级为整体凸性。",
+      "next_step": "重点检查正曲率分支的完备性和极体面积公式从局部到全局的过渡。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "grassmann-radon-af",
+      "title": "Grassmann–Radon 平均与新的 Aleksandrov–Fenchel 不等式",
+      "title_en": "Grassmannian Radon Transforms and Aleksandrov–Fenchel Inequalities",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "convex",
+        "flows"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-13",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 3,
+      "source_ids": [
+        "brauner26radon"
+      ],
+      "summary": "Brauner、Ortega-Moreno、Schuster 用平均混合体积不等式建立均值截面体内在体积的对数凹性。",
+      "formulation": "Theorem 1：$1\\leq i\\leq n$、$2\\leq j\\leq n-1$，内非空凸体 K、L 沿 Minkowski 插值，$V_i(\\overline M_j(\\lambda K+(1-\\lambda)L))$ 满足乘法型对数凹不等式。",
+      "known": "Theorem 2 先证明带非负球面测度平均的混合体积双线性形式满足 AF 型不等式。",
+      "gap": "这是凸几何算子的静态不等式；尚不能据此断言某曲率流存在单调量或得到收敛。",
+      "method": "Grassmann Radon 变换、极化恒等式，以及各双线性形式共有的负半定超平面。",
+      "relevance": "与投影函数、面积测度和曲率积分有具体联系，可作为拓展 Minkowski 方法的工具。",
+      "next_step": "先看 Theorem 2 的共同超平面，再读 Lemma 3.4 将算子写成混合体积积分的恒等式。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "cone-volume-fibers",
+      "title": "锥体积映射：几乎处处有限与一般类非唯一",
+      "title_en": "Finiteness and Nonuniqueness of Cone-Volume Map Fibers",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-15",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 3,
+      "source_ids": [
+        "baumbach26cone"
+      ],
+      "summary": "Baumbach、Chen、Henk 研究固定法向下的解集，并给出不能省略对称性条件的具体提醒。",
+      "formulation": "固定正张成法向 U，研究多面体支撑数 b 到锥体积向量的纤维；不可约 U 下讨论一般数据，平面情形另有非唯一性构造。",
+      "known": "Theorem 1.5 报告几乎处处有限；Theorem 1.3 构造平面至少两解，Corollary 1.4 从离散构造得到每点有唯一法向的凸体。",
+      "gap": "这里的 smooth 使用较弱含义，不能写成正曲率 C∞ 情形；一般非对称类的非唯一性不否定原点对称 log-BM。",
+      "method": "类型锥、半代数纤维、插入法向的稳定性与拓扑度。",
+      "relevance": "与离散/连续 Minkowski 问题的存在和唯一性直接相接，便于识别对称假设的用途。",
+      "next_step": "优先读 Corollary 1.4 后的说明，再区分一般纤维、中心化类和原点对称类。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "nminusone-entire-subsolutions",
+      "title": "(n−1)-Monge–Ampère 全空间次解的尖锐存在条件",
+      "title_en": "Sharp Entire-Subsolution Criteria for (n−1)-Monge–Ampère Equations",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian",
+        "conformal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-11",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 2,
+      "source_ids": [
+        "ji26entire"
+      ],
+      "summary": "Ji–Jiang–Li 在分列的结构假设下给出 Keller–Osserman 型判据，并区分梯度指数的临界情形。",
+      "formulation": "$\\det^{1/n}(\\Delta u\\,I-D^2u)=f(u)+g(u)|Du|^q$ 在全空间；对象为正、非平凡的 (n−1)-凸次解。",
+      "known": "Theorems 1.1–1.2 依条件 (A)/(B) 分情形处理 q<2−1/n 及临界值；q<0 的强次解类别另列。",
+      "gap": "不是一般 f、g 的无条件定理；经典次解、奇异梯度下的强次解和有界域边值问题不可混同。",
+      "method": "径向方程与 Keller–Osserman 型积分条件。",
+      "relevance": "与增广 Hessian 结构和共形几何的全空间模型有关，但不关闭 γ=1 的斜导数端点条目。",
+      "next_step": "先选择 f、g 的符号/单调性和 q 的区间，再引用对应的必要充分条件。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "generic-mcf-finite-singularities",
+      "title": "一般位置平均曲率流的有限奇点结构",
+      "title_en": "Finitely Many Singularities in Generic Mean Curvature Flow",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "minimal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-09",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 2,
+      "source_ids": [
+        "daniels26generic"
+      ],
+      "summary": "Daniels-Holgate、Hershkovits、Székelyhidi 把初值扰动的作用延伸到经过先前奇点之后的流。",
+      "formulation": "主定理先假设紧超曲面流只遇到一重球/柱奇点；任意小 C² 初值扰动后，奇点可取非退化。",
+      "known": "推出 R³ 中一般位置紧初始曲面，以及高维一般位置平均凸超曲面的有限奇点结论。",
+      "gap": "不是任意高维非平均凸超曲面的无条件分类，也不是中间 σk 流的球化或归一化收敛定理。",
+      "method": "初值扰动、跨奇点的反向唯一性及 Carleman 估计。",
+      "relevance": "补充曲率估计之外的奇点结构与稳定性工具；可与极小曲面/Jacobi 谱思想对照。",
+      "next_step": "读 Theorem 1 与 Corollary 2，再核查从初始扰动控制后续奇点所需的唯一性。",
+      "company": "",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "simons-ai-math-validation",
+      "title": "Simons、OpenAI 与 Anthropic 支持 AI 数学的社区评议",
+      "title_en": "Community Evaluation of AI-Assisted Mathematics: The Simons Initiative",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-10-15",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 2,
+      "source_ids": [
+        "simons26ai"
+      ],
+      "summary": "10 月 15 日公布合作，支持数学共同体评估 AI 结果、学习工具并形成使用标准。",
+      "formulation": "跟踪研究资助、模型/算力资源及面向数学共同体的评议安排，而非记录一个新定理。",
+      "known": "Simons 公告称三方合计提供 1500 万美元资金与资源；由基金会管理和分配，并将开展公开征集。",
+      "gap": "公告不是对 OpenAI 或 Anthropic 每一份数学文稿的正确性认证；具体项目条件须等待正式征集。",
+      "method": "研讨会、工具训练、开放评议与共同体标准。",
+      "relevance": "对几何分析研究者的价值在于获得审查新证明与使用验证工具的共同资源。",
+      "next_step": "关注正式项目与公开评议成果；保留逐条文稿/Lean 核验的证据记录。",
+      "company": "Simons Foundation / OpenAI / Anthropic",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        }
+      ]
+    },
+    {
+      "id": "gemini4-argon-research-tools",
+      "title": "Gemini 4 Argon 开放使用：研究工作流中的候选工具",
+      "title_en": "Gemini 4 Argon Availability for Research Workflows",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-10-13",
+      "added_on": "2026-10-16",
+      "updated_on": "2026-10-16",
+      "checked_on": "2026-10-16",
+      "priority": 2,
+      "source_ids": [
+        "gemini4argon26"
+      ],
+      "summary": "Google 10 月 13 日宣布面向开发者、企业与相应订阅用户开放 Argon。",
+      "formulation": "关注 API、Antigravity 与 Gemini 中的可用性，以及研究工具链和多步任务能力。",
+      "known": "官方公布上述接入渠道，并同步模型卡；本条区分产品可用性与数学结果验证。",
+      "gap": "通用编码、科学案例和厂商基准不能推出研究级数学证明正确率；未在本站独立评测。",
+      "method": "可在有来源约束的检索、代码和可重放验证任务中做小规模对照。",
+      "relevance": "对文献整理、符号计算代码与证明材料管理可能有用；这是编辑提出的评测方向。",
+      "next_step": "固定模型版本与工具权限，测试引用准确性、可重放性和错误发现能力后再扩大使用。",
+      "company": "Google DeepMind",
+      "issues": [
+        "20261009-20261016"
+      ],
+      "history": [
+        {
+          "date": "2026-10-16",
+          "note": "本期建档；核查范围及未核实部分见来源与限制。"
         }
       ]
     }
