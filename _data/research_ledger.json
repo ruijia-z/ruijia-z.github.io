@@ -2,26 +2,26 @@
   "schema_version": 1,
   "title": "研究问题与进展",
   "last_scan": {
-    "checked_on": "2026-10-16",
-    "period_start": "2026-10-09",
-    "period_end": "2026-10-16",
-    "search_start": "2026-10-08",
-    "note": "本期精选扫描：检索 10-08 起的重叠区间；新预印本、旧修订补核和官方公告分开记录。未逐篇审完证明，未独立构建 Lean 工程；个别旧稿正文获取受限，见周报核查范围。",
+    "checked_on": "2026-10-23",
+    "period_start": "2026-10-16",
+    "period_end": "2026-10-23",
+    "search_start": "2026-10-15",
+    "note": "本期精选扫描从 10-15 重叠开始；新增 8 条，修正 1 条旧判断。对优先论文核到主定理、维数/解类与方法接口，未逐篇审完证明；KLS Lean 仓库仅做公开结构核对，未本地构建。OpenAI、Anthropic 与 Google DeepMind 在扫描区间未发现与本台账直接相关、足以新增条目的重大官方发布。",
     "pending_rechecks": [
       {
         "source_id": "liu26",
         "since": "2026-10-08",
-        "reason": "本次仅检索到原稿书目信息，正文获取失败；下次需继续核对版本和证明范围。"
+        "reason": "本次仍未稳定取得并完整复核原稿正文；需继续核对版本和证明范围。"
       },
       {
         "source_id": "pu26",
         "since": "2026-10-08",
-        "reason": "本次仅取得检索返回的 v1 书目/摘要；正文完整复查未完成。"
+        "reason": "已复核 v1 书目与摘要仍在；正文完整复查未完成，不能冒充深度审查。"
       },
       {
         "source_id": "chan25",
         "since": "2026-10-08",
-        "reason": "arXiv 版本元数据已复核；本次未取得 AMS 全文，不重复声称证明审查。"
+        "reason": "arXiv/期刊元数据无可确认的新状态；AMS 全文未取得，不重复声称证明审查。"
       }
     ]
   },
@@ -208,11 +208,11 @@
     "hung26twopoint": {
       "title": "A new approach to interior estimates for fully nonlinear elliptic equations",
       "authors": "Jui-Yun Hung · Jiakun Liu · Neil Trudinger",
-      "url": "https://arxiv.org/html/2610.15457v1",
-      "date": "2026-10-11",
-      "version": "v1",
+      "url": "https://arxiv.org/html/2610.15457v2",
+      "date": "2026-10-21",
+      "version": "v2",
       "type": "paper",
-      "read_depth": "2026-10-16：Theorems 1.1–1.2、(2.10)–(2.11)、第 3 节两点函数；核对一个各向异性二次函数测试；未审完证明。"
+      "read_depth": "2026-10-23：核到 v2 的 Theorems 1.1–1.2、Monge–Ampère 的归一化域与零 Dirichlet 条件、(2.11) 及第 3 节路线；确认上期各向异性二次函数测试不满足定理边界条件，撤回该警示；未逐行审完证明。"
     },
     "wang26shrinkers": {
       "title": "Rigidity of Immersed Gauss Curvature Shrinkers in Euclidean Space",
@@ -339,6 +339,114 @@
       "version": "官方风险评估合作公告",
       "type": "official",
       "read_depth": "2026-10-16：公告正文；METR 等评估的是前沿模型风险，并非数学定理逐条验证。"
+    },
+    "qiu26khessianeigen": {
+      "title": "Boundary Regularity of k-Hessian Eigenfunctions",
+      "authors": "Guohuan Qiu · Jin Yan",
+      "url": "https://arxiv.org/html/2610.31445v1",
+      "date": "2026-10-22",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：摘要、Theorem 1.1、边界放大与半空间分类路线；未逐行审完证明。"
+    },
+    "shengzhu26noncollapse": {
+      "title": "Finite-Shift Inverse-Concavity and Exterior Noncollapsing for Fully Nonlinear Curvature Flows of Nonconvex Hypersurfaces",
+      "authors": "Weimin Sheng · Ye Zhu",
+      "url": "https://arxiv.org/pdf/2610.29852v1",
+      "date": "2026-10-21",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：Theorems 1.2、1.4、有限平移逆凹条件与显式速度；未审完全部矩阵不等式。"
+    },
+    "mazang26isolated": {
+      "title": "Isolated Singularities of k-Hessian Equations",
+      "authors": "Shiguang Ma · Shengyang Zang",
+      "url": "https://arxiv.org/html/2610.29079v1",
+      "date": "2026-10-21",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：主定理、指数范围、端点对数修正及方法概览；未审完势估计。"
+    },
+    "rakshitwu26linma": {
+      "title": "Geometric Harnack Inequality for the Linearized Monge–Ampère Equation",
+      "authors": "Arghya Rakshit · Derek Wu",
+      "url": "https://arxiv.org/html/2610.23848v1",
+      "date": "2026-10-16",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：Theorem 1.1、线性化 Monge–Ampère 特例、几何 Sobolev/Moser 路线；未审完常数传递。"
+    },
+    "chenma26singularyamabe": {
+      "title": "The Singular Yamabe Problem on Manifolds with Positive Yamabe Constant",
+      "authors": "Hongyu Chen · Li Ma",
+      "url": "https://arxiv.org/html/2610.31058v1",
+      "date": "2026-10-22",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：摘要、主定理、维数与有限奇集范围、线性与非线性拼接结构；“完全解决”按作者声明记为待核验。"
+    },
+    "li26halfcatenoid": {
+      "title": "Index One Free Boundary Minimal Hypersurfaces in a Half-Space",
+      "authors": "Junzhang Li",
+      "url": "https://arxiv.org/html/2610.28824v1",
+      "date": "2026-10-20",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：主定理、反射/双倍化、有限总曲率与 index-one 假设、独立同期工作说明；未审完谱论证明。"
+    },
+    "fattah26minkreg": {
+      "title": "Minkowski Regularization and the Isoperimetric Profile",
+      "authors": "Zakaria Fattah · Ilias Ftouhi · Giorgio Saracco",
+      "url": "https://arxiv.org/html/2610.29704v1",
+      "date": "2026-10-21",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：摘要、主要单调性、重参数化与 Hamilton–Jacobi 表述；确认核心范围是平面凸体。"
+    },
+    "songzhang26kls": {
+      "title": "A Proof of the KLS Conjecture",
+      "authors": "Yutong Song · Ruoqi Zhang",
+      "url": "https://arxiv.org/pdf/2610.01447v2",
+      "date": "2026-10-04",
+      "version": "v2",
+      "type": "paper",
+      "read_depth": "2026-10-23：摘要、Theorem 1.1/9.1 与高阶多项式方差—迭代改进框架；未审计 140 页全部证明。"
+    },
+    "bizeul26kls": {
+      "title": "A Short Proof of the KLS Conjecture",
+      "authors": "Pierre Bizeul · Bo'az Klartag · Joseph Lehec",
+      "url": "https://arxiv.org/abs/2610.05474v1",
+      "date": "2026-10-04",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-23：摘要、主结论及其对 Song–Zhang 判据的依赖；未逐行审完。"
+    },
+    "balakasi26kls": {
+      "title": "The KLS Conjecture with an Explicit Constant",
+      "authors": "Krishnakumar Balasubramanian · Shiva Prasad Kasiviswanathan",
+      "url": "https://arxiv.org/abs/2610.07728v2",
+      "date": "2026-10-08",
+      "version": "v2",
+      "type": "paper",
+      "read_depth": "2026-10-23：摘要、显式常数声明与变分路线；未逐行审完。"
+    },
+    "msr26kls": {
+      "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
+      "authors": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "date": "2026-10-21",
+      "version": "official post",
+      "type": "official",
+      "read_depth": "2026-10-23：通读官方叙述，核对人主导、多 agent 候选路线和失败对照；公司说明不作为证明正确性的独立认证。"
+    },
+    "kls500": {
+      "title": "KLS500: Lean 4 formalization artifact",
+      "authors": "Hongru Zhao et al.",
+      "url": "https://github.com/HongruZhao/KLS500",
+      "date": "2026-10-08",
+      "version": "commit c1a50992",
+      "type": "official",
+      "read_depth": "2026-10-23：核对仓库 README、5 次提交与主张的 dimension-free Poincaré ≤500；未本地构建、未做依赖或公理审计，仓库未配置 Actions。"
     }
   },
   "entries": [
@@ -975,37 +1083,42 @@
     },
     {
       "id": "two-point-interior-review",
-      "title": "两点最大值法重证内估计：MA 常数依赖待核验",
-      "title_en": "Two-Point Interior Estimates: Monge–Ampère Constants Require Review",
+      "title": "两点最大值法重证 Monge–Ampère 与 σ₂ 内估计",
+      "title_en": "Two-Point Interior Estimates for Monge–Ampère and σ₂ Equations",
       "kind": "result",
-      "status": "watch",
+      "status": "preprint",
       "topics": [
         "hessian"
       ],
       "evidence": "theorem",
       "source_date": "2026-10-11",
       "added_on": "2026-10-16",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
       "priority": 3,
       "source_ids": [
         "hung26twopoint"
       ],
-      "summary": "Hung–Liu–Trudinger 给出只微分一次的证明路线；σ₂ 与 Monge–Ampère 部分应分开核查。",
-      "formulation": "Theorem 1.2：$n\\geq2$、$\\lambda(D^2u)\\in\\Gamma_2$、$\\sigma_2(D^2u)=1$ 的 C³ 解，报告内部 Hessian 界依赖梯度范数。",
-      "known": "论文将两点最大值原理用于内估计；MA 部分 Theorem 1.1 取正 C¹ 右端和严格凸解。",
-      "gap": "MA 证明 (2.11) 的凸性模量常数只列 n、行列式界和区域；固定 det=1 的各向异性二次函数显示需补核对 u 或归一化的依赖。不是对整篇论文的完整反证。",
-      "method": "两点增量函数、一次线性化与矩阵比较。",
-      "relevance": "将几何流中的两点法引入 Hessian 内估计，方法联系直接；同时提醒严格凸性与定量凸性不可混同。",
-      "next_step": "先核查 σ₂ Theorem 1.2；对 MA 部分确认截面归一化、凸性模量及常数依赖后再引用其最强表述。",
+      "summary": "Hung–Liu–Trudinger 用只微分一次的两点最大值路线重证 Monge–Ampère 与 σ₂ 内部二阶估计；v2 的定理假设应整体引用。",
+      "formulation": "Theorem 1.1：在 $B_1\\subset\\Omega\\subset B_n$ 的归一化凸域上，严格凸 $u\\in C^3(\\Omega)\\cap C^0(\\bar\\Omega)$ 满足 $\\det D^2u=f>0$、$u=0$ 于边界；内部 Hessian 界含 $f$ 的界与局部 $C^1$ 控制。Theorem 1.2：$n\\ge2$、$\\lambda(D^2u)\\in\\Gamma_2$、$\\sigma_2(D^2u)=1$ 的 $C^3$ 解，内部 Hessian 界依赖梯度范数。",
+      "known": "v2 保留两点增量函数、一次线性化与矩阵比较路线；Monge–Ampère 的 (2.11) 在归一化凸域、零 Dirichlet 数据的完整框架内使用。",
+      "gap": "本次修正了上期编辑判断：固定单位球上的各向异性二次函数虽有 $\\det D^2u=1$，但不满足 $u=0$ 于 $\\partial\\Omega$，不能检验 Theorem 1.1。若把其零水平集改作边界，随各向异性增长又失去 $B_1\\subset\\Omega\\subset B_n$ 的统一归一化。因此当前没有由该测试产生的反例；论文仍是预印本，证明未逐行独立审计。",
+      "method": "两点增量函数、一次线性化、矩阵比较及归一化 Dirichlet 几何。",
+      "relevance": "将几何流中的两点法引入 Hessian 内估计，且展示边界归一化如何提供定量凸性；与网页主人的 Hessian 估计背景直接相关。",
+      "next_step": "逐行核对 (2.11) 到 Theorem 1.1 的常数传递，并与 Caffarelli–Gutiérrez/经典截面方法及 σ₂ 的梯度估计比较。",
       "company": "",
       "issues": [
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261016-20261023"
       ],
       "history": [
         {
           "date": "2026-10-16",
           "note": "本期建档；核查范围及未核实部分见来源与限制。"
+        },
+        {
+          "date": "2026-10-23",
+          "note": "更正上期编辑警示：各向异性二次函数不满足 Theorem 1.1 的零 Dirichlet 边界条件；v2 重新核对后由“待核验”改为“预印本进展”。旧周报作为快照保留。"
         }
       ]
     },
@@ -1264,6 +1377,207 @@
           "note": "本期建档；核查范围及未核实部分见来源与限制。"
         }
       ]
+    },
+    {
+      "id": "khessian-eigenfunction-boundary",
+      "title": "k-Hessian 特征函数的边界光滑性",
+      "title_en": "Boundary Smoothness of k-Hessian Eigenfunctions",
+      "kind": "result",
+      "status": "preprint",
+      "topics": ["hessian"],
+      "evidence": "theorem",
+      "source_date": "2026-10-22",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 3,
+      "source_ids": ["qiu26khessianeigen"],
+      "summary": "Qiu–Yan 对光滑一致凸域上的 k-Hessian 特征函数建立到边界的一致椭圆性并推出光滑性，且不预设解凸，只要求 k-容许。",
+      "formulation": "设 $2\\le k<n$，$\\Omega$ 光滑、有界且一致凸；$u<0$、$u=0$ 于边界、$D^2u\\in\\Gamma_k$，满足 $\\sigma_k(D^2u)=\\lambda(-u)^k$，并已有 $u\\in C^{1,1}(\\bar\\Omega)$。归一化后，Theorem 1.1 给 Newton 张量的正下界并推出 $u\\in C^\\infty(\\bar\\Omega)$。",
+      "known": "边界放大极限落到半空间；分类结果排除退化，再由 Hessian 收敛、一致椭圆与边界展开推进正则性。作者把它表述为解决既有边界正则性问题。",
+      "gap": "论文从既有 $C^{1,1}$ 起步；本次未独立审计半空间分类和所有高阶边界估计，也不把预印本直接记作已被同行确认。",
+      "method": "边界 blow-up、半空间 Liouville/分类、Newton 张量、一致椭圆化与边界 Schauder 迭代。",
+      "relevance": "与 Hessian 方程、边界二阶估计和椭圆锥条件直接相连，是本期最贴近网页主人背景的结果。",
+      "next_step": "核对半空间分类的最小假设，并比较一般右端、非一致凸域及 $k=n$ 的障碍。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；核到主定理与证明架构，未逐行审完全文。"}]
+    },
+    {
+      "id": "nonconvex-flow-exterior-noncollapse",
+      "title": "非凸全非线性曲率流的外部 non-collapsing",
+      "title_en": "Exterior Noncollapsing for Nonconvex Fully Nonlinear Curvature Flows",
+      "kind": "result",
+      "status": "preprint",
+      "topics": ["flows", "hessian"],
+      "evidence": "theorem",
+      "source_date": "2026-10-21",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 3,
+      "source_ids": ["shengzhu26noncollapse"],
+      "summary": "Sheng–Zhu 用有限平移逆凹条件把外部 non-collapsing 从凸曲率区域推进到允许负主曲率的锥，并给出显式非凸速度。",
+      "formulation": "对光滑紧致嵌入的 $\\Gamma$-容许流 $\\partial_tX=-F(A)\\nu$，$F$ 正、一齐次且严格椭圆。若满足有限平移逆凹条件 $S_b$，且初始有 $\\lambda_{\\min}+aF\\ge0$（$0<a<b$），则初始外部球曲率界 $k\\ge-aF$ 在光滑存在区间保持。",
+      "known": "论文给出 $F_\\varepsilon(A)=\\operatorname{tr}A-\\varepsilon|A^\\circ|^2/\\operatorname{tr}A$ 的显式参数范围；它在适当锥上严格椭圆、凹而非凸，并允许某些负主曲率。与已有内部估计合并可得光滑期内两侧切球控制。",
+      "gap": "结论限于光滑嵌入流的存在区间；没有由此给出手术、弱流奇点正则性或长期收敛。显式参数界与矩阵条件尚未逐行复算。",
+      "method": "双点函数、有限平移逆凹矩阵不等式和抛物最大值原理。",
+      "relevance": "与 non-collapsing、曲率估计和非凸曲率流高度贴近，并把 Hessian 型矩阵结构带入流的双点估计。",
+      "next_step": "复算 $F_\\varepsilon$ 的 $S_b$ 范围，研究该条件在 blow-up 与手术模型中是否封闭。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；核到主定理、显式速度及结论边界。"}]
+    },
+    {
+      "id": "khessian-isolated-singularities",
+      "title": "k-Hessian 方程孤立奇点的分类与可去性",
+      "title_en": "Classification and Removability of Isolated k-Hessian Singularities",
+      "kind": "result",
+      "status": "preprint",
+      "topics": ["hessian", "conformal"],
+      "evidence": "theorem",
+      "source_date": "2026-10-21",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 3,
+      "source_ids": ["mazang26isolated"],
+      "summary": "Ma–Zang 分类一组非正 k-容许解的孤立奇点，覆盖 $k<n/2$ 的 Lane–Emden 型方程和临界维数 $k=n/2$ 的梯度依赖源项。",
+      "formulation": "当 $1\\le k<n/2$ 时研究 $F_k[u]=(-u)^p$、$1<p\\le nk/(n-2k)$；次 Serrin 区间得到基本解型渐近与可去性判据，端点出现精确对数修正。临界维数 $k=n/2$ 时，在 $0\\le f(x,u,\\nabla u)\\le C|\\nabla u|^\\ell e^{-\\alpha u}$、$0\\le\\ell<n$ 下得到对数渐近与可去性。",
+      "known": "核心工具包括 Hessian 测度紧性、Wolff 势、全局 Bôcher 型定理及球面极值的 BV 控制。",
+      "gap": "不覆盖任意超临界指数或 $k>n/2$；端点系数和弱解定义必须随原文引用。本次未审完全部势估计。",
+      "method": "非线性势估计、Hessian 测度、Bôcher 分类、球面极值与 BV 紧性。",
+      "relevance": "连接 Hessian 方程、奇解、尺度临界与共形型对数渐近，适合作为正则性研究的模型问题。",
+      "next_step": "比较源项扰动下的稳定性、多个奇点的相互作用及与 $\\sigma_k$-Yamabe 奇点的对应。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；核到指数与维数范围，未把结论外推到超临界区间。"}]
+    },
+    {
+      "id": "linearized-ma-geometric-harnack",
+      "title": "线性化 Monge–Ampère 的外在几何 Harnack 路线",
+      "title_en": "An Extrinsic-Geometric Harnack Route for Linearized Monge–Ampère",
+      "kind": "result",
+      "status": "preprint",
+      "topics": ["hessian", "convex"],
+      "evidence": "theorem",
+      "source_date": "2026-10-16",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 2,
+      "source_ids": ["rakshitwu26linma"],
+      "summary": "Rakshit–Wu 把凸函数梯度图的 Hessian 度量用于 Harnack 不等式，提供一条绕开经典截面覆盖技术的几何路线。",
+      "formulation": "若 $u\\in C^2$ 严格凸、$\\lambda\\le\\det D^2u\\le\\Lambda$，在梯度图 $M$ 的 Hessian 度量上，非负 $w$ 满足带一致椭圆张量的散度型方程；Theorem 1.1 在外在球上给 Harnack 控制。线性化 Monge–Ampère 是取相应系数的特例。",
+      "known": "常数依赖维数、密度比、系数椭圆比以及 $M$ 的体积、直径、平均曲率和其梯度等几何量；证明使用 Moser 迭代和几何 Sobolev/Poincaré。",
+      "gap": "“绕开截面理论”不等于无额外结构：所需外在几何控制很强，如何仅由标准 Monge–Ampère 数据统一推出仍需核对。",
+      "method": "梯度图、Hessian 度量、外在球 Moser 迭代及几何 Sobolev 不等式。",
+      "relevance": "为线性化 Monge–Ampère 的 Harnack/正则性提供可与截面方法比较的新接口。",
+      "next_step": "逐项判断体积、直径和曲率范数能否由凸域归一化及密度界控制，并寻找不依赖全局几何量的局部版本。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；特别记录 Harnack 常数的几何依赖。"}]
+    },
+    {
+      "id": "singular-yamabe-finite-set",
+      "title": "正 Yamabe 常数流形上有限奇集的完整度量构造声明",
+      "title_en": "Claimed Complete Singular-Yamabe Construction for Finite Singular Sets",
+      "kind": "result",
+      "status": "watch",
+      "topics": ["conformal", "hessian"],
+      "evidence": "theorem",
+      "source_date": "2026-10-22",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 3,
+      "source_ids": ["chenma26singularyamabe"],
+      "summary": "Chen–Ma 声明：任意正 Yamabe 常数的闭连通流形及任意至少两点的有限集合，都存在在补集上完备、常正标量曲率的共形度量。",
+      "formulation": "对光滑闭连通 $(M^n,g)$、$n\\ge3$、Yamabe 常数为正，以及有限 $\\Lambda\\subset M$、$|\\Lambda|\\ge2$，作者主定理构造 $M\\setminus\\Lambda$ 上标量曲率 $n(n-1)$ 的完备共形度量。",
+      "known": "作者称其完成 Schoen 的相关存在猜想；路线包含 Green 函数归一化、奇端的低/高模态分析、增广逆、拼接及有限维约化。",
+      "gap": "“完全解决”目前是新预印本的作者声明；本次未独立审计拼接误差、线性核和有限维方程，也未确认同行接受。与其他同名 Schoen 猜想必须区分。",
+      "method": "奇 Yamabe 拼接、谱分解、加权逆算子与有限维约化。",
+      "relevance": "把非线性椭圆估计、共形临界缩放和孤立奇点联系起来，可与 k-Hessian 奇点结果交叉学习。",
+      "next_step": "核对低维既有工作与本稿新增高维步骤，重点审查增广逆的统一界和约化方程的可解性。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；因“完整解决猜想”仍待独立审查，状态记为待核验。"}]
+    },
+    {
+      "id": "halfspace-free-boundary-index-one",
+      "title": "半空间中 index-one 自由边界极小超曲面分类",
+      "title_en": "Index-One Free-Boundary Minimal Hypersurfaces in a Half-Space",
+      "kind": "result",
+      "status": "preprint",
+      "topics": ["minimal", "variational"],
+      "evidence": "theorem",
+      "source_date": "2026-10-20",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 2,
+      "source_ids": ["li26halfcatenoid"],
+      "summary": "Junzhang Li 在有限总曲率与 Neumann Morse index one 条件下，把半空间中的完备嵌入自由边界极小超曲面分类为高维 half-catenoid。",
+      "formulation": "环境维数 $N=n+1\\ge4$；超曲面完备、连通、双侧、嵌入，边界非空并与半空间边界正交，具有有限总曲率且 Neumann Morse index 为 1。主定理给出 half-catenoid 刚性，并有 quarter-space 对应结果。",
+      "known": "证明经反射/双倍化研究无穷远端，使用平移 Jacobi 场、相对调和形式和迹恒等式；论文同时说明一份独立同期工作的不同假设范围。",
+      "gap": "有限总曲率、双侧与指数一均不可省略；不能外推到一般稳定或高指数自由边界曲面。本次未审完所有端部分类和谱论步骤。",
+      "method": "反射双倍化、有限总曲率端、Jacobi 谱、调和 1-形式与迹恒等式。",
+      "relevance": "与稳定性、谱方法和自由边界几何相接，可为曲率估计中的核/指数分析提供模型。",
+      "next_step": "对照独立同期工作，列清 Euclidean 体积增长、维数限制与 capillary 条件之间的可替换关系。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；核到主定理假设与同期工作说明。"}]
+    },
+    {
+      "id": "planar-minkowski-regularization",
+      "title": "平面凸体的 Minkowski 正则化与等周轮廓演化",
+      "title_en": "Minkowski Regularization and Isoperimetric Profiles of Planar Convex Bodies",
+      "kind": "result",
+      "status": "preprint",
+      "topics": ["convex", "flows"],
+      "evidence": "theorem",
+      "source_date": "2026-10-21",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 2,
+      "source_ids": ["fattah26minkreg"],
+      "summary": "Fattah–Ftouhi–Saracco 研究保体积平行体正则化下平面凸体的完整等周轮廓，得到单调性、显式重参数化和向圆盘轮廓的收敛。",
+      "formulation": "对平面凸体沿外平行体并重标体积的 Minkowski 正则化，论文证明总等周轮廓的单调性及等号情形、显式参数演化、到圆盘轮廓的一致收敛和联合 $C^1$ 性，并写成非局部拟线性 Hamilton–Jacobi 方程。",
+      "known": "证明利用平面凸体中等周集合的结构和 Steiner 型几何公式。",
+      "gap": "核心结果是二维；高维等周区域结构更复杂，不能直接按同一公式推广。该演化也不是通常的局部曲率流。",
+      "method": "平行体、保体积重标、等周轮廓、显式重参数化与非局部 Hamilton–Jacobi。",
+      "relevance": "连接 Minkowski 加法、等周不等式与几何演化；适合作为从凸几何静态量构造单调性的例子。",
+      "next_step": "识别哪些公式只用 Steiner 多项式、哪些依赖二维等周集合分类，再判断高维可迁移部分。",
+      "company": "",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；明确记录结果仅在平面凸体范围内。"}]
+    },
+    {
+      "id": "kls-ai-proof-evidence",
+      "title": "KLS 猜想证明声明的多重证据链与 AI 协作边界",
+      "title_en": "KLS Proof Claims, Multiple Evidence Layers, and AI Collaboration",
+      "kind": "result",
+      "status": "watch",
+      "topics": ["convex", "ai"],
+      "evidence": "theorem",
+      "source_date": "2026-10-21",
+      "added_on": "2026-10-23",
+      "updated_on": "2026-10-23",
+      "checked_on": "2026-10-23",
+      "priority": 3,
+      "source_ids": ["songzhang26kls", "bizeul26kls", "balakasi26kls", "msr26kls", "kls500"],
+      "summary": "KLS 的维数无关谱隙出现三份相互关联但路线不同的证明稿；微软本周公开人主导的 agentic 探索过程，并有 Lean 形式化仓库作为额外证据层。",
+      "formulation": "KLS 要求各维各向同性 log-concave 概率测度的 Poincaré 常数由绝对常数统一控制。Song–Zhang 声明维数无关界；Bizeul–Klartag–Lehec 给较短证明并使用其关键判据；Balasubramanian–Kasiviswanathan 给显式 $C_P\\le25$ 的变分路线。KLS500 仓库声明 Lean 4 形式化得到一个维数无关的 500 界。",
+      "known": "微软 10 月 21 日官方说明称研究者让多个 agent 生成约百条候选路线，再由人类筛选、拼接和验证；相近 token 预算的无引导尝试失败。公开仓库有 5 次提交，但无 Actions 构建记录。",
+      "gap": "多份预印本、公司叙述和形式化代码增加证据层次，却不等于本次已独立验证。尚未本地构建 Lean、审计依赖/公理或逐行核对三份证明之间的逻辑依赖，也未等待期刊与更广泛同行评议。",
+      "method": "高阶多项式方差、曲率与 Poincaré 比较、迭代改进；另一路使用确定性变分论证；科研流程采用人主导的多 agent 候选生成与筛选。",
+      "relevance": "KLS 直接连接 log-concave 测度、谱隙与凸几何；AI 过程也为数学 agent 的角色分工、失败对照和形式化验证提供可复用案例。",
+      "next_step": "独立构建 KLS500 并记录公理/依赖；制作三份证明的依赖图，优先核查 Song–Zhang 判据到短证明和显式常数路线的接口。",
+      "company": "Microsoft Research",
+      "issues": ["20261016-20261023"],
+      "history": [{"date": "2026-10-23", "note": "本期建档；底层证明稿发表于 10 月 4–8 日，本周新增的是微软 10 月 21 日公开的协作过程。状态保留为待核验。"}]
     }
   ]
 }
+
