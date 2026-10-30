@@ -2,26 +2,26 @@
   "schema_version": 1,
   "title": "研究问题与进展",
   "last_scan": {
-    "checked_on": "2026-10-23",
-    "period_start": "2026-10-16",
-    "period_end": "2026-10-23",
-    "search_start": "2026-10-15",
-    "note": "本期精选扫描从 10-15 重叠开始；新增 8 条，修正 1 条旧判断。对优先论文核到主定理、维数/解类与方法接口，未逐篇审完证明；KLS Lean 仓库仅做公开结构核对，未本地构建。OpenAI、Anthropic 与 Google DeepMind 在扫描区间未发现与本台账直接相关、足以新增条目的重大官方发布。",
+    "checked_on": "2026-10-30",
+    "period_start": "2026-10-23",
+    "period_end": "2026-10-30",
+    "search_start": "2026-10-22",
+    "note": "本期精选扫描从 10-22 重叠开始；新增 8 条（数学 6 条、数学与 AI 交叉 1 条、AI 工作流 1 条），更新 OpenAI 数学仓库 1 条。优先论文核到主定理、维数/解类、关键方法接口与公开修订记录，未逐篇审完证明；OpenAI/Anthropic 的形式化材料未在本地完整构建。",
     "pending_rechecks": [
       {
         "source_id": "liu26",
         "since": "2026-10-08",
-        "reason": "本次仍未稳定取得并完整复核原稿正文；需继续核对版本和证明范围。"
+        "reason": "2026-10-30 复核 v1 书目与摘要仍在；原稿正文仍未稳定取得并完整复核，继续保留。"
       },
       {
         "source_id": "pu26",
         "since": "2026-10-08",
-        "reason": "已复核 v1 书目与摘要仍在；正文完整复查未完成，不能冒充深度审查。"
+        "reason": "2026-10-30 复核 v1 书目与摘要；正文完整复查仍未完成，不能冒充深度审查。"
       },
       {
         "source_id": "chan25",
         "since": "2026-10-08",
-        "reason": "arXiv/期刊元数据无可确认的新状态；AMS 全文未取得，不重复声称证明审查。"
+        "reason": "2026-10-30 复核 arXiv v2 与 JAMS DOI 元数据，无新版本或撤稿；期刊全文未逐行复核。"
       }
     ]
   },
@@ -447,6 +447,114 @@
       "version": "commit c1a50992",
       "type": "official",
       "read_depth": "2026-10-23：核对仓库 README、5 次提交与主张的 dimension-free Poincaré ≤500；未本地构建、未做依赖或公理审计，仓库未配置 Actions。"
+    },
+    "luowzhangzhou26hyperbolic": {
+      "title": "Curvature quotient flows and Alexandrov–Fenchel inequalities in hyperbolic space",
+      "authors": "Tianci Luo · Yong Wei · Ruijia Zhang · Rong Zhou",
+      "url": "https://arxiv.org/html/2610.35707v1",
+      "date": "2026-10-26",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Theorems 1.1、1.3、1.4，正截曲率保持、长时存在/指数收敛、非负截曲率逼近及第 6 节 paired concavity 的适用范围；未逐行审完 36 页证明。"
+    },
+    "lyu26sigma2regularity": {
+      "title": "C^{1,α} and W^{2,1+ε} regularity for the 2-Hessian equation",
+      "authors": "Yasheng Lyu",
+      "url": "https://arxiv.org/html/2610.35839v1",
+      "date": "2026-10-26",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Theorems 1.1–1.3、Corollaries 1.4–1.5、严格平均凸边界条件及辅助 Dirichlet 构造；未逐行审计全篇。"
+    },
+    "hujiao26khessianliouville": {
+      "title": "A Liouville Theorem for the Real k-Hessian Equation with a One-Sided Growth Condition",
+      "authors": "Jingchen Hu · Heming Jiao",
+      "url": "https://arxiv.org/html/2610.35565v1",
+      "date": "2026-10-26",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Theorems 1.1–1.4、单侧二次增长、黏性/Trudinger 弱解范围及 Pogorelov 型反例边界；未重做全部紧性和近似步骤。"
+    },
+    "cuijian26degma": {
+      "title": "Global regularity for a class of degenerate/singular Monge–Ampère equations",
+      "authors": "Fan Cui · Huaiyu Jian · You Li · Yannan Liu",
+      "url": "https://arxiv.org/html/2610.35192v2",
+      "date": "2026-10-27",
+      "version": "v2；v1 2026-10-26",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到方程 (1.1)–(1.3)、Theorems 1.1–1.5 的 α+β 分区、存在必要条件与方法概述；未逐行审完最优性构造。"
+    },
+    "colombofigalli26stefan": {
+      "title": "The generic structure of the singular set in the Stefan problem",
+      "authors": "Giacomo Colombo · Alessio Figalli",
+      "url": "https://arxiv.org/html/2610.35780v1",
+      "date": "2026-10-26",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Stefan/抛物障碍表述、Theorem 1.1、Corollary 1.2、Baire generic 拓扑与最大层离散结论；未逐行复核 Runge 逼近和横截扰动构造。"
+    },
+    "letroitmanole26brenier": {
+      "title": "Sharp Stability of Brenier Potentials and its Link to Poincaré Inequalities",
+      "authors": "Cyril Letrouit · Tudor Manole",
+      "url": "https://arxiv.org/html/2610.37659v1",
+      "date": "2026-10-27",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Definition (1.3)、Theorems 1.1–1.2、Corollaries 1.3/1.5 及 Monge–Ampère 线性化路线；未逐行复核全部 coercivity 估计。"
+    },
+    "delellisglaudo26plateau1": {
+      "title": "Boundary Plateau Laws I",
+      "authors": "Camillo De Lellis · Federico Glaudo",
+      "url": "https://arxiv.org/html/2610.37559v1",
+      "date": "2026-10-27",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Theorem 1.3、Remark 1.4、Problems 1.6–1.7 以及作者对传统计算辅助与 LLM 线索的区分；未审计全部计算辅助分类。"
+    },
+    "delellisglaudo26plateau2": {
+      "title": "Boundary Plateau Laws II",
+      "authors": "Camillo De Lellis · Federico Glaudo",
+      "url": "https://arxiv.org/html/2610.37560v1",
+      "date": "2026-10-27",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-10-30：核到 Theorem 1.2、medial-axis 核心思路、Propositions 1.4/1.6/1.7 的陈述及 AI 使用声明；未逐行独立复证。"
+    },
+    "openai26communities": {
+      "title": "Working with academic communities to build scientific understanding",
+      "authors": "OpenAI",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+      "date": "2026-10-26",
+      "version": "官方发布",
+      "type": "official",
+      "read_depth": "2026-10-30：通读数学、复杂度与物理三项声明及外部 working-group 安排；官方明确把文稿视作 raw research data。"
+    },
+    "openai-repo-20261030": {
+      "title": "openai/math — fixed repository snapshot and history",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/history.md",
+      "date": "2026-10-30",
+      "version": "访问快照；固定提交 4eaee87548250b2682affda7d05d947c05554bae",
+      "type": "official",
+      "read_depth": "2026-10-30：核对 README、CONTENTS 与 history；记录 10-26 新增两项、10-29 Comparator namespace 修复及当前 721 篇/373 families；未批量构建。"
+    },
+    "openai-local-smoothing-lean-20261030": {
+      "title": "Local smoothing for the Euclidean wave equation — Lean formalization scope",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/4eaee87548250b2682affda7d05d947c05554bae/lean/docs/079.md",
+      "date": "2026-10-30",
+      "version": "访问快照；固定提交 4eaee87548250b2682affda7d05d947c05554bae",
+      "type": "official",
+      "read_depth": "2026-10-30：读取形式化范围与 Comparator 链接，核对 local smoothing、Kakeya、restriction 等正式声明；未运行 Lean/Comparator。"
+    },
+    "anthropic26formalverification": {
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "authors": "Anthropic Frontier Red Team · Theorem",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "date": "2026-10-22",
+      "version": "官方研究发布",
+      "type": "official",
+      "read_depth": "2026-10-30：通读规格、RISC-V/Linux 假设、Rocq 检查、239 entry points/123 libraries、证明复用实验与限制；未独立构建公开子集。"
     }
   },
   "entries": [
@@ -887,27 +995,31 @@
       "evidence": "official",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
       "priority": 3,
       "source_ids": [
         "openai-release",
         "openai-repo",
         "openai-repo-20261016",
         "openai-history-20261008",
-        "simons26ai"
+        "simons26ai",
+        "openai26communities",
+        "openai-repo-20261030",
+        "openai-local-smoothing-lean-20261030"
       ],
-      "summary": "数学研究输出开始以文稿、代码、修订记录和部分 Lean 证明共同发布。",
+      "summary": "OpenAI 的数学仓库继续以文稿、修订记录和部分 Lean 形式化共同发布；本期新增 local smoothing/Kakeya 等重大声明，但官方仍将材料定位为待学界消化的原始研究数据。",
       "formulation": "跟踪 openai/math 的研究结论、形式化覆盖、纠错与版本变化。",
-      "known": "10-15 官方更新宣布向 Simons 合作投入 500 万美元。仓库 history.md 另记载 10-07 的 3 篇撤回、14 篇修订及依赖引用更新；这属于本次补核的旧修订，不是 10-09–16 的新撤稿。",
-      "gap": "资助、文稿数量及形式化目录均不能代替逐条正确性核查；本次未批量重放仓库。",
+      "known": "10-26 官方新增 local smoothing 与 ETH 两组文稿及 Lean 材料；前者声称在所有空间维数解决 Sogge local smoothing，并推出 Kakeya、restriction 等结果。固定仓库快照含 721 篇文稿、373 个 families，约 42% top-line results 有形式化；10-29 另修复一项 Hodge Comparator namespace。",
+      "gap": "官方明确把这些文稿视作 raw research data。此次核对了自然语言主张、形式化范围与固定提交，但未运行 Lean/Comparator，也没有把公司声明或形式化目录等同于独立数学接受。",
       "method": "文稿与形式化证明对照、固定版本、重放验证。",
       "relevance": "可为相关 PDE 与凸几何问题提供候选证明，也提高了逐项核查的重要性。",
-      "next_step": "优先跟踪与本台账条目重叠的结论；未将整个仓库标记为已验证。",
+      "next_step": "优先重放 family 079 的 Comparator 目标，核对局部光滑精确指数、Kakeya 推论和允许公理；继续追踪外部专家的解释与纠错。",
       "company": "OpenAI",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261023-20261030"
       ],
       "history": [
         {
@@ -917,6 +1029,10 @@
         {
           "date": "2026-10-16",
           "note": "加入 10-15 Simons 合作；补核 10-07 撤稿/修订及 10-08 提交，明确其不是本周新增撤稿；固定当前仓库快照。"
+        },
+        {
+          "date": "2026-10-30",
+          "note": "加入 10-26 local smoothing/Kakeya 与 ETH 发布、10-29 Comparator 修复及固定仓库快照；状态仍仅表示官方发布存在。"
         }
       ]
     },
@@ -1384,14 +1500,18 @@
       "title_en": "Boundary Smoothness of k-Hessian Eigenfunctions",
       "kind": "result",
       "status": "preprint",
-      "topics": ["hessian"],
+      "topics": [
+        "hessian"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-22",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 3,
-      "source_ids": ["qiu26khessianeigen"],
+      "source_ids": [
+        "qiu26khessianeigen"
+      ],
       "summary": "Qiu–Yan 对光滑一致凸域上的 k-Hessian 特征函数建立到边界的一致椭圆性并推出光滑性，且不预设解凸，只要求 k-容许。",
       "formulation": "设 $2\\le k<n$，$\\Omega$ 光滑、有界且一致凸；$u<0$、$u=0$ 于边界、$D^2u\\in\\Gamma_k$，满足 $\\sigma_k(D^2u)=\\lambda(-u)^k$，并已有 $u\\in C^{1,1}(\\bar\\Omega)$。归一化后，Theorem 1.1 给 Newton 张量的正下界并推出 $u\\in C^\\infty(\\bar\\Omega)$。",
       "known": "边界放大极限落到半空间；分类结果排除退化，再由 Hessian 收敛、一致椭圆与边界展开推进正则性。作者把它表述为解决既有边界正则性问题。",
@@ -1400,8 +1520,15 @@
       "relevance": "与 Hessian 方程、边界二阶估计和椭圆锥条件直接相连，是本期最贴近网页主人背景的结果。",
       "next_step": "核对半空间分类的最小假设，并比较一般右端、非一致凸域及 $k=n$ 的障碍。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；核到主定理与证明架构，未逐行审完全文。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；核到主定理与证明架构，未逐行审完全文。"
+        }
+      ]
     },
     {
       "id": "nonconvex-flow-exterior-noncollapse",
@@ -1409,14 +1536,19 @@
       "title_en": "Exterior Noncollapsing for Nonconvex Fully Nonlinear Curvature Flows",
       "kind": "result",
       "status": "preprint",
-      "topics": ["flows", "hessian"],
+      "topics": [
+        "flows",
+        "hessian"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 3,
-      "source_ids": ["shengzhu26noncollapse"],
+      "source_ids": [
+        "shengzhu26noncollapse"
+      ],
       "summary": "Sheng–Zhu 用有限平移逆凹条件把外部 non-collapsing 从凸曲率区域推进到允许负主曲率的锥，并给出显式非凸速度。",
       "formulation": "对光滑紧致嵌入的 $\\Gamma$-容许流 $\\partial_tX=-F(A)\\nu$，$F$ 正、一齐次且严格椭圆。若满足有限平移逆凹条件 $S_b$，且初始有 $\\lambda_{\\min}+aF\\ge0$（$0<a<b$），则初始外部球曲率界 $k\\ge-aF$ 在光滑存在区间保持。",
       "known": "论文给出 $F_\\varepsilon(A)=\\operatorname{tr}A-\\varepsilon|A^\\circ|^2/\\operatorname{tr}A$ 的显式参数范围；它在适当锥上严格椭圆、凹而非凸，并允许某些负主曲率。与已有内部估计合并可得光滑期内两侧切球控制。",
@@ -1425,8 +1557,15 @@
       "relevance": "与 non-collapsing、曲率估计和非凸曲率流高度贴近，并把 Hessian 型矩阵结构带入流的双点估计。",
       "next_step": "复算 $F_\\varepsilon$ 的 $S_b$ 范围，研究该条件在 blow-up 与手术模型中是否封闭。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；核到主定理、显式速度及结论边界。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；核到主定理、显式速度及结论边界。"
+        }
+      ]
     },
     {
       "id": "khessian-isolated-singularities",
@@ -1434,14 +1573,19 @@
       "title_en": "Classification and Removability of Isolated k-Hessian Singularities",
       "kind": "result",
       "status": "preprint",
-      "topics": ["hessian", "conformal"],
+      "topics": [
+        "hessian",
+        "conformal"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 3,
-      "source_ids": ["mazang26isolated"],
+      "source_ids": [
+        "mazang26isolated"
+      ],
       "summary": "Ma–Zang 分类一组非正 k-容许解的孤立奇点，覆盖 $k<n/2$ 的 Lane–Emden 型方程和临界维数 $k=n/2$ 的梯度依赖源项。",
       "formulation": "当 $1\\le k<n/2$ 时研究 $F_k[u]=(-u)^p$、$1<p\\le nk/(n-2k)$；次 Serrin 区间得到基本解型渐近与可去性判据，端点出现精确对数修正。临界维数 $k=n/2$ 时，在 $0\\le f(x,u,\\nabla u)\\le C|\\nabla u|^\\ell e^{-\\alpha u}$、$0\\le\\ell<n$ 下得到对数渐近与可去性。",
       "known": "核心工具包括 Hessian 测度紧性、Wolff 势、全局 Bôcher 型定理及球面极值的 BV 控制。",
@@ -1450,8 +1594,15 @@
       "relevance": "连接 Hessian 方程、奇解、尺度临界与共形型对数渐近，适合作为正则性研究的模型问题。",
       "next_step": "比较源项扰动下的稳定性、多个奇点的相互作用及与 $\\sigma_k$-Yamabe 奇点的对应。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；核到指数与维数范围，未把结论外推到超临界区间。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；核到指数与维数范围，未把结论外推到超临界区间。"
+        }
+      ]
     },
     {
       "id": "linearized-ma-geometric-harnack",
@@ -1459,14 +1610,19 @@
       "title_en": "An Extrinsic-Geometric Harnack Route for Linearized Monge–Ampère",
       "kind": "result",
       "status": "preprint",
-      "topics": ["hessian", "convex"],
+      "topics": [
+        "hessian",
+        "convex"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-16",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 2,
-      "source_ids": ["rakshitwu26linma"],
+      "source_ids": [
+        "rakshitwu26linma"
+      ],
       "summary": "Rakshit–Wu 把凸函数梯度图的 Hessian 度量用于 Harnack 不等式，提供一条绕开经典截面覆盖技术的几何路线。",
       "formulation": "若 $u\\in C^2$ 严格凸、$\\lambda\\le\\det D^2u\\le\\Lambda$，在梯度图 $M$ 的 Hessian 度量上，非负 $w$ 满足带一致椭圆张量的散度型方程；Theorem 1.1 在外在球上给 Harnack 控制。线性化 Monge–Ampère 是取相应系数的特例。",
       "known": "常数依赖维数、密度比、系数椭圆比以及 $M$ 的体积、直径、平均曲率和其梯度等几何量；证明使用 Moser 迭代和几何 Sobolev/Poincaré。",
@@ -1475,8 +1631,15 @@
       "relevance": "为线性化 Monge–Ampère 的 Harnack/正则性提供可与截面方法比较的新接口。",
       "next_step": "逐项判断体积、直径和曲率范数能否由凸域归一化及密度界控制，并寻找不依赖全局几何量的局部版本。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；特别记录 Harnack 常数的几何依赖。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；特别记录 Harnack 常数的几何依赖。"
+        }
+      ]
     },
     {
       "id": "singular-yamabe-finite-set",
@@ -1484,14 +1647,19 @@
       "title_en": "Claimed Complete Singular-Yamabe Construction for Finite Singular Sets",
       "kind": "result",
       "status": "watch",
-      "topics": ["conformal", "hessian"],
+      "topics": [
+        "conformal",
+        "hessian"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-22",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 3,
-      "source_ids": ["chenma26singularyamabe"],
+      "source_ids": [
+        "chenma26singularyamabe"
+      ],
       "summary": "Chen–Ma 声明：任意正 Yamabe 常数的闭连通流形及任意至少两点的有限集合，都存在在补集上完备、常正标量曲率的共形度量。",
       "formulation": "对光滑闭连通 $(M^n,g)$、$n\\ge3$、Yamabe 常数为正，以及有限 $\\Lambda\\subset M$、$|\\Lambda|\\ge2$，作者主定理构造 $M\\setminus\\Lambda$ 上标量曲率 $n(n-1)$ 的完备共形度量。",
       "known": "作者称其完成 Schoen 的相关存在猜想；路线包含 Green 函数归一化、奇端的低/高模态分析、增广逆、拼接及有限维约化。",
@@ -1500,8 +1668,15 @@
       "relevance": "把非线性椭圆估计、共形临界缩放和孤立奇点联系起来，可与 k-Hessian 奇点结果交叉学习。",
       "next_step": "核对低维既有工作与本稿新增高维步骤，重点审查增广逆的统一界和约化方程的可解性。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；因“完整解决猜想”仍待独立审查，状态记为待核验。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；因“完整解决猜想”仍待独立审查，状态记为待核验。"
+        }
+      ]
     },
     {
       "id": "halfspace-free-boundary-index-one",
@@ -1509,14 +1684,19 @@
       "title_en": "Index-One Free-Boundary Minimal Hypersurfaces in a Half-Space",
       "kind": "result",
       "status": "preprint",
-      "topics": ["minimal", "variational"],
+      "topics": [
+        "minimal",
+        "variational"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-20",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 2,
-      "source_ids": ["li26halfcatenoid"],
+      "source_ids": [
+        "li26halfcatenoid"
+      ],
       "summary": "Junzhang Li 在有限总曲率与 Neumann Morse index one 条件下，把半空间中的完备嵌入自由边界极小超曲面分类为高维 half-catenoid。",
       "formulation": "环境维数 $N=n+1\\ge4$；超曲面完备、连通、双侧、嵌入，边界非空并与半空间边界正交，具有有限总曲率且 Neumann Morse index 为 1。主定理给出 half-catenoid 刚性，并有 quarter-space 对应结果。",
       "known": "证明经反射/双倍化研究无穷远端，使用平移 Jacobi 场、相对调和形式和迹恒等式；论文同时说明一份独立同期工作的不同假设范围。",
@@ -1525,8 +1705,15 @@
       "relevance": "与稳定性、谱方法和自由边界几何相接，可为曲率估计中的核/指数分析提供模型。",
       "next_step": "对照独立同期工作，列清 Euclidean 体积增长、维数限制与 capillary 条件之间的可替换关系。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；核到主定理假设与同期工作说明。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；核到主定理假设与同期工作说明。"
+        }
+      ]
     },
     {
       "id": "planar-minkowski-regularization",
@@ -1534,14 +1721,19 @@
       "title_en": "Minkowski Regularization and Isoperimetric Profiles of Planar Convex Bodies",
       "kind": "result",
       "status": "preprint",
-      "topics": ["convex", "flows"],
+      "topics": [
+        "convex",
+        "flows"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 2,
-      "source_ids": ["fattah26minkreg"],
+      "source_ids": [
+        "fattah26minkreg"
+      ],
       "summary": "Fattah–Ftouhi–Saracco 研究保体积平行体正则化下平面凸体的完整等周轮廓，得到单调性、显式重参数化和向圆盘轮廓的收敛。",
       "formulation": "对平面凸体沿外平行体并重标体积的 Minkowski 正则化，论文证明总等周轮廓的单调性及等号情形、显式参数演化、到圆盘轮廓的一致收敛和联合 $C^1$ 性，并写成非局部拟线性 Hamilton–Jacobi 方程。",
       "known": "证明利用平面凸体中等周集合的结构和 Steiner 型几何公式。",
@@ -1550,8 +1742,15 @@
       "relevance": "连接 Minkowski 加法、等周不等式与几何演化；适合作为从凸几何静态量构造单调性的例子。",
       "next_step": "识别哪些公式只用 Steiner 多项式、哪些依赖二维等周集合分类，再判断高维可迁移部分。",
       "company": "",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；明确记录结果仅在平面凸体范围内。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；明确记录结果仅在平面凸体范围内。"
+        }
+      ]
     },
     {
       "id": "kls-ai-proof-evidence",
@@ -1559,14 +1758,23 @@
       "title_en": "KLS Proof Claims, Multiple Evidence Layers, and AI Collaboration",
       "kind": "result",
       "status": "watch",
-      "topics": ["convex", "ai"],
+      "topics": [
+        "convex",
+        "ai"
+      ],
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
       "checked_on": "2026-10-23",
       "priority": 3,
-      "source_ids": ["songzhang26kls", "bizeul26kls", "balakasi26kls", "msr26kls", "kls500"],
+      "source_ids": [
+        "songzhang26kls",
+        "bizeul26kls",
+        "balakasi26kls",
+        "msr26kls",
+        "kls500"
+      ],
       "summary": "KLS 的维数无关谱隙出现三份相互关联但路线不同的证明稿；微软本周公开人主导的 agentic 探索过程，并有 Lean 形式化仓库作为额外证据层。",
       "formulation": "KLS 要求各维各向同性 log-concave 概率测度的 Poincaré 常数由绝对常数统一控制。Song–Zhang 声明维数无关界；Bizeul–Klartag–Lehec 给较短证明并使用其关键判据；Balasubramanian–Kasiviswanathan 给显式 $C_P\\le25$ 的变分路线。KLS500 仓库声明 Lean 4 形式化得到一个维数无关的 500 界。",
       "known": "微软 10 月 21 日官方说明称研究者让多个 agent 生成约百条候选路线，再由人类筛选、拼接和验证；相近 token 预算的无引导尝试失败。公开仓库有 5 次提交，但无 Actions 构建记录。",
@@ -1575,9 +1783,309 @@
       "relevance": "KLS 直接连接 log-concave 测度、谱隙与凸几何；AI 过程也为数学 agent 的角色分工、失败对照和形式化验证提供可复用案例。",
       "next_step": "独立构建 KLS500 并记录公理/依赖；制作三份证明的依赖图，优先核查 Song–Zhang 判据到短证明和显式常数路线的接口。",
       "company": "Microsoft Research",
-      "issues": ["20261016-20261023"],
-      "history": [{"date": "2026-10-23", "note": "本期建档；底层证明稿发表于 10 月 4–8 日，本周新增的是微软 10 月 21 日公开的协作过程。状态保留为待核验。"}]
+      "issues": [
+        "20261016-20261023"
+      ],
+      "history": [
+        {
+          "date": "2026-10-23",
+          "note": "本期建档；底层证明稿发表于 10 月 4–8 日，本周新增的是微软 10 月 21 日公开的协作过程。状态保留为待核验。"
+        }
+      ]
+    },
+    {
+      "id": "hyperbolic-curvature-quotient-af",
+      "title": "双曲空间曲率商流与 Alexandrov–Fenchel 不等式",
+      "title_en": "Curvature Quotient Flows and Alexandrov–Fenchel Inequalities in Hyperbolic Space",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-26",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 3,
+      "source_ids": [
+        "luowzhangzhou26hyperbolic"
+      ],
+      "summary": "一族保 $W_\\ell$ 的双曲曲率商流在精确指标范围保持正截曲率，并给出新的尖锐 Alexandrov–Fenchel 比较。",
+      "formulation": "在 $\\mathbb H^{n+1}$、$n\\ge3$ 中，令 $F=(E_k/E_\\ell)^{1/(k-\\ell)}$。当 $1\\le\\ell<k\\le n-1$ 且 $k+\\ell\\le n$ 时，从光滑闭严格凸且正内禀截曲率的初值出发，保 $W_\\ell$ 的流长期光滑存在并指数收敛到测地球。对应不等式允许 $0\\le\\ell<k\\le n$、$k+\\ell\\le n$，边界只需非负截曲率。",
+      "known": "论文给出 $W_k$ 单调、等号仅测地球；结合已知高指标结果，在 $2\\le n\\le5$ 得到该几何类的完整比较族。对 $k+\\ell>n$ 构造仍光滑严格凸但短时失去正截曲率的初值。",
+      "gap": "反例证明的是这族流的正截曲率保持范围最优，不是宣称 Alexandrov–Fenchel 不等式在范围外必然失败。长时定理仍依赖凸性与正截曲率，不能外推到任意星形或一般弱解。",
+      "method": "最小截曲率支撑函数、对偶商的 paired concavity、John 椭球三维截面给内半径、Tso 估计、Koh 刚性与球附近正规稳定性。",
+      "relevance": "同时连接网页主人的曲率商流、曲率估计、双曲凸几何和 Minkowski/混合体积背景，是本期最直接的研究进展。",
+      "next_step": "独立复算 Proposition 6.1 的指标等价与首次接触项，并核对内半径塌缩论证中 $W_\\ell$ 连续性和维数降阶。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；核到主定理、反例范围与证明依赖链，未逐行审完证明。"
+        }
+      ]
+    },
+    {
+      "id": "khessian-one-sided-liouville",
+      "title": "实 k-Hessian 方程的单侧增长 Liouville 刚性",
+      "title_en": "One-Sided-Growth Liouville Rigidity for the Real k-Hessian Equation",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-26",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 3,
+      "source_ids": [
+        "hujiao26khessianliouville"
+      ],
+      "summary": "单侧正二次下增长已足以把常数右端 k-Hessian 整解刚化为二次多项式。",
+      "formulation": "对 $2\\le k\\le n$，若整空间光滑或相应黏性解满足 $\\sigma_k(D^2u)=1$ 且 $u(x)\\ge b|x|^2-B$（$b>0$），则 $u$ 是二次多项式且常 Hessian $A\\ge2bI$。Trudinger 意义的弱解版本另要求 $k$-容许。",
+      "known": "论文建立尺度不变的内部 $C^2$ 估计；对光滑解，增长条件本身迫使进入容许分支。其 Pogorelov 型模型说明去掉增长条件后 Hessian 可失控。",
+      "gap": "结论是常数右端与精确单侧二次增长，不包含一般 $f(x,u,Du)$、锥边界退化或更弱下增长；黏性近似和弱 Hessian 测度部分尚未独立复核。",
+      "method": "有界子水平集、容许分支选择、尺度不变 Hessian 估计，再把方程化为一致椭圆形式并作 Liouville 缩放。",
+      "relevance": "直接推进 Hessian 方程的整解分类，也为曲率流 blow-up 极限的刚性识别提供可迁移模板。",
+      "next_step": "复核从单侧增长到全局 Hessian 界的常数闭合，并测试变右端或渐近常数右端的稳定版本。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；核到光滑、黏性与弱解主定理及反例边界。"
+        }
+      ]
+    },
+    {
+      "id": "sigma2-low-regularity",
+      "title": "σ₂ 方程：由低阶 Hessian 可积性得到梯度 Hölder 正则",
+      "title_en": "Gradient Hölder Regularity from Low Hessian Integrability for the σ₂ Equation",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-26",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 3,
+      "source_ids": [
+        "lyu26sigma2regularity"
+      ],
+      "summary": "在完整 $2$-容许分支上，$W^{2,1+\\varepsilon}$ 控制可转为 $C^{1,\\alpha}$，并获得低正则密度下的全局积分估计。",
+      "formulation": "对有界光滑 $2$-容许解，任意 $W^{2,1+\\varepsilon}$ 界在仅有 $0<f\\le\\Lambda$ 时给内部 $C^{1,\\varepsilon/(n+\\varepsilon)}$。若 $0<\\lambda\\le f\\le\\Lambda$，在严格平均凸 $C^{2,\\beta}$ 域和 $C^{2,\\beta}$ 边值下，论文给某个全局 $W^{2,1+\\varepsilon}$ 界并推出全局 $C^{1,\\alpha}$。",
+      "known": "边界/边值的 $C^{2,\\beta}$ Hölder 级被已知例子说明为尖锐；域只要求严格平均凸，而非一致凸。",
+      "gap": "当前定理对光滑 $C^4$ 解给先验估计；不能直接当作任意黏性解的存在正则性定理，也没有推广到一般 $k$。条件性 $C^{1,\\alpha}$ 常数仍依赖给定的 $W^{2,1+\\varepsilon}$ 范数。",
+      "method": "辅助 Dirichlet 问题、Newton 线性化、全局 Hessian 可积性，以及从 Hessian 积分控制到梯度振荡衰减。",
+      "relevance": "与 σ₂ 内估计、Newton 张量和边界几何直接衔接，也补充了仅追求 $C^2$ 估计之外的低正则路线。",
+      "next_step": "核查加权比较中正密度上下界的精确用法，并研究同一积分到 Hölder 机制对 $k>2$ 的障碍。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；核到主定理、常数依赖与边界尖锐性说明。"
+        }
+      ]
+    },
+    {
+      "id": "degenerate-ma-boundary-index",
+      "title": "退化/奇异 Monge–Ampère 边界正则性的指数分区",
+      "title_en": "Index Classification for Boundary Regularity of Degenerate/Singular Monge–Ampère Equations",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-27",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 2,
+      "source_ids": [
+        "cuijian26degma"
+      ],
+      "summary": "对一类边界退化或奇异的 Monge–Ampère Dirichlet 问题，正则性由组合指数 $\\alpha+\\beta$ 分成五个区间。",
+      "formulation": "在一致凸 $C^2$ 域中研究凸解 $u=0$ 于边界及 $\\det D^2u=g(x)d(x)^{-\\alpha}|u|^{-\\beta}(1+|Du|^2)^{\\gamma/2}$。v2 按 $\\alpha+\\beta<0$、$=0$、$(0,1)$、$=1$、$>1$ 分别给 $C^{2,q}$、$C^{1,\\eta}/W^{2,p}$、任意次 Hölder 或精确边界幂律等结论，并列出相应存在必要条件。",
+      "known": "关键中间量 $|u|/d$ 及其负幂具有全局 Hölder 控制，使问题可接到 Le–Savin 的退化/奇异 Monge–Ampère 边界理论。",
+      "gap": "这是指定幂型右端和凸经典解框架；参数条件、$g$ 的 Hölder 阶与边界光滑度随区间变化，不能压缩成无条件的“完全分类”。最优性构造未逐行核验。",
+      "method": "上下解、边界距离比较、反证与既有 localization/Schauder 理论的接口。",
+      "relevance": "把 Hessian 边界正则性、规定 Gauss 曲率、$L_p$ Minkowski 与仿射球模型放入同一可计算指标框架。",
+      "next_step": "逐区间核对 $n+\\beta-\\gamma$ 与 $n+1-\\alpha-\\gamma$ 的必要性，并比较 $\\alpha+\\beta=1$ 的对数端点。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；使用 v2，核到五区间主定理和存在必要条件。"
+        }
+      ]
+    },
+    {
+      "id": "stefan-generic-singular-set",
+      "title": "Stefan 问题泛型奇集的余维提升",
+      "title_en": "Generic Codimension Improvement for the Singular Set in the Stefan Problem",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "variational"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-26",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 3,
+      "source_ids": [
+        "colombofigalli26stefan"
+      ],
+      "summary": "对 Baire 泛型 Stefan 解，最大奇异层在时空中离散，整体奇集的抛物维数从一般上界 $n-1$ 降到 $n-2$。",
+      "formulation": "在有界光滑域的 Stefan/抛物障碍解空间中，取 $C^0(\\bar\\Omega\\times[0,T])$ 诱导拓扑；存在 residual 集，使每个解的最大层 $\\Sigma_{n-1}$ 在时空中离散。因低层已知可数抛物可测，得到 $\\Sigma$ 可数 $(n-2)$-rectifiable 且 $\\dim_{par}\\Sigma\\le n-2$，适用于所有 $n\\ge2$。",
+      "known": "一般解已有 $\\dim_{par}\\Sigma\\le n-1$；新结果利用最大层 rank-one 二次 blow-up 的高阶展开与横截扰动清除退化相交。",
+      "gap": "“泛型”是指定解空间中的 Baire 类别，不是随机概率或每个初值；结论不排除非泛型解具有最大维奇集。Runge 逼近和横截扰动仍需精读。",
+      "method": "Baiocchi–Duvaut 变换、分层 blow-up、高阶展开、线性化 Runge 逼近、横截性与逐层 cleaning。",
+      "relevance": "与自由边界改善平坦性、奇集分层和几何流奇性分析共享 blow-up—谱/线性化—泛型扰动结构。",
+      "next_step": "重建最大层局部双图模型，并核对 residual 集构造在 $C^0$ 拓扑中的稳定性。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；核到主定理、拓扑、维数与 proof strategy，未审完横截扰动。"
+        }
+      ]
+    },
+    {
+      "id": "brenier-stability-poincare",
+      "title": "Brenier 势的尖锐稳定性与更强 Poincaré 不等式",
+      "title_en": "Sharp Stability of Brenier Potentials and a Stronger Poincaré Inequality",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-27",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 2,
+      "source_ids": [
+        "letroitmanole26brenier"
+      ],
+      "summary": "对一致 log-concave 源测度，Brenier 势差的方差由目标测度的 Wasserstein 距离以尖锐常数控制。",
+      "formulation": "若 $\\rho$ 为 $\\kappa$-一致 log-concave，则任意凸势 $\\phi_0,\\phi_1$ 满足 $\\operatorname{Var}_\\rho(\\phi_1-\\phi_0)\\le\\kappa^{-1}W_2^2((\\nabla\\phi_0)_\\#\\rho,(\\nabla\\phi_1)_\\#\\rho)$。论文证明该 Brenier 稳定不等式强于普通 Poincaré，并给 log-concave 但 $C_W=\\infty$ 的例子。",
+      "known": "标准高斯处常数等于 1；有界凸支撑情形还推出最优输运映射的 $1/3$ Hölder 稳定。证明把 Monge–Ampère 线性化转为带权 coercivity。",
+      "gap": "一致 log-concavity 是主尖锐定理的实质输入；KLS 的普通谱隙并不自动给这种更强不等式。无一致凸势时可失败。",
+      "method": "Brenier 推送、Monge–Ampère 线性化、辅助算子 coercivity 与 Poincaré/耦合比较。",
+      "relevance": "直接把 Monge–Ampère、最优输运稳定性和凸测度谱隙连接起来，也为 KLS 之后更强的稳定问题提供精确定义。",
+      "next_step": "核对线性化算子的函数域与边界消失项，并比较常数 $C_W$ 与 Hilbert–Brunn–Minkowski 型谱量。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；核到主不等式、失败例与 Monge–Ampère 线性化接口。"
+        }
+      ]
+    },
+    {
+      "id": "boundary-plateau-llm-classification",
+      "title": "边界 Plateau 锥分类与 LLM 发现线索",
+      "title_en": "Boundary Plateau Cone Classification and an LLM-Discovered Competitor",
+      "kind": "result",
+      "status": "watch",
+      "topics": [
+        "variational",
+        "minimal",
+        "ai"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-27",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 3,
+      "source_ids": [
+        "delellisglaudo26plateau1",
+        "delellisglaudo26plateau2"
+      ],
+      "summary": "同日两稿给出含边界直线的二维 Almgren 极小锥分类，并公开说明 LLM 找到排除 cube/thin-fish 的关键 competitor 思路。",
+      "formulation": "对 $\\mathbb R^3$ 中含直线 $\\ell$、相对 $\\ell$ Almgren 极小的二维闭锥，第二稿声明仅有半平面、夹角至少 $2\\pi/3$ 的两半平面、三等角半平面和带指定直线的四面体骨架锥，且反向均极小。",
+      "known": "第一稿记录三年人工/传统计算辅助路线，并说明发布前 LLM 提出 medial-axis competitor；第二稿由作者指导 LLM 写成，以凸球面多边形面替换为 medial axis、对数截断和 stationary-net 归纳给出更短分类。",
+      "gap": "这是作者关于 AI 贡献的明确披露，不是本次独立归因审计；两稿仍为预印本。抽象 Almgren 极小分类与真实肥皂膜实验的可见形态并不相同，第一稿还提出面积缺陷和 Hausdorff 距离的定量开放问题。",
+      "method": "球面 geodesic net、medial-axis 面替换、半空间 relaxed competitor、对数截断、组合归纳。",
+      "relevance": "同时连接 GMT/自由边界、极小锥分类和 AI 参与重大数学发展的证据标准；其“反例优先”机制也可迁移到几何分析审查。",
+      "next_step": "独立复核 Propositions 1.4、1.6、1.7 的拼接与面积差，并把抽象分类与第一稿 Problems 1.6–1.7 的定量稳定性分开。",
+      "company": "",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "本期建档；主分类与 AI 使用声明均来自作者原稿，状态保留待核验。"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-rocq-formal-verification",
+      "title": "Claude 与 Rocq 的二进制级形式化验证流水线",
+      "title_en": "Binary-Level Formal Verification with Claude and Rocq",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-10-22",
+      "added_on": "2026-10-30",
+      "updated_on": "2026-10-30",
+      "checked_on": "2026-10-30",
+      "priority": 2,
+      "source_ids": [
+        "anthropic26formalverification"
+      ],
+      "summary": "Anthropic 与 Theorem 公布把 fuzz tests 转成二进制级规格、由 Claude 生成超大 Rocq 证明并用内核检查的规模化流程。",
+      "formulation": "官方报告覆盖 123 个开源库的 239 个 OSS-Fuzz entry points：在单线程、静态 RISC-V/Linux 模型、固定内存及输入小于 64 MB 等假设下，证明不会触发指定崩溃；总证明约 1.8 亿行，并公开一部分证明与语义。",
+      "known": "36 个小型任务的共享工作区实验中，agent 复用彼此证明使 token 使用下降 17%；流程把证明搜索、补丁、规格再生成与内核检查连接起来。",
+      "gap": "这不是“软件无 bug”或数学定理自动正确：可信基包括 Rocq、编译链、RISC-V/Linux 语义和精确定理陈述，且只覆盖指定 entry points/平台/输入界。未独立构建公开证明子集。",
+      "method": "fuzz test 规格化、汇编语义、agent 生成与证明复用、Rocq kernel 检查、可信计算基审计。",
+      "relevance": "虽对象是软件，但其规格—生成—内核验证—复用架构直接影响大规模 Lean/Rocq 数学形式化的工作流设计。",
+      "next_step": "选择公开子集重放构建，列出 trusted base 与未建模行为；再与 Lean Comparator 的数学声明对齐流程比较。",
+      "company": "Anthropic",
+      "issues": [
+        "20261023-20261030"
+      ],
+      "history": [
+        {
+          "date": "2026-10-30",
+          "note": "重叠区间补录 10-22 官方发布；仅标记官方发布存在，不把覆盖范围扩大成全软件正确性。"
+        }
+      ]
     }
   ]
 }
-
