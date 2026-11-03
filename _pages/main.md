@@ -23,8 +23,8 @@ My research interests are differential geometry and partial differential equatio
 
 ## Recent News
 
-- **November 2026:** New preprint with Tianci Luo, Yong Wei and Rong Zhou: [Entropy and round-point convergence for the $\sigma_k$-curvature flow](https://arxiv.org/abs/2611.03249).
-- **October 2026:** New preprint with Tianci Luo, Yong Wei and Rong Zhou: [Curvature quotient flows and Alexandrov–Fenchel inequalities in hyperbolic space](https://arxiv.org/abs/2610.35707).
+- **November 2026:** New preprint with Tianci Luo, [Yong Wei](https://sites.google.com/site/yongweimath) and Rong Zhou: [Entropy and round-point convergence for the $\sigma_k$-curvature flow](https://arxiv.org/abs/2611.03249).
+- **October 2026:** New preprint with Tianci Luo, [Yong Wei](https://sites.google.com/site/yongweimath) and Rong Zhou: [Curvature quotient flows and Alexandrov–Fenchel inequalities in hyperbolic space](https://arxiv.org/abs/2610.35707).
 - **August 2026:** New preprint with Weisong Dong: [Interior Hessian estimates for Hessian quotient equations](https://arxiv.org/abs/2608.19087).
 - **August 2026:** Our paper with Han Hong, [Curvature estimates for semi-convex solutions of asymptotic Plateau problem in $\mathbb{H}^{n+1}$](https://www.sciencedirect.com/science/article/abs/pii/S0022123626003095), has appeared online in *Journal of Functional Analysis*.
 - **March 2026:** New preprint with Weisong Dong: [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045).
@@ -40,8 +40,8 @@ My research interests are differential geometry and partial differential equatio
 
 ## Preprints
 
-- [Entropy and round-point convergence for the $\sigma_k$-curvature flow](https://arxiv.org/abs/2611.03249), with Tianci Luo, Yong Wei and Rong Zhou. arXiv:2611.03249.
-- [Curvature quotient flows and Alexandrov–Fenchel inequalities in hyperbolic space](https://arxiv.org/abs/2610.35707), with Tianci Luo, Yong Wei and Rong Zhou. arXiv:2610.35707.
+- [Entropy and round-point convergence for the $\sigma_k$-curvature flow](https://arxiv.org/abs/2611.03249), with Tianci Luo, [Yong Wei](https://sites.google.com/site/yongweimath) and Rong Zhou. arXiv:2611.03249.
+- [Curvature quotient flows and Alexandrov–Fenchel inequalities in hyperbolic space](https://arxiv.org/abs/2610.35707), with Tianci Luo, [Yong Wei](https://sites.google.com/site/yongweimath) and Rong Zhou. arXiv:2610.35707.
 - [Interior Hessian estimates for Hessian quotient equations](https://arxiv.org/abs/2608.19087), with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm). arXiv:2608.19087.
 - [Second order estimates for equations with sums of Hessian operators on Hermitian manifolds](https://arxiv.org/abs/2603.19045), with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm). arXiv:2603.19045.
 - [Pogorelov interior estimates for general sum-type Hessian equations](https://arxiv.org/abs/2603.15345), with [Weisong Dong](https://math.tju.edu.cn/info/1715/5888.htm) and Sirui Xu. arXiv:2603.15345.
