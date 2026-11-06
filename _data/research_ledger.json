@@ -2,26 +2,26 @@
   "schema_version": 1,
   "title": "研究问题与进展",
   "last_scan": {
-    "checked_on": "2026-10-30",
-    "period_start": "2026-10-23",
-    "period_end": "2026-10-30",
-    "search_start": "2026-10-22",
-    "note": "本期精选扫描从 10-22 重叠开始；新增 8 条（数学 6 条、数学与 AI 交叉 1 条、AI 工作流 1 条），更新 OpenAI 数学仓库 1 条。优先论文核到主定理、维数/解类、关键方法接口与公开修订记录，未逐篇审完证明；OpenAI/Anthropic 的形式化材料未在本地完整构建。",
+    "checked_on": "2026-11-06",
+    "period_start": "2026-10-30",
+    "period_end": "2026-11-06",
+    "search_start": "2026-10-29",
+    "note": "本期精选扫描从 10-29 重叠开始；新增 11 条（数学 8 条、AI/科研工作流 3 条），复核 7 条既有记录，实质状态变化 0。重点论文核到主定理、维数/解类/边界条件和关键方法接口；未逐篇独立复证。OpenAI/Anthropic/Microsoft 官方材料按公司声明记录，未把产品或安全统计当数学证明。",
     "pending_rechecks": [
       {
         "source_id": "liu26",
         "since": "2026-10-08",
-        "reason": "2026-10-30 复核 v1 书目与摘要仍在；原稿正文仍未稳定取得并完整复核，继续保留。"
+        "reason": "2026-11-06 再次尝试复核 arXiv 元数据与正文时页面未稳定取得；保留 v1 及原阅读深度，不冒充完成复查。"
       },
       {
         "source_id": "pu26",
         "since": "2026-10-08",
-        "reason": "2026-10-30 复核 v1 书目与摘要；正文完整复查仍未完成，不能冒充深度审查。"
+        "reason": "2026-11-06 再次尝试复核 arXiv 元数据与正文时页面未稳定取得；保留 v1 及原阅读深度。"
       },
       {
         "source_id": "chan25",
         "since": "2026-10-08",
-        "reason": "2026-10-30 复核 arXiv v2 与 JAMS DOI 元数据，无新版本或撤稿；期刊全文未逐行复核。"
+        "reason": "2026-11-06 复核 arXiv 仍为 2026-09-25 的 v2，并带 JAMS DOI；期刊全文仍未逐行复核。"
       }
     ]
   },
@@ -555,6 +555,114 @@
       "version": "官方研究发布",
       "type": "official",
       "read_depth": "2026-10-30：通读规格、RISC-V/Linux 假设、Rocq 检查、239 entry points/123 libraries、证明复用实验与限制；未独立构建公开子集。"
+    },
+    "luoweizhangzhou26sigmakflow": {
+      "title": "Entropy and round-point convergence for the σ_k-curvature flow",
+      "authors": "Tianci Luo · Yong Wei · Ruijia Zhang · Rong Zhou",
+      "url": "https://arxiv.org/abs/2611.03249v1",
+      "date": "2026-11-02",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到 Theorem 1.1、归一化、两侧自然尺度曲率界、熵稳定性与证明依赖链；未逐行独立复证 26 页全文。"
+    },
+    "liumazang26khessianpotential": {
+      "title": "Gradient potential estimates for k-Hessian equations",
+      "authors": "Huajie Liu · Shiguang Ma · Shengyang Zang",
+      "url": "https://arxiv.org/abs/2611.08184v1",
+      "date": "2026-11-05",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到 Definition 1.1、Theorem 1.2、Corollary 1.4、临界 Lorentz 指标与反例范围；未逐行复核势估计迭代。"
+    },
+    "mawangzhu26sumhessian": {
+      "title": "Curvature Estimates and Prescribed Curvature Problems for Sum Hessian Equations on Star-Shaped Hypersurfaces",
+      "authors": "Dongjing Ma · Peihe Wang · Hua Zhu",
+      "url": "https://arxiv.org/abs/2611.05032v1",
+      "date": "2026-11-03",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到 Theorem 1.1、自然容许锥、增广变量恒等式、常数依赖与 k=n 端点限制；未逐行复核连续性方法。"
+    },
+    "weng26hyperbolicneumann": {
+      "title": "Neumann problem for Hessian equation and geometric inequalities in hyperbolic space",
+      "authors": "Liangjun Weng",
+      "url": "https://arxiv.org/abs/2611.03206v1",
+      "date": "2026-11-02",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到 Theorems 1.1–1.4、static convexity、边界兼容常数、唯一性核与加权几何不等式；未逐行复核 45 页全部边界估计。"
+    },
+    "huhuyang26capillarylp": {
+      "title": "Capillary L_p dual Minkowski flow",
+      "authors": "Jinrong Hu · Yingxiang Hu · Bo Yang",
+      "url": "https://arxiv.org/abs/2611.02732v1",
+      "date": "2026-11-02",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到主定理的 n、接触角、偶性、pq≥0、子列收敛与缩放结论；未审计全部长期估计。"
+    },
+    "gao26capillaryorlicz": {
+      "title": "The dual Orlicz-Minkowski problem for capillary hypersurfaces",
+      "authors": "Ya Gao",
+      "url": "https://arxiv.org/abs/2611.02674v1",
+      "date": "2026-11-02",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到两条存在路线、非径向/非齐次权、无偶性球冠 barrier、唯一性与指数收敛的额外单调条件；未逐行复核流的全部先验估计。"
+    },
+    "anastasicagnettimorini26minkowskiflow": {
+      "title": "Anisotropic Minkowski flows: well-posedness and asymptotic behaviour",
+      "authors": "Giulia Anastasi · Filippo Cagnetti · Massimiliano Morini",
+      "url": "https://arxiv.org/abs/2611.05245v1",
+      "date": "2026-11-03",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到非局部 oscillation perimeter、弱 super/subflow、比较唯一性与 r→0 极限声明；未逐行复核 measure-valued Cahn–Hoffman 紧致性。"
+    },
+    "yao26hcma": {
+      "title": "On the Local Regularity of Homogeneous Complex Monge-Ampère Equations",
+      "authors": "Qi Yao",
+      "url": "https://arxiv.org/abs/2611.00736v1",
+      "date": "2026-10-31",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到 Theorem A、Perron envelope、局部小数据、barrier threshold λR₀²≥16M 与 ALE/ALF/ACH 应用范围；未复核 Nash–Moser 全部技术细节。"
+    },
+    "bi26densitytwo": {
+      "title": "Minimal surfaces with density two at infinity",
+      "authors": "Yuchen Bi",
+      "url": "https://arxiv.org/abs/2611.08212v1",
+      "date": "2026-11-05",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-06：核到 Theorem 1.1、Meeks–Wolf 猜想对应关系、嵌入/密度条件与 AI disclosure；未独立审计 89 页分类证明。"
+    },
+    "anthropic26scienceusage": {
+      "title": "AI for scientific discovery: How researchers use Claude",
+      "authors": "Johannes Hermle et al. · Anthropic",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "date": "2026-11-05",
+      "version": "官方研究报告",
+      "type": "official",
+      "read_depth": "2026-11-06：核对 207,049 会话样本、2026-08-02 至 09-30 时间窗、分类器与聚合隐私方法、任务分布及情景模型；预测不是因果实验结论。"
+    },
+    "msr26pddkit": {
+      "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
+      "authors": "Alex Lavaee · Matthai Philipose · Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit/",
+      "date": "2026-11-05",
+      "version": "官方研究原型说明",
+      "type": "official",
+      "read_depth": "2026-11-06：核对 intent artifact、Verus 证明、经验测试与 TCB 划分；示例仅覆盖 Rust/Verus 全栈应用中的登录逻辑，不外推为通用定理验证能力。"
+    },
+    "openai26kernelpipeline": {
+      "title": "A thousand fewer paths to root",
+      "authors": "OpenAI",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/",
+      "date": "2026-11-04",
+      "version": "官方研究与安全发布",
+      "type": "official",
+      "read_depth": "2026-11-06：核对五阶段 agent 流水线、2,308 候选、1,724 动态复现、948 LPE exploits、API 成本与人工审查边界；未独立复现漏洞或验证补丁。"
     }
   },
   "entries": [
@@ -612,8 +720,8 @@
       "evidence": "extension",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 2,
       "source_ids": [
         "liu26",
@@ -629,7 +737,8 @@
       "company": "",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261030-20261106"
       ],
       "history": [
         {
@@ -639,6 +748,10 @@
         {
           "date": "2026-10-16",
           "note": "逐项比较 Li–Wu Theorem 1.1：右端恒为 1，不能据此关闭原来含梯度右端的结构条件问题；仍为编辑延伸。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复核新 Wolff 势梯度估计与 sum-Hessian 曲率估计；它们未移除原问题的倒数凹性/商结构缺口，状态不变。"
         }
       ]
     },
@@ -699,8 +812,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 3,
       "source_ids": [
         "choi26"
@@ -715,7 +828,8 @@
       "company": "",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261030-20261106"
       ],
       "history": [
         {
@@ -725,6 +839,10 @@
         {
           "date": "2026-10-16",
           "note": "复查原稿 Remark 6.5(3) 与相关新流论文；本次检索未找到可确认关闭该精确定量稳定性问题的结果。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复核 σ_k 圆点收敛与熵稳定性；对象与消失时间几乎极值的 mean-curvature-flow 开放问题不同，状态仍 open。"
         }
       ]
     },
@@ -741,8 +859,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 2,
       "source_ids": [
         "choi26"
@@ -757,7 +875,8 @@
       "company": "",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261030-20261106"
       ],
       "history": [
         {
@@ -767,6 +886,10 @@
         {
           "date": "2026-10-16",
           "note": "复查 Remark 6.4 与 6.5(2)：文中已有二维情形的预期路线，一般维数/余维推广未获本次可核验的新解。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复核双曲 Hessian–Neumann/几何不等式新稿；没有给出一般非正曲率环境中的尖锐 MCF 消失时间估计，状态仍 open。"
         }
       ]
     },
@@ -824,8 +947,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 3,
       "source_ids": [
         "lu26",
@@ -845,7 +968,8 @@
       "company": "OpenAI",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261030-20261106"
       ],
       "history": [
         {
@@ -855,6 +979,10 @@
         {
           "date": "2026-10-16",
           "note": "证据升级：读取固定提交的解析主声明、Lean 最终声明/基本定义与 Comparator 配置；尚未独立构建，保留待核验。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复核 OpenAI math history 与公开提交：截至 2026-11-06 未见 10-30 后新提交或足以改变一般 log-BM 状态的材料，继续 watch。"
         }
       ]
     },
@@ -995,8 +1123,8 @@
       "evidence": "official",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-30",
-      "checked_on": "2026-10-30",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 3,
       "source_ids": [
         "openai-release",
@@ -1019,7 +1147,8 @@
       "issues": [
         "20261002-20261009",
         "20261009-20261016",
-        "20261023-20261030"
+        "20261023-20261030",
+        "20261030-20261106"
       ],
       "history": [
         {
@@ -1033,6 +1162,10 @@
         {
           "date": "2026-10-30",
           "note": "加入 10-26 local smoothing/Kakeya 与 ETH 发布、10-29 Comparator 修复及固定仓库快照；状态仍仅表示官方发布存在。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复核 openai/math 的公开 history 与 commits；截至本次扫描最近提交仍为 2026-10-30，本周无新增稿件或状态变更。"
         }
       ]
     },
@@ -1765,8 +1898,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
-      "updated_on": "2026-10-23",
-      "checked_on": "2026-10-23",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 3,
       "source_ids": [
         "songzhang26kls",
@@ -1784,12 +1917,17 @@
       "next_step": "独立构建 KLS500 并记录公理/依赖；制作三份证明的依赖图，优先核查 Song–Zhang 判据到短证明和显式常数路线的接口。",
       "company": "Microsoft Research",
       "issues": [
-        "20261016-20261023"
+        "20261016-20261023",
+        "20261030-20261106"
       ],
       "history": [
         {
           "date": "2026-10-23",
           "note": "本期建档；底层证明稿发表于 10 月 4–8 日，本周新增的是微软 10 月 21 日公开的协作过程。状态保留为待核验。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复核三篇 KLS 预印本元数据与官方说明；本周未见新 arXiv 版本或新的独立核验材料，证据分层与状态不变。"
         }
       ]
     },
@@ -2026,8 +2164,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-27",
       "added_on": "2026-10-30",
-      "updated_on": "2026-10-30",
-      "checked_on": "2026-10-30",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
       "priority": 3,
       "source_ids": [
         "delellisglaudo26plateau1",
@@ -2042,12 +2180,17 @@
       "next_step": "独立复核 Propositions 1.4、1.6、1.7 的拼接与面积差，并把抽象分类与第一稿 Problems 1.6–1.7 的定量稳定性分开。",
       "company": "",
       "issues": [
-        "20261023-20261030"
+        "20261023-20261030",
+        "20261030-20261106"
       ],
       "history": [
         {
           "date": "2026-10-30",
           "note": "本期建档；主分类与 AI 使用声明均来自作者原稿，状态保留待核验。"
+        },
+        {
+          "date": "2026-11-06",
+          "note": "复查 arXiv 版本与公开索引；未见新版本、撤回或独立复核，继续按 watch 记录。"
         }
       ]
     },
@@ -2084,6 +2227,410 @@
         {
           "date": "2026-10-30",
           "note": "重叠区间补录 10-22 官方发布；仅标记官方发布存在，不把覆盖范围扩大成全软件正确性。"
+        }
+      ]
+    },
+    {
+      "id": "sigmak-flow-roundpoint-entropy",
+      "title": "σₖ 曲率流：无 pinching 的圆点收敛与熵控制",
+      "title_en": "Round-Point Convergence of the σ_k-Curvature Flow Without Pinching",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-02",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 3,
+      "source_ids": [
+        "luoweizhangzhou26sigmakflow"
+      ],
+      "summary": "中间阶 σₖ 收缩流从任意光滑闭严格凸初值出发收缩到圆点，归一化后光滑指数收敛。",
+      "formulation": "在 R^(n+1)、n≥3、2≤k≤n−1 中，以 E_k（归一化 σₖ）为速度的收缩流从光滑、闭、连通、嵌入且严格凸的超曲面出发，有限时刻消失于一点；以消失点为中心并把平均宽度归一到 2 后，在所有 C^j 范数中指数收敛到单位球。",
+      "known": "论文同时给出 κ_i 与 (T−t)^(−1/(k+1)) 同阶的两侧曲率界、Type-I 上界、自相似收缩子刚性和熵亏损控制 Hausdorff 距离的定量稳定性。",
+      "gap": "目前是 v1 预印本，尚未按期刊审稿标准独立复证。定理要求严格凸性；它不覆盖非凸、弱解，也不把一般环境空间中的同类流自动归约到欧氏情形。",
+      "method": "构造平移与缩放不变的投影面积熵；强化 Codazzi 不等式给单调性，熵上界控制内半径/平均宽度，耗散控制归一化速度的空间振荡，再补上自然尺度曲率界与球附近谱稳定。",
+      "relevance": "这是网页主人署名的新作，直接贯通 σₖ、曲率估计、凸体支撑函数、熵与稳定性，也是本期与其既有研究最接近的进展。",
+      "next_step": "优先独立复算强化 Codazzi 不等式的等号情形、熵耗散到速度振荡的闭合，以及得到两侧曲率界时是否存在隐含 pinching 输入。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档；核到主定理、归一化、曲率尺度和核心熵链条，未逐行独立复证。"
+        }
+      ]
+    },
+    {
+      "id": "khessian-gradient-wolff",
+      "title": "弱 k-Hessian 方程的 Wolff 势梯度估计与尖锐端点",
+      "title_en": "Wolff-Potential Gradient Estimates and Sharp Endpoints for Weak k-Hessian Equations",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-05",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 3,
+      "source_ids": [
+        "liumazang26khessianpotential"
+      ],
+      "summary": "对含奇异部分的全 Hessian 测度建立点态梯度势估计，并识别 Lipschitz 正则性的临界 Lorentz 指标。",
+      "formulation": "对 2≤k<n 的 proper weak k-convex 函数 u，以 full Hessian measure F_k[u] 为数据，在 Lebesgue 点把 |Du| 控制为局部平均加截断 Wolff 势。由此，若 F_k[u]=f 且 f 属于局部 Lorentz 空间 L^(n/k,1/k)，则 u 局部 Lipschitz；方程 F_k[u]=|Du|^p 在 0<p<nk/(n−k) 时也得到相应控制。",
+      "known": "论文给出二级 Lorentz 指数 1/k 与 p 的上界在完整弱解类中均尖锐，并明确允许 Hessian 测度含奇异部分。",
+      "gap": "这是梯度/Lipschitz 层级的结果，不是 C² 或 Evans–Krylov 型二阶正则性；proper weak k-convex 的上半连续定义与经典光滑容许解不可混用。",
+      "method": "从 Hessian 测度的弱连续与非线性势理论出发，建立梯度点态估计，再用 Lorentz–Wolff 嵌入处理临界数据，并以显式反例校准端点。",
+      "relevance": "比上一期 σ₂ 的低阶可积性提升更接近一般弱 k-Hessian 测度，给 Hessian 方程的临界尺度、奇异数据和反例设计提供了清晰接口。",
+      "next_step": "核查 sharpness 例子是否同时保持目标容许锥与局部有限测度，并比较该势估计能否与 Hessian 商的紧致性二阶估计拼接。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档；核到主点态估计、端点 Lorentz 条件与反例范围。"
+        }
+      ]
+    },
+    {
+      "id": "sum-hessian-starshaped-curvature",
+      "title": "星形超曲面上非齐次 sum-Hessian 方程的全局曲率估计",
+      "title_en": "Global Curvature Estimates for Nonhomogeneous Sum-Hessian Equations on Star-Shaped Hypersurfaces",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-03",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 3,
+      "source_ids": [
+        "mawangzhu26sumhessian"
+      ],
+      "summary": "在自然容许锥内，对第一 Newton 变换的 σ_k+ασ_(k−1) 方程得到全局曲率界及存在唯一性。",
+      "formulation": "令 η=Hg−h。对 α>0、2≤k≤n−1，闭星形超曲面满足 σ_k(λ(η))+ασ_(k−1)(λ(η))=f(X,ν)，并在 Γ_(k−1) 与正值分支的交中容许，则主曲率由 n、k、α、C¹ 几何、inf f 与 f 的 C² 范数统一控制。附加球面 barrier 与径向单调条件后得到相应 prescribed-curvature 问题的存在唯一性。",
+      "known": "关键代数恒等式把非齐次算子写为 σ_k(λ₁,…,λ_n,α)，从高一维恢复椭圆性和凹性；低阶误差由 partial curvature estimate 吸收。",
+      "gap": "k=n 端点未被主估计覆盖；常数仍依赖 C¹ 几何和正下界，不能直接用于退化数据或非星形超曲面。",
+      "method": "增广变量、最大值原理、部分曲率估计与连续性方法。",
+      "relevance": "它把 Hessian 方程的增广维数技巧直接移到曲率估计，和网页主人的 Hessian 商、曲率估计与星形超曲面问题高度同源。",
+      "next_step": "复算增广变量凹性在自然容许分支上的精确范围，并隔离 k=n 时 partial curvature estimate 失败的代数项。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档；核到自然容许锥、Theorem 1.1、常数依赖和端点限制。"
+        }
+      ]
+    },
+    {
+      "id": "hyperbolic-neumann-hessian-inequalities",
+      "title": "双曲空间 Hessian–Neumann 可解性与加权几何不等式",
+      "title_en": "Hessian–Neumann Solvability and Weighted Geometric Inequalities in Hyperbolic Space",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-02",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 3,
+      "source_ids": [
+        "weng26hyperbolicneumann"
+      ],
+      "summary": "在 strictly static convex 域上解双曲 Hessian 方程的 Neumann 问题，并由兼容常数推出加权 Minkowski、Heintze–Karcher 与 AF 型不等式。",
+      "formulation": "对 H^n 中相对于静态势 V=cosh d(p,·) 严格 static convex 的有界 C^(4,α) 域、1≤k≤n 与正 f，存在唯一边界兼容常数 λ，使 σ_k(∇²u−ug)=f 且 u_ν=(V_ν/V)u+λ+φ 有 k-admissible 解；解模 V 唯一。",
+      "known": "不同 k 的兼容常数形成单调链，等号刚性为测地球；k=2 的势给出若干 deficit 表示，并产生加权 Minkowski、Heintze–Karcher 和相邻阶加权 AF 不等式。",
+      "gap": "严格 geodesic convex 一般不足以替代 static convex；论文还给出 k=n 的不可解反例。定理是光滑强解框架，未覆盖一般弱边界或退化域。",
+      "method": "边界修正消去非齐次 Neumann 数据、全局梯度/二阶估计、连续性方法、Newton–Maclaurin 比较及静态势加权积分。",
+      "relevance": "把双曲 Hessian 边值问题和凸几何不等式放进同一解析框架，与曲率流/AF 不等式形成静态互补。",
+      "next_step": "核对 kernel=span{V} 的 Fredholm/最大值原理机制，并比较这些加权 AF 不等式与上期流方法所得指标范围是否重叠或独立。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档；核到 Theorems 1.1–1.4 及 static convexity 不可削弱的反例声明。"
+        }
+      ]
+    },
+    {
+      "id": "capillary-dual-minkowski-flows",
+      "title": "毛细边界下的 L_p / Orlicz–dual Minkowski 流",
+      "title_en": "Capillary L_p and Orlicz–Dual Minkowski Flows",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-02",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 3,
+      "source_ids": [
+        "huhuyang26capillarylp",
+        "gao26capillaryorlicz"
+      ],
+      "summary": "两篇预印本把 dual Minkowski 曲率流推进到固定锐角接触的毛细超曲面，并分别处理 L_p 参数区间与一般非齐次权。",
+      "formulation": "在欧氏半空间、n≥2、接触角 θ∈(0,π/2) 中，偶的 normalized capillary L_p dual Minkowski 流在 pq≥0 时长期存在并沿时间子列光滑收敛到稳态；若 p≠q，缩放极限解非归一化问题。另一篇对 φ(h)G(X) 的一般 dual Orlicz 数据，在偶性加积分条件或无偶性加双球冠 barrier 下构造长期流与光滑解；额外严格缩放单调性给唯一性和 C^k 指数收敛。",
+      "known": "两套结果都把接触角转化为球冠上的 Robin 型边界结构，但收敛强度与假设不同，不能合并成一个无条件的全轨道定理。",
+      "gap": "L_p 论文主要给子列收敛；Orlicz 论文的唯一性和指数收敛需要额外单调条件。两者均假设严格凸与锐角接触。",
+      "method": "支撑函数/球冠 Monge–Ampère 表述、加权体积保持流、球冠 barrier、边界梯度与曲率估计。",
+      "relevance": "这是 Minkowski 问题、曲率流和非线性 Robin 边界的交叉点，可与网页主人的斜导数/Hessian 和凸流背景直接对接。",
+      "next_step": "把两篇论文的归一化、参数 p/q 与 Orlicz 权逐项对照，定位从子列收敛升级到全轨道指数收敛真正使用的单调性。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期将两篇同日预印本作为一组建档；严格区分其假设与收敛强度。"
+        }
+      ]
+    },
+    {
+      "id": "anisotropic-minkowski-weak-flows",
+      "title": "非光滑各向异性 Minkowski 流的弱适定性与局部极限",
+      "title_en": "Weak Well-Posedness and Local Limits for Anisotropic Minkowski Flows",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "variational"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-03",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 2,
+      "source_ids": [
+        "anastasicagnettimorini26minkowskiflow"
+      ],
+      "summary": "对可含晶体各向异性的非局部 Minkowski 型曲率运动建立弱解、比较与 r→0 局部流极限。",
+      "formulation": "由 Wulff 邻域上的 oscillation perimeter 定义相互作用尺度 r 的非局部曲率。各向异性可不光滑甚至晶体化，mobility 可不同但需满足兼容条件；任意闭集产生弱 super/subflow，初始 level set 边界紧时比较原理给 level-set flow 的存在唯一性。变分弱流在可能 fattening 的限制下随 r→0 收敛到局部各向异性曲率流。",
+      "known": "measure-valued nonlocal Cahn–Hoffman 场解决点态曲率在晶体情形失效的问题；核心紧致步骤通过平均非局部测度得到局部场。",
+      "gap": "极限只在 up to fattening 的意义陈述；这不是光滑凸 σ_k 流的圆点收敛，也不提供一般奇点后的经典唯一性。",
+      "method": "nonlocal minimizing movements、distance-function 弱表述、Cahn–Hoffman 测度、比较原理和 Γ/紧致极限。",
+      "relevance": "为从光滑凸曲率流拓展到晶体与弱界面提供了清晰桥梁，也连接变分流和 Minkowski 邻域几何。",
+      "next_step": "核对 fattening 排除所需的可验证条件，并比较该弱流的能量耗散与光滑支撑函数流的熵结构。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档；核到弱流定义、比较适定性与 r→0 极限边界。"
+        }
+      ]
+    },
+    {
+      "id": "hcma-local-small-data-regularity",
+      "title": "齐次复 Monge–Ampère 方程的局部小数据高阶正则性",
+      "title_en": "Local Higher Regularity for Homogeneous Complex Monge–Ampère Equations",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian",
+        "conformal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-10-31",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 2,
+      "source_ids": [
+        "yao26hcma"
+      ],
+      "summary": "对 Perron envelope 弱解，在局部边界数据小且 Kähler 势有统一凸性与足够 barrier 阈值时得到局部高阶正则。",
+      "formulation": "在完整、可非紧 Kähler 流形 X 上，考虑 X×D 的齐次复 Monge–Ampère 方程及有界 Perron envelope 解 Φ。若 V⋐U 上存在统一凸局部 Kähler 势，λR₀²≥16M，且仅 U×∂D 上边界数据在 C^(k+3,α) 中足够小，则 Φ 在 V×D 局部光滑并有 C^(k,β) 定量估计。",
+      "known": "结果不要求 U 之外的数据小；应用覆盖紧 Kähler 流形的有限覆盖，以及 ALE、ALF、ACH 端上足够远处的加权正则。",
+      "gap": "一般 HCMA 弱解仍只有 C^(1,1) 最优，本文依赖 Perron envelope、局部小数据与 barrier threshold，不能被概括为无条件高阶正则。",
+      "method": "局部 holomorphic-disc foliation、全局 subsolution/barrier、BMO 控制与 Nash–Moser–Zehnder 迭代，再以沿盘比较识别全局弱解。",
+      "relevance": "它展示了退化 Monge–Ampère 在无全局小量时仍可由局部几何阈值恢复光滑性，是实 Hessian 正则性与 Kähler 几何之间的可迁移模型。",
+      "next_step": "比较 λR₀²≥16M 的尺度来源与实 Monge–Ampère 切片归一化，并检查 Perron envelope 识别中哪些步骤依赖复结构。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档；核到 Theorem A 的全部主要假设与应用范围。"
+        }
+      ]
+    },
+    {
+      "id": "minimal-density-two-classification",
+      "title": "无穷远密度二的嵌入极小曲面分类声明",
+      "title_en": "Classification of Properly Embedded Minimal Surfaces with Density Two at Infinity",
+      "kind": "result",
+      "status": "watch",
+      "topics": [
+        "minimal",
+        "ai"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-05",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 3,
+      "source_ids": [
+        "bi26densitytwo"
+      ],
+      "summary": "一篇 AI-assisted 预印本声明：R³ 中无边界、连通、properly embedded 且无穷远密度为 2 的极小曲面只能是 catenoid 或 singly periodic Scherk surface。",
+      "formulation": "若 M⊂R³ 是连通、properly embedded、无边界的极小曲面，且 H²(M∩B_R)/(πR²)→2，则作者证明 M 为 catenoid 或 singly periodic Scherk surface。结合既有约化，这对应 Meeks–Wolf 版本的 Scherk uniqueness conjecture。",
+      "known": "论文明确披露公开 LLM 用于发展数学论证及起草修订，作者承担全部责任。该披露说明协作方式，不构成独立验证。",
+      "gap": "这是 89 页 v1 预印本；本次仅核对主定理、猜想对应关系和 AI disclosure，未完成分类证明的独立审计，因此按 watch 而非 established 记录。",
+      "method": "从面积增长与 varifold 极限出发分析无穷远端结构，再通过调和/通量量、拓扑与极小曲面刚性逐步压缩到两类模型；具体依赖仍需逐章审查。",
+      "relevance": "它在极小曲面分类、无穷远密度与 AI 参与数学证明三条主线上都很重要，也能与台账的稳定性、切锥和证据等级方法衔接。",
+      "next_step": "优先核查从密度二到端结构与嵌入性的约化、关键通量恒等式以及排除额外拓扑的步骤；寻找专家评论或后续修订。",
+      "company": "",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期建档为 watch；确认作者声明与 AI disclosure，尚无独立全面验证。"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-science-usage-study",
+      "title": "Anthropic 科研使用报告：数学使用强，但主要仍是分析与写作",
+      "title_en": "Anthropic Study of How Scientists Use Claude",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-11-05",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 2,
+      "source_ids": [
+        "anthropic26scienceusage"
+      ],
+      "summary": "Anthropic 基于 20.7 万个经隐私聚合的科研会话，报告形式科学相对使用率较高，但实际任务仍集中于数据分析和写作。",
+      "formulation": "官方报告分析 2026-08-02 至 09-30 的 207,049 个 Claude/Claude Code 消费者计划科研会话，以分类器映射到 SciNet 的领域与任务，仅保留聚合标签。报告称数学、统计和计算机科学的相对使用率较高；数据分析约占 Claude 会话三分之一、Claude Code 会话近一半，idea generation 与 data gathering 较少。",
+      "known": "报告还给出能力—采用相关与研究产出情景模型，并单独研究 Claude Science；这些是观察性分类和模型情景，不是随机对照的生产率因果估计。",
+      "gap": "分类器误差、消费者样本选择与未发表研究不可见性限制外推；“可能翻倍/15 倍”等是情景假设，不应写成已实现科研增益。",
+      "method": "隐私保护的会话分类、任务本体、跨领域相对使用比较与简化产出模型。",
+      "relevance": "它为数学科研 agent 的现实分工提供了经验约束：当前最常见价值是分析、代码和写作，而非自动端到端发现。",
+      "next_step": "把报告的数学子任务分布与真实论文 AI disclosure 做交叉核对，区分使用频率、能力上限和可验证科研贡献。",
+      "company": "Anthropic",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期按官方研究报告建档；未把情景预测当因果结论。"
+        }
+      ]
+    },
+    {
+      "id": "microsoft-pdd-kit",
+      "title": "Microsoft PDD Kit：把 agent 意图、形式规格与可信边界串成验证链",
+      "title_en": "Microsoft PDD Kit for Proof-Driven Agent Development",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-11-05",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 2,
+      "source_ids": [
+        "msr26pddkit"
+      ],
+      "summary": "PDD Kit 先把自然语言意图显式化，再用 Verus 证明 Rust 代码满足规格，并把不可证明部分转成测试与可信边界。",
+      "formulation": "PDD Kit 在共享 planning artifact 中追问规格歧义、记录 intent map 与 TCB，生成 Verus contract/证明，并对外部库、环境事实和界面行为使用经验测试。官方示例在约 5,000 行 Rust 全栈应用中形式化验证登录核心。",
+      "known": "它明确区分 formal proof、empirical evidence 与 assumed TCB，并要求规格/信任范围经人工确认。",
+      "gap": "当前仅支持 Rust/Verus 原型，示例证明的是代码相对规格的正确性，不证明规格本身完整，也不等价于自动验证自然语言数学论文。",
+      "method": "spec-first 决策卡、Verus、Z3、测试与 proof receipt 的组合。",
+      "relevance": "对数学科研 agent 的直接启示是：先固定命题量词，再把可形式化核心与外部可信边界拆开；这比让同一模型自写自验更可审计。",
+      "next_step": "尝试把一条中等规模数学引理改写成同样的 intent/spec/TCB/empirical 分层，比较与 Lean proof artifact 的差异。",
+      "company": "Microsoft Research",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期按官方研究原型建档；能力范围限定为 Rust/Verus 示例。"
+        }
+      ]
+    },
+    {
+      "id": "openai-kernel-agent-pipeline",
+      "title": "OpenAI 内核安全 agent：发现—复现—利用—修补—人工审查流水线",
+      "title_en": "OpenAI's Agent Pipeline for Kernel Discovery, Validation, Exploitation, and Patching",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-11-04",
+      "added_on": "2026-11-06",
+      "updated_on": "2026-11-06",
+      "checked_on": "2026-11-06",
+      "priority": 2,
+      "source_ids": [
+        "openai26kernelpipeline"
+      ],
+      "summary": "OpenAI 报告一套多阶段 agent 流水线，以动态复现和 exploit 证据过滤候选，再生成补丁供人类审查。",
+      "formulation": "官方披露一次 Linux 研究运行分析 2,308 个候选，动态复现 1,724 个漏洞并生成 948 个本地提权 exploit，API 成本约 121 万美元。流程分为静态发现、动态验证、可利用性评估、补丁生成与人工审查。",
+      "known": "系统保存 root-cause analysis、最小 crash PoC、候选补丁和 exploit；官方同时强调结果仍需维护者/研究人员审查。",
+      "gap": "数字与漏洞有效性本次未独立复现；实验针对受控安全环境，不能把 exploit 成功率外推为数学定理验证率或一般科研 agent 的可靠性。",
+      "method": "高召回 scout/analyst agent、运行时证据、逐级过滤、成本记录与人类上游审查。",
+      "relevance": "虽然不是数学结果，它展示了长程科研 agent 如何用可执行反例/证书降低伪阳性，并记录成本与人工审查边界。",
+      "next_step": "在数学工作流中对应实现“候选命题→反例搜索→机器检查证书→独立审稿”，同时避免把测试通过误称全称证明。",
+      "company": "OpenAI",
+      "issues": [
+        "20261030-20261106"
+      ],
+      "history": [
+        {
+          "date": "2026-11-06",
+          "note": "本期按官方发布建档；保留安全场景与数学证明之间的边界。"
         }
       ]
     }
