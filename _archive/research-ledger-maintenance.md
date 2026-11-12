@@ -6,12 +6,8 @@ Public entry: https://ruijia-z.github.io/research/
 ## Content architecture
 
 - `_data/research_ledger.json`: current ledger state, source registry, review history and scheduling label.
-- `_includes/research-ledger.html`: accessible password gate, controls and embedded JSON. Research entries, scan metadata, statistics and controls remain hidden until password validation succeeds. Without JavaScript, show only the request to enable JavaScript and unlock; never restore the old source-list fallback.
-- `assets/js/research-ledger.js`: search, combined filters, ordering, details, browser-local bookmarks and permalink handling. Data is rendered with `textContent`, not `innerHTML`.
-- `assets/css/research-ledger.css`: responsive styling scoped to Research.
-- Keep the Research page's `author_profile: true` and the shared personal-profile sidebar. On narrow screens, use the theme's compact profile above the ledger.
-- Inherit the site's shared font family, including statistics numerals. Preserve the ledger's compact font sizes and spacing; a font-family adjustment must not enlarge its typography.
-- Each entry has a Chinese `title` and an English `title_en` translation, shown in quotation marks below it and included in search. Keep detail field headings in English and detail prose at 11px. The default list starts fully collapsed; an explicit entry permalink may open its target.
+- `_pages/research.md` is the public weekly archive only. Keep the shared author sidebar, archive styling, date ordering and existing issue URLs. Do not include the ledger template, password form, client-side ledger script or JSON payload on public pages. The unused renderer and source data remain in the repository; this is not a confidentiality mechanism.
+- Maintain stable IDs, bilingual titles, source metadata and dated history in the ledger for editorial use.
 - `_pages/research-updates/YYYYMMDD-YYYYMMDD.md`: dated, immutable Chinese issue snapshots. Keep the existing `weekly_update`, `week_end` and permalink convention so the archive discovers them.
 - The original first English issue is retained at `/research/20261002-20261009/en/` and has `weekly_update: false` to avoid duplicate archive entries.
 
@@ -34,23 +30,15 @@ AI: OpenAI, Anthropic, Google DeepMind, Microsoft Research and other established
 5. Each entry records formulation, known results, remaining gap, method, relevance, next step, source IDs, original source date, check date, status and dated history. Each source records authors, title, URL, version/date, type and actual reading depth. Recommendation levels are editorial reading priorities, not objective importance or difficulty scores.
 6. Status rules: `open` only for a precisely identified question explicitly posed in the source and rechecked; `watch` for a new proof claim requiring review or an editorial extension whose novelty is unverified; `preprint` for reported paper results; `partial` only with exact solved/unsolved scopes; `established` for a verified publication/established theorem with a precise source, without implying an independent proof audit; `released` means an official AI announcement exists, not that all advertised capabilities are independently verified. `evidence` is independently one of `explicit`, `extension`, `theorem`, `official`.
 7. Date substantive status changes in `history`; update `checked_on` only for entries actually rechecked. `last_scan.checked_on` denotes a successfully completed scan, never just an attempted run. Keep source dates separate from addition dates. For GitHub papers use a commit-pinned URL when available, and record revisions.
-8. Write a concise Chinese weekly snapshot linking changed entries via `/research/?entry=ENTRY_ID#ledger` and to primary sources. Include an AI section and a short review of changed problem states. If there are no material advances, say so; retain a dated scan record without padding.
+8. Write a concise Chinese weekly snapshot linking directly to primary sources, the weekly archive and the previous issue. Record issue associations on the ledger entries; do not publish links to the retired entry viewer. Include an AI section and a short review of changed problem states. If there are no material advances, say so; retain a dated scan record without padding.
 9. Run `python _checks/validate_research_ledger.py` and `node --check assets/js/research-ledger.js`. Validate new issue metadata and links. Use the repo's current frontend; do not redesign it during a content update.
-10. Publish a reviewable commit, advance `master` with `expected_sha`/non-forced fast-forward, and verify GitHub Pages build/deploy plus live data and issue URLs. If the branch changes, re-read and merge changes; do not overwrite concurrent edits. Notify the user with the issue link and count of actual additions/status changes. If publication fails, report that failure and do not claim an update is live.
+10. Publish a reviewable commit, advance `master` with `expected_sha`/non-forced fast-forward, and verify GitHub Pages build/deploy plus the live weekly archive and issue URLs. If the branch changes, re-read and merge changes; do not overwrite concurrent edits. Notify the user with the issue link and count of actual additions/status changes. If publication fails, report that failure and do not claim an update is live.
 
 ## Data contract
 
 Entry IDs and topic IDs are lowercase hyphenated slugs. Dates are ISO `YYYY-MM-DD`. Source URLs use HTTPS. An entry can belong to multiple topics. `company` is a literal institution name or the empty string; the UI discovers companies from entries. `priority` is 1 (持续关注), 2 (建议浏览), or 3 (优先精读). `issues` contains date-range IDs for existing weekly articles. No HTML is accepted in prose data. Use explicit TeX commands such as `\prime` instead of smart-quote-sensitive apostrophes.
 
-Bookmarks are stored only in the visitor's local browser; they are not account-synced and are never sent to the site owner. Empty searches, blocked storage and disabled JavaScript must remain usable. Test mobile width, combined filters, detail links, sort order and bookmark persistence when changing the frontend.
-
-## Research-entry access gate
-
-The Research ledger has a password entry form. The verifier in `assets/js/research-ledger.js` uses SHA-256 via Web Crypto; it never persists the submitted password or an unlock flag. Every page load starts locked, including entry permalinks. Correct verification initializes the existing ledger, preserves permalink behavior and local bookmarks, and reveals the protected wrapper. Keep both `ledger-protected` and `ledger-app` hidden in the initial HTML to prevent a flash of entries. Weekly articles remain separate public snapshots.
-
-This is a presentation gate, not server authentication or encryption. The embedded JSON, public repository and its history remain publicly retrievable. Do not describe this mechanism as protection for confidential research notes. A future requirement for private data needs authenticated server-side delivery and an appropriate private source repository.
-
-For frontend changes, verify initial lock, wrong password, correct password, reload locking, entry permalinks, disabled JavaScript, unavailable Web Crypto, mobile layout and ordinary ledger filters/bookmarks. A weekly data-only update must preserve this gate.
+The public Research page must work without JavaScript: verify that the archive and links to dated reports appear, and that no ledger gate, controls, data or renderer is emitted. Legacy entry URLs should show the archive, not reopen the ledger. This does not make the public Git repository private.
 
 ## Scheduling
 

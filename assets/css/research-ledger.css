@@ -94,7 +94,7 @@
 .ledger-more { display: block; margin: 22px auto 0; padding: 10px 30px; background: #fff; border: 1px solid var(--line); border-radius: 6px; color: var(--blue); font-size: 13px !important; }
 .ledger-empty { padding: 50px 20px; text-align: center; color: var(--muted); border: 1px dashed var(--line); border-radius: 8px; font-size: 14px; }
 .research-ledger .MathJax_Display { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
-.weekly-archive { margin-top: 45px; padding-top: 24px; border-top: 1px solid #dde3ec; }
+.weekly-archive { margin-top: 0; }
 .page__content .weekly-archive h2 { border: 0; margin: 0 0 8px; font-size: 22px; }
 .page__content .weekly-archive > p { color: #758092; font-size: 13px; }
 .weekly-archive-list { list-style: none; padding: 0; margin: 15px 0; }
