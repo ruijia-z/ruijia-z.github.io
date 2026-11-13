@@ -2,26 +2,26 @@
   "schema_version": 1,
   "title": "研究问题与进展",
   "last_scan": {
-    "checked_on": "2026-11-06",
-    "period_start": "2026-10-30",
-    "period_end": "2026-11-06",
-    "search_start": "2026-10-29",
-    "note": "本期精选扫描从 10-29 重叠开始；新增 11 条（数学 8 条、AI/科研工作流 3 条），复核 7 条既有记录，实质状态变化 0。重点论文核到主定理、维数/解类/边界条件和关键方法接口；未逐篇独立复证。OpenAI/Anthropic/Microsoft 官方材料按公司声明记录，未把产品或安全统计当数学证明。",
+    "checked_on": "2026-11-13",
+    "period_start": "2026-11-06",
+    "period_end": "2026-11-13",
+    "search_start": "2026-11-05",
+    "note": "本期精选扫描从 11-05 重叠开始；新增 11 条（数学结果 8 条、作者明确问题 2 条、AI/科研工作流 1 条），复核 9 条既有记录，实质状态变化 0；另记录 KLS 显式常数稿由 v2 修订到 v3。数学重点核到主定理、维数、解类、边界/极限条件和方法接口；未逐篇独立复证。AI 材料按官方公告、技术报告与可检查 artifact 分层，不把模型 benchmark 或单次多 agent 运行当作独立数学验证。",
     "pending_rechecks": [
       {
         "source_id": "liu26",
         "since": "2026-10-08",
-        "reason": "2026-11-06 再次尝试复核 arXiv 元数据与正文时页面未稳定取得；保留 v1 及原阅读深度，不冒充完成复查。"
+        "reason": "2026-11-13 再次尝试取得 arXiv 页面仍不稳定；保留 v1 及原阅读深度，不冒充完成复查。"
       },
       {
         "source_id": "pu26",
         "since": "2026-10-08",
-        "reason": "2026-11-06 再次尝试复核 arXiv 元数据与正文时页面未稳定取得；保留 v1 及原阅读深度。"
+        "reason": "2026-11-13 再次尝试取得 arXiv 页面仍不稳定；保留 v1 及原阅读深度。"
       },
       {
         "source_id": "chan25",
         "since": "2026-10-08",
-        "reason": "2026-11-06 复核 arXiv 仍为 2026-09-25 的 v2，并带 JAMS DOI；期刊全文仍未逐行复核。"
+        "reason": "2026-11-13 确认 arXiv 仍为 2026-09-25 的 v2，并带 JAMS DOI；期刊全文仍未逐行复核。"
       }
     ]
   },
@@ -422,13 +422,13 @@
       "read_depth": "2026-10-23：摘要、主结论及其对 Song–Zhang 判据的依赖；未逐行审完。"
     },
     "balakasi26kls": {
-      "title": "The KLS Conjecture with an Explicit Constant",
+      "title": "A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures",
       "authors": "Krishnakumar Balasubramanian · Shiva Prasad Kasiviswanathan",
-      "url": "https://arxiv.org/abs/2610.07728v2",
-      "date": "2026-10-08",
-      "version": "v2",
+      "url": "https://arxiv.org/abs/2610.07728v3",
+      "date": "2026-11-09",
+      "version": "v3；初稿 2026-10-06",
       "type": "paper",
-      "read_depth": "2026-10-23：摘要、显式常数声明与变分路线；未逐行审完。"
+      "read_depth": "2026-11-13：核对 v3 元数据、摘要、C_P≤25 声明、变分/Appell–Helmholtz 路线；未逐行审完。"
     },
     "msr26kls": {
       "title": "Solving a 31-year-old grand challenge in mathematics – the KLS conjecture",
@@ -663,6 +663,114 @@
       "version": "官方研究与安全发布",
       "type": "official",
       "read_depth": "2026-11-06：核对五阶段 agent 流水线、2,308 候选、1,724 动态复现、948 LPE exploits、API 成本与人工审查边界；未独立复现漏洞或验证补丁。"
+    },
+    "huangzhang26cma": {
+      "title": "The Dirichlet problem for complex Monge–Ampère equations with Hölder continuous right-hand sides",
+      "authors": "Liding Huang · Xi Zhang",
+      "url": "https://arxiv.org/html/2611.11173v1",
+      "date": "2026-11-08",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：摘要、Theorems 1.1–1.2、边界 Hessian 与全局 C^{2,α} 证明路线、AI disclosure；未逐行审完。"
+    },
+    "huangzhang26complexhessian": {
+      "title": "A second-order estimate linear in the gradient for complex Hessian equations",
+      "authors": "Liding Huang · Jiaogen Zhang · Xi Zhang",
+      "url": "https://arxiv.org/html/2611.11176v1",
+      "date": "2026-11-08",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：方程 (1.2)、Theorem 1.1、Corollary 1.2、§5.3 两个明确问题与关键三阶项；未逐行审完。"
+    },
+    "meiweng26capillarylog": {
+      "title": "A capillary logarithmic Gauss curvature flow and the capillary Minkowski problem",
+      "authors": "Xinqun Mei · Liangjun Weng",
+      "url": "https://arxiv.org/html/2611.12455v1",
+      "date": "2026-11-09",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：流方程、Theorem 1.1、Corollary 1.2、移动中心与 Robin 边界路线；未逐行复证。"
+    },
+    "jeong26onephasecone": {
+      "title": "Regularity of Weak Solutions near Singular Minimizing Cones for the One-Phase Free Boundary Problem",
+      "authors": "Minyoung Jeong",
+      "url": "https://arxiv.org/html/2611.08688v1",
+      "date": "2026-11-05",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：Question 1.1、主正则性陈述、非退化弱解/强可积孤立奇锥范围、Edelen 路线与 AI disclosure；未审完全部技术引理。"
+    },
+    "ma26altphillips": {
+      "title": "The Alt-Phillips Multiple Membrane Free Boundary Problem",
+      "authors": "Kunyi Mark Ma",
+      "url": "https://arxiv.org/abs/2611.11736v1",
+      "date": "2026-11-09",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：摘要中的最优 C^{1,β−1} 正则、Weiss almost monotonicity、单 gap 锥与三膜锥分类范围；未取得 HTML 全文逐定理复核。"
+    },
+    "leesarnataro26simons": {
+      "title": "A uniqueness theorem for Allen–Cahn global minimizers asymptotic to the Simons cone",
+      "authors": "Sanghoon Lee · Lorenzo Sarnataro",
+      "url": "https://arxiv.org/html/2611.13435v1",
+      "date": "2026-11-10",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：Definition 1.1、Theorem 1.2、维数与零渐近系数条件、排序/滑移证明路线；未逐行审完 46 页。"
+    },
+    "chenlanliu26anisotropicdg": {
+      "title": "The anisotropic De Giorgi conjecture in R^4",
+      "authors": "Lu Chen · Jiali Lan · Haolin Liu",
+      "url": "https://arxiv.org/html/2611.13745v1",
+      "date": "2026-11-10",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：方程 (1.1)、各向异性/势正则条件、Theorem 1.1 与 tilt-excess—Liouville 路线；未逐行审完。"
+    },
+    "jinliaoxiong26boundaryyamabe": {
+      "title": "Classification and asymptotics for the boundary Yamabe equation with an isolated singularity",
+      "authors": "Tianling Jin · Yuxuan Liao · Jingang Xiong",
+      "url": "https://arxiv.org/abs/2611.07636v1",
+      "date": "2026-11-05",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-13：摘要、全维数分类、Hamiltonian 周期剖面、线性化核维数及半球局部渐近；未逐行审完 63 页。"
+    },
+    "deepmind26alphaproofcode": {
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
+      "authors": "Google DeepMind · Pushmeet Kohli · Swarat Chaudhuri",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "date": "2026-11-10",
+      "version": "官方发布",
+      "type": "official",
+      "read_depth": "2026-11-13：官方全文；核对规格审批、agent 分工、Lean gatekeeper、四周运行和两例回注 bug 测试。"
+    },
+    "deepmind26alphaproofpaper": {
+      "title": "AlphaProof Code: Verifying Signal’s Security at the Machine-Code Level",
+      "authors": "Swarat Chaudhuri · Andrew Ferraiuolo · Anton Kovsharov · Tej Chajed · Sam Schlesinger · Karn Seth · Jonathan Katz · Charles Sutton · Pushmeet Kohli",
+      "url": "https://deepmind.google/documents/36/Formal_Verification_of_Signal_4.pdf",
+      "date": "2026-11-10",
+      "version": "技术报告",
+      "type": "paper",
+      "read_depth": "2026-11-13：摘要、Figure 1 工作流、可信边界、AArch64/Lean 规格与 6.5M 行证明规模；未本地重放 artifact。"
+    },
+    "anthropic26fable52": {
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "authors": "Anthropic",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "date": "2026-11-09",
+      "version": "官方发布",
+      "type": "official",
+      "read_depth": "2026-11-13：官方全文中的模型定位、Terminal-Bench-Science 与 1,000-agent FLT 单次形式化实验；未独立复跑。"
+    },
+    "openai-repo-20261113": {
+      "title": "openai/math — 2026-11-13 fixed snapshot",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/tree/4eaee87548250b2682affda7d05d947c05554bae",
+      "date": "2026-11-13",
+      "version": "commit 4eaee87548250b2682affda7d05d947c05554bae",
+      "type": "official",
+      "read_depth": "2026-11-13：README、main ref、仓库 pushed_at 与 11-05 后 commits 查询；无新提交，未批量重放 Lean。"
     }
   },
   "entries": [
@@ -721,7 +829,7 @@
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
       "updated_on": "2026-11-06",
-      "checked_on": "2026-11-06",
+      "checked_on": "2026-11-13",
       "priority": 2,
       "source_ids": [
         "liu26",
@@ -738,7 +846,8 @@
       "issues": [
         "20261002-20261009",
         "20261009-20261016",
-        "20261030-20261106"
+        "20261030-20261106",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -752,6 +861,10 @@
         {
           "date": "2026-11-06",
           "note": "复核新 Wolff 势梯度估计与 sum-Hessian 曲率估计；它们未移除原问题的倒数凹性/商结构缺口，状态不变。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "复核本周复 k-Hessian 线性二阶估计：它处理紧 Kähler、非退化复方程，不触及原实 Hessian 商方程中 D²_pp(1/f)≤0 的替换问题；状态不变。"
         }
       ]
     },
@@ -948,7 +1061,7 @@
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
       "updated_on": "2026-11-06",
-      "checked_on": "2026-11-06",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "lu26",
@@ -956,7 +1069,8 @@
         "openai-repo",
         "openai-lbm-intro-20261016",
         "openai-lbm-lean-20261016",
-        "openai-lbm-comparator-20261016"
+        "openai-lbm-comparator-20261016",
+        "openai-repo-20261113"
       ],
       "summary": "一般原点对称情形的声明已有对应 Lean 主声明及核对配置；本站仍未完成独立重放。",
       "formulation": "原点对称凸体的对数 Minkowski 组合是否满足 $V(K+_{0,\\lambda}L)\\geq V(K)^{1-\\lambda}V(L)^\\lambda$？",
@@ -969,7 +1083,8 @@
       "issues": [
         "20261002-20261009",
         "20261009-20261016",
-        "20261030-20261106"
+        "20261030-20261106",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -983,6 +1098,10 @@
         {
           "date": "2026-11-06",
           "note": "复核 OpenAI math history 与公开提交：截至 2026-11-06 未见 10-30 后新提交或足以改变一般 log-BM 状态的材料，继续 watch。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "复核 openai/math 固定提交 4eaee875：仓库 pushed_at 仍为 2026-10-30，11-05 后无提交；未出现足以改变一般 log-BM 声明核验状态的新材料。"
         }
       ]
     },
@@ -1000,7 +1119,7 @@
       "source_date": "2026-09-18",
       "added_on": "2026-10-09",
       "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "liuwei26"
@@ -1015,7 +1134,8 @@
       "company": "",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -1025,6 +1145,10 @@
         {
           "date": "2026-10-16",
           "note": "复查 arXiv 摘要及版本，检索范围内未取得可核实的后续修订或撤稿；维持预印本，不把稳定解分类扩大到所有维数。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "复核新 Allen–Cahn 文稿：Simons 锥 a=0 全局极小解唯一性属于偶维 2m≥8 的特定渐近类；各向异性 R^4 结果要求单调和两端极限，均不替代本条 R^3 各向同性稳定整解分类。"
         }
       ]
     },
@@ -1042,7 +1166,7 @@
       "source_date": "2026-09-25",
       "added_on": "2026-10-09",
       "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "chan25"
@@ -1057,7 +1181,8 @@
       "company": "",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -1067,6 +1192,10 @@
         {
           "date": "2026-10-16",
           "note": "复查 arXiv v2 与期刊 DOI 元数据；AMS 全文本次未取得，未重新审查证明，不改变已发表结果标签。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "确认 arXiv:2503.21245 仍为 2026-09-25 的 v2 并带 JAMS DOI；Jeong 的奇锥 ε-正则是不同解类/局部结构，未改变三维全局稳定 Bernoulli 分类状态。"
         }
       ]
     },
@@ -1124,7 +1253,7 @@
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
       "updated_on": "2026-11-06",
-      "checked_on": "2026-11-06",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "openai-release",
@@ -1134,11 +1263,12 @@
         "simons26ai",
         "openai26communities",
         "openai-repo-20261030",
-        "openai-local-smoothing-lean-20261030"
+        "openai-local-smoothing-lean-20261030",
+        "openai-repo-20261113"
       ],
-      "summary": "OpenAI 的数学仓库继续以文稿、修订记录和部分 Lean 形式化共同发布；本期新增 local smoothing/Kakeya 等重大声明，但官方仍将材料定位为待学界消化的原始研究数据。",
+      "summary": "OpenAI 数学仓库继续保留 721 篇文稿、373 个 families 与部分 Lean 形式化；截至 11 月 13 日，最近 push 仍为 10 月 30 日，本期无新提交。",
       "formulation": "跟踪 openai/math 的研究结论、形式化覆盖、纠错与版本变化。",
-      "known": "10-26 官方新增 local smoothing 与 ETH 两组文稿及 Lean 材料；前者声称在所有空间维数解决 Sogge local smoothing，并推出 Kakeya、restriction 等结果。固定仓库快照含 721 篇文稿、373 个 families，约 42% top-line results 有形式化；10-29 另修复一项 Hodge Comparator namespace。",
+      "known": "固定提交 4eaee875 的 README 仍称约 42% top-line results 已形式化，并把材料定位为 raw research data；GitHub API 显示 11-05 后 commits 为空。",
       "gap": "官方明确把这些文稿视作 raw research data。此次核对了自然语言主张、形式化范围与固定提交，但未运行 Lean/Comparator，也没有把公司声明或形式化目录等同于独立数学接受。",
       "method": "文稿与形式化证明对照、固定版本、重放验证。",
       "relevance": "可为相关 PDE 与凸几何问题提供候选证明，也提高了逐项核查的重要性。",
@@ -1148,7 +1278,8 @@
         "20261002-20261009",
         "20261009-20261016",
         "20261023-20261030",
-        "20261030-20261106"
+        "20261030-20261106",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -1166,6 +1297,10 @@
         {
           "date": "2026-11-06",
           "note": "复核 openai/math 的公开 history 与 commits；截至本次扫描最近提交仍为 2026-10-30，本周无新增稿件或状态变更。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "复核 main 固定提交 4eaee875、README 与 11-05 后 commits：最近 push 仍为 2026-10-30，本期无新增稿件、纠错或形式化提交。"
         }
       ]
     },
@@ -1181,24 +1316,26 @@
       "evidence": "official",
       "source_date": "2026-09-04",
       "added_on": "2026-10-09",
-      "updated_on": "2026-10-16",
-      "checked_on": "2026-10-16",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "anthropic-flt",
-        "anthropic-flt-code"
+        "anthropic-flt-code",
+        "anthropic26fable52"
       ],
-      "summary": "官方报告用 Claude 与多 agent 工作流完成费马大定理的形式化。",
+      "summary": "Anthropic 更新 FLT 形式化：官方称约 1,000 个 Fable 5.2 agents 在 30 小时、最低人工干预下完成 Lean 工程。",
       "formulation": "关注大型证明的定理依赖管理、并行协作和形式化检查。",
-      "known": "报告采用 Prove2Me 的依赖图管理定理，并公开 Lean 工程与声明比较工具入口。",
-      "gap": "这里的新进展是验证工程，不是首次证明费马大定理；本站未独立构建完整工程。",
-      "method": "定理依赖图、声明与证明分离、检索复用。",
+      "known": "首版未发布研究模型与定制 harness 用 11 天；新官方实验称 Fable 5.2 从简短提示自行协调，行动 tokens 约为三分之一、证明短七倍。图表注明每个模型仅一次运行；Opus 5.5 同配置 30 小时未完成。",
+      "gap": "这是公司报告的单次多 agent 实验，不是统计稳健 benchmark；新进展是既有费马大定理证明的形式化效率，不是新的数学证明。本站未独立构建完整工程或复跑 1,000-agent harness。",
+      "method": "大规模多 agent 自组织、Lean kernel 检查、定理依赖管理与 Advisor/Orchestrator 角色分工。",
       "relevance": "可借鉴到长篇 PDE 证明中引理依赖和审查任务的组织。",
-      "next_step": "从小型可重放引理开始，检查最终声明、公理与依赖闭包。",
+      "next_step": "固定公开 Lean 版本并本地重放，记录硬件、token、失败恢复、声明 comparator 与允许公理；避免从单次成功外推一般数学研究能力。",
       "company": "Anthropic",
       "issues": [
         "20261002-20261009",
-        "20261009-20261016"
+        "20261009-20261016",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -1208,6 +1345,10 @@
         {
           "date": "2026-10-16",
           "note": "复查官方公告与 10-08 起仓库提交记录（查询无返回项）；仍为形式化工程公告，未独立构建。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "Anthropic 11-09 报告 Fable 5.2 用约 1,000 agents、单次运行、30 小时完成 FLT 形式化；相较首版称行动 tokens 约三分之一、证明短七倍。按公司实验记录，未当作独立复跑结果。"
         }
       ]
     },
@@ -1788,7 +1929,7 @@
       "source_date": "2026-10-22",
       "added_on": "2026-10-23",
       "updated_on": "2026-10-23",
-      "checked_on": "2026-10-23",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "chenma26singularyamabe"
@@ -1802,12 +1943,17 @@
       "next_step": "核对低维既有工作与本稿新增高维步骤，重点审查增广逆的统一界和约化方程的可解性。",
       "company": "",
       "issues": [
-        "20261016-20261023"
+        "20261016-20261023",
+        "20261106-20261113"
       ],
       "history": [
         {
           "date": "2026-10-23",
           "note": "本期建档；因“完整解决猜想”仍待独立审查，状态记为待核验。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "复核 arXiv:2610.31058 仍为 v1；本周 boundary Yamabe 的孤立边界奇点分类是局部/半空间模型，不验证也不反驳闭流形有限奇集的拼接构造，继续 watch。"
         }
       ]
     },
@@ -1898,8 +2044,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
-      "updated_on": "2026-11-06",
-      "checked_on": "2026-11-06",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "songzhang26kls",
@@ -1910,15 +2056,16 @@
       ],
       "summary": "KLS 的维数无关谱隙出现三份相互关联但路线不同的证明稿；微软本周公开人主导的 agentic 探索过程，并有 Lean 形式化仓库作为额外证据层。",
       "formulation": "KLS 要求各维各向同性 log-concave 概率测度的 Poincaré 常数由绝对常数统一控制。Song–Zhang 声明维数无关界；Bizeul–Klartag–Lehec 给较短证明并使用其关键判据；Balasubramanian–Kasiviswanathan 给显式 $C_P\\le25$ 的变分路线。KLS500 仓库声明 Lean 4 形式化得到一个维数无关的 500 界。",
-      "known": "微软 10 月 21 日官方说明称研究者让多个 agent 生成约百条候选路线，再由人类筛选、拼接和验证；相近 token 预算的无引导尝试失败。公开仓库有 5 次提交，但无 Actions 构建记录。",
-      "gap": "多份预印本、公司叙述和形式化代码增加证据层次，却不等于本次已独立验证。尚未本地构建 Lean、审计依赖/公理或逐行核对三份证明之间的逻辑依赖，也未等待期刊与更广泛同行评议。",
+      "known": "Song–Zhang 保持 v2，Bizeul–Klartag–Lehec 保持 v1；Balasubramanian–Kasiviswanathan 于 11 月 9 日更新为 v3，题名改为维数无关 Poincaré 界，仍给出 C_P≤25 的确定性变分证明。KLS500 形式化仍是额外证据层，本站未本地构建。",
+      "gap": "多份预印本、v3 修订、公司叙述和形式化代码增加证据层次，却不等于本次已独立验证。尚未本地构建 Lean、审计依赖/公理或逐行核对三条证明路线，也未等待期刊与更广泛同行评议。",
       "method": "高阶多项式方差、曲率与 Poincaré 比较、迭代改进；另一路使用确定性变分论证；科研流程采用人主导的多 agent 候选生成与筛选。",
       "relevance": "KLS 直接连接 log-concave 测度、谱隙与凸几何；AI 过程也为数学 agent 的角色分工、失败对照和形式化验证提供可复用案例。",
       "next_step": "独立构建 KLS500 并记录公理/依赖；制作三份证明的依赖图，优先核查 Song–Zhang 判据到短证明和显式常数路线的接口。",
       "company": "Microsoft Research",
       "issues": [
         "20261016-20261023",
-        "20261030-20261106"
+        "20261030-20261106",
+        "20261106-20261113"
       ],
       "history": [
         {
@@ -1928,6 +2075,10 @@
         {
           "date": "2026-11-06",
           "note": "复核三篇 KLS 预印本元数据与官方说明；本周未见新 arXiv 版本或新的独立核验材料，证据分层与状态不变。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "发现显式常数路线 arXiv:2610.07728 于 11-09 更新至 v3，题名改为 A Dimension-Free Bound on the Poincaré Constant of Isotropic Log-Concave Measures，仍声明 C_P≤25；状态保持 watch，等待独立构建与更广泛评议。"
         }
       ]
     },
@@ -2503,7 +2654,7 @@
       "source_date": "2026-11-05",
       "added_on": "2026-11-06",
       "updated_on": "2026-11-06",
-      "checked_on": "2026-11-06",
+      "checked_on": "2026-11-13",
       "priority": 3,
       "source_ids": [
         "bi26densitytwo"
@@ -2517,12 +2668,17 @@
       "next_step": "优先核查从密度二到端结构与嵌入性的约化、关键通量恒等式以及排除额外拓扑的步骤；寻找专家评论或后续修订。",
       "company": "",
       "issues": [
-        "20261030-20261106"
+        "20261030-20261106",
+        "20261106-20261113"
       ],
       "history": [
         {
           "date": "2026-11-06",
           "note": "本期建档为 watch；确认作者声明与 AI disclosure，尚无独立全面验证。"
+        },
+        {
+          "date": "2026-11-13",
+          "note": "复核 arXiv:2611.08212 仍为 11-05 的 89 页 v1（AI-assisted），未见修订、撤回或独立全面验证；继续 watch。"
         }
       ]
     },
@@ -2631,6 +2787,409 @@
         {
           "date": "2026-11-06",
           "note": "本期按官方发布建档；保留安全场景与数学证明之间的边界。"
+        }
+      ]
+    },
+    {
+      "id": "complex-ma-holder-dirichlet",
+      "title": "复 Monge–Ampère：C^α 右端的全局 C^{2,α} Dirichlet 正则性",
+      "title_en": "Global C^{2,α} Dirichlet Regularity for Complex Monge–Ampère with Hölder Density",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-08",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "huangzhang26cma"
+      ],
+      "summary": "Huang–Zhang 在 C^3 强拟凸域上，把严格正 C^α 密度的连续 Bedford–Taylor 解提升到边界全局 C^{2,α}。",
+      "formulation": "复维 n≥2、0<α<1；Ω⊂⊂C^n 为有界 C^3 强拟凸域，边值 φ∈C^3，0<λ≤f≤Λ 且 f∈C^α。连续 PSH 的 Bedford–Taylor 解满足全局 C^{2,α} 估计，并唯一且直到边界严格 PSH。",
+      "known": "定理处理任意 C^3 边值，不只零边值；常数还依赖边界图与 φ 的三阶导连续模，不要求三阶导具有正 Hölder 指数或 Dini 条件。",
+      "gap": "这是 v1 预印本；本次核到主定理和证明接口，未独立复证边界混合二阶估计、W^{2,2n^2} 辅助问题和最终插值闭合。",
+      "method": "带边界距离权的辅助抛物流 trace 估计、Green 函数与比较函数、局部常密度 Dirichlet 问题、重标度和插值。",
+      "relevance": "与 Hessian/Monge–Ampère 的边界先验估计最直接相连，也给实方程的 Trudinger–Wang/Savin 边界正则提供复几何对应。",
+      "next_step": "重点审查 α+β/(2−β)>1 的混合导数闭合、边界 Hessian 下界及 Moser iteration 的系数可积阈值。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按 Theorems 1.1–1.2 建档；作者披露 ChatGPT 6.1 Astra 参与策略探索与计算，但全部断言由作者核验并负责。"
+        }
+      ]
+    },
+    {
+      "id": "complex-hessian-linear-gradient",
+      "title": "复 k-Hessian：二阶估计对梯度的线性依赖",
+      "title_en": "A Second-Order Estimate Linear in the Gradient for Complex k-Hessian Equations",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-08",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "huangzhang26complexhessian"
+      ],
+      "summary": "在紧 Kähler 流形上，非退化复 k-Hessian 方程的最大特征值可由梯度线性控制，随后用插值同时封闭梯度与复 Hessian。",
+      "formulation": "对复维 n≥2、2≤k≤n，光滑 Γ_k-admissible 解满足 σ_k(λ(A_u))^{1/k}=h>0、sup u=0；若 h 有正下界、C^2 上界且 osc u 有界，则 sup λ_1(A_u)≤C(1+sup|∇u|^2)^{1/2}。",
+      "known": "该线性依赖改进了经典二次梯度依赖；结合局部 W^{2,q} 插值给出统一梯度与复 Hessian 界。",
+      "gap": "目前要求紧 Kähler、光滑容许解和非退化 h；退化密度与 Hermitian 背景被作者明确留作后续问题。",
+      "method": "最大值原理、Guo–Song 型精细凹性不等式、C^0 解族预紧性、附近光滑容许函数及尺度 r=G^{-1/2} 的插值闭合。",
+      "relevance": "直接展示如何把二阶—梯度耦合从二次降到线性，是 Hessian 先验估计方法论的关键进展。",
+      "next_step": "核查最大特征值计算中此前遗漏的三阶项、比较常数对小参数 β 的统一性及 C^0 有限覆盖步骤。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按 Theorem 1.1、Corollary 1.2 建档；结论限定在非退化紧 Kähler 情形。"
+        }
+      ]
+    },
+    {
+      "id": "complex-hessian-degenerate-density",
+      "title": "退化复 k-Hessian 的线性二阶—梯度估计需要怎样的密度正则性？",
+      "title_en": "Which Density Regularity Preserves the Linear Hessian–Gradient Estimate in the Degenerate Complex k-Hessian Setting?",
+      "kind": "question",
+      "status": "open",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "explicit",
+      "source_date": "2026-11-08",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "huangzhang26complexhessian"
+      ],
+      "summary": "作者明确询问：非负 wedge density 在何种正则假设下，线性二阶估计能沿正近似保持一致。",
+      "formulation": "对 ω_u^k∧ω^{n−k}=ψω^n、ψ≥0，寻找足以使 sup λ_1(A_u)≤C(1+sup|∇u|^2)^{1/2} 沿 ψ+ε 的正近似具有 ε-一致常数的 ψ 正则条件，并允许 λ(A_u)∈\\overline{Γ_k}。",
+      "known": "若根密度 h 具有统一 C^2 界，则 |∇h|^2/h 在 {h>0} 可独立于正下界控制；但 ψ 光滑不自动给 h=const·ψ^{1/k} 的统一 C^2 控制。",
+      "gap": "尚缺既匹配退化自然尺度、又能控制最大值原理误差并通过正近似极限的最弱条件。",
+      "method": "先追踪 h 下界在精细凹性与比较估计中的使用，再测试根密度 C^{1,1}/C^2、加权导数界和容量型条件。",
+      "relevance": "它把非退化先验估计与弱/退化 Hessian 理论直接接起来，且条件可被反例检验。",
+      "next_step": "构造一维或径向 ψ 消失模型，区分 ψ 的普通光滑性与 ψ^{1/k} 的根正则性，再定位统一常数的真正障碍。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "由论文 §5.3.1 的明确问题建档；不是编辑外推。"
+        }
+      ]
+    },
+    {
+      "id": "complex-hessian-hermitian-extension",
+      "title": "线性二阶—梯度估计能否扩展到紧 Hermitian 流形？",
+      "title_en": "Can the Linear Hessian–Gradient Estimate Be Extended to Compact Hermitian Manifolds?",
+      "kind": "question",
+      "status": "open",
+      "topics": [
+        "hessian"
+      ],
+      "evidence": "explicit",
+      "source_date": "2026-11-08",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 2,
+      "source_ids": [
+        "huangzhang26complexhessian"
+      ],
+      "summary": "作者明确提出把 Kähler 情形的最大值原理推广到带 torsion 的紧 Hermitian 背景。",
+      "formulation": "在紧 Hermitian 流形上，对非退化复 k-Hessian 方程，能否得到同样的 sup λ_1≤C(1+sup|∇u|^2)^{1/2}，且误差常数对证明中的小参数 β 一致？",
+      "known": "Hermitian 情形中梯度 Bochner 项已有控制框架，但 torsion 会在 Codazzi 恒等式和最大特征值计算中引入额外三阶项。",
+      "gap": "核心是保持误差对 β 的统一性，才能先固定比较距离再选择附近光滑容许函数；现有消项不足。",
+      "method": "重排 torsion 三阶项、寻找修正辅助函数或新的凹性配方，并与 Hermitian Hessian 估计的既有 torsion 结构对照。",
+      "relevance": "扩展会把方法从 Kähler 几何推进到更广泛复几何背景，并检验线性梯度依赖是否依赖 Kähler 消项。",
+      "next_step": "逐项展开 Hermitian 最大特征值公式，按 β 次序标记不可吸收项，再尝试引入 torsion-corrected test function。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "由论文 §5.3.2 的明确问题建档；要求保留对小参数的统一性。"
+        }
+      ]
+    },
+    {
+      "id": "capillary-log-gauss-flow",
+      "title": "毛细对数 Gauss 曲率流与无对称性的毛细 Minkowski 问题",
+      "title_en": "Capillary Logarithmic Gauss Curvature Flow and the Capillary Minkowski Problem",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-09",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "meiweng26capillarylog"
+      ],
+      "summary": "适当初始缩放后，锐角毛细严格凸超曲面的对数 Gauss 曲率流长期存在，并在水平匀速平移校正后光滑收敛。",
+      "formulation": "θ∈(0,π/2)，f 在球冠 C_θ 上正且光滑，Σ_0 光滑严格凸且满足固定接触角。存在 τ>0，使从 τΣ_0 出发的流全时存在；X+tη 光滑收敛，η 由矩条件唯一确定。",
+      "known": "极限 Gauss 曲率为 exp(ℓ^{-1}〈η,ξ〉)f；当积分兼容条件成立时 η=0，从而无额外偶对称假设地给出毛细 Minkowski 问题的流证明。",
+      "gap": "当前是锐角、光滑且严格凸情形；没有覆盖 θ=π/2、钝角、非光滑数据或弱流。",
+      "method": "球冠支撑函数 Monge–Ampère–Robin 方程、Chou–Wang 移动中心、适配边界的修正项及主曲率半径估计。",
+      "relevance": "与网页主人在曲率流、Minkowski 和 Robin/毛细边界三条线高度接近。",
+      "next_step": "审查外半径的次二次曲率半径界、水平漂移控制以及 θ→π/2 端点常数是否退化。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按 Theorem 1.1 与 Corollary 1.2 建档；不外推到非锐角或弱解。"
+        }
+      ]
+    },
+    {
+      "id": "onephase-singular-cone-regularity",
+      "title": "一相自由边界：强可积奇异极小锥附近的 ε-正则性",
+      "title_en": "Epsilon-Regularity near Strongly Integrable Singular Minimizing Cones in the One-Phase Problem",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "variational",
+        "minimal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-05",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "jeong26onephasecone"
+      ],
+      "summary": "Jeong 把平锥附近的 Allard 型 ε-正则推广到具有孤立奇点的强可积一相极小锥。",
+      "formulation": "对 non-degenerate weak solution，若在适当尺度上充分接近强可积且仅在原点奇异的一次齐次极小锥，则经平移旋转后，其自由边界可写成 De Silva–Jerison–Shahgholian foliation 某叶自由边界上的图。",
+      "known": "结论回答作者 Question 1.1 在强可积孤立奇锥范围内的结构问题，并与 Edelen/Edelen–Spolaor 的极小曲面奇锥正则相平行。",
+      "gap": "不是任意奇异极小锥的正则定理；强可积性、孤立奇点和非退化弱解都是实质条件。",
+      "method": "foliation barriers、Weiss 边界修正能量、紧性与图形稳定性，移植 Edelen 的奇锥退化策略。",
+      "relevance": "把 Bernoulli 自由边界、极小曲面奇点和稳定性方法连接起来，适合作为跨领域桥梁。",
+      "next_step": "核对强可积性排除 Jacobi 障碍的精确位置，以及从 L^1 正集收敛到图形控制的尺度迭代。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "由 11-05 重叠窗口首次收入；范围严格限定为强可积孤立奇锥附近。"
+        }
+      ]
+    },
+    {
+      "id": "alt-phillips-multiple-membrane",
+      "title": "Alt–Phillips 多膜自由边界：最优正则、吹起与锥分类",
+      "title_en": "The Alt–Phillips Multiple-Membrane Free-Boundary Problem",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "variational"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-09",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 2,
+      "source_ids": [
+        "ma26altphillips"
+      ],
+      "summary": "Ma 研究带加权 gap 相互作用的有序多膜 Alt–Phillips 模型，得到最优正则、非平凡齐次吹起和一类自由边界正则性。",
+      "formulation": "对任意正权和 0<γ<1，β=2/(2−γ)，解具有最优 C^{1,β−1} 正则，并由 Weiss almost monotonicity 得到非平凡 β-齐次吹起；严格离散凹权下，平坦单 gap 锥极小且对应自由边界 C^{1,α}。",
+      "known": "作者还分类一维 vertically critical 锥；三膜情形出现随 γ 改变极小性的锥族：小 γ 非极小，γ 接近 1 时极小。",
+      "gap": "部分结论依赖严格离散凹权；三膜锥结果不是所有 γ 的完整分类。本次未取得可逐定理核对的 HTML 全文。",
+      "method": "Weiss 几乎单调公式、gluing principle、齐次吹起与锥稳定/极小性比较。",
+      "relevance": "扩展自由边界与障碍/多膜变分结构，提供可与 Bernoulli、Allen–Cahn 和极小锥比较的新模型。",
+      "next_step": "获取全文后核对 optimal regularity 的常数依赖、平坦单 gap 锥的 second variation 与 γ 相变阈值。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按 arXiv 摘要建档；阅读深度明确限制为摘要级主结论。"
+        }
+      ]
+    },
+    {
+      "id": "allen-cahn-simons-cone-minimizer",
+      "title": "Allen–Cahn：Simons 锥渐近的全局极小解唯一性",
+      "title_en": "Uniqueness of Allen–Cahn Global Minimizers Asymptotic to the Simons Cone",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "variational",
+        "minimal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-10",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "leesarnataro26simons"
+      ],
+      "summary": "对每个 m≥4，Cabré–Terra 的 R^{2m} saddle-shaped 解是全局极小解；在零渐近系数类中，除符号外唯一。",
+      "formulation": "研究 R^{2m} 的 Allen–Cahn 全局极小解，其无穷远 nodal set 是 Simons 锥的单一法向图；若高度比 Hardt–Simon leaves 的主渐近项衰减更快（系数 a=0），则对应相位取向下只有 saddle-shaped 解。",
+      "known": "结论覆盖偶维 2m≥8；作者先证明参考极小解按参数严格排序和 O(m)×O(m) 对称，再用滑移与相对 stress–energy 排除第二个零系数解。",
+      "gap": "唯一性只在规定的无穷远图形与 a=0 类中，不是所有 Simons 锥渐近速度的全局极小解分类。",
+      "method": "参考极小解族的排序、旋转对称、滑移比较、线性化稳定性与相对 stress–energy 恒等式。",
+      "relevance": "连接 Allen–Cahn、Simons 锥与高维极小超曲面刚性，可与三维稳定分类形成维数—解类对照。",
+      "next_step": "审查从无穷远图形条件到全局排序的闭合，以及 a=0 与 Hardt–Simon 叶衰减率之间的精确换算。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按 Definition 1.1、Theorem 1.2 建档；不把 a=0 唯一性扩大成所有渐近类。"
+        }
+      ]
+    },
+    {
+      "id": "anisotropic-degiorgi-r4",
+      "title": "各向异性 De Giorgi 猜想在 R^4 的极限条件下成立",
+      "title_en": "The Anisotropic De Giorgi Conjecture in R^4 under the Limiting Assumption",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "variational",
+        "minimal",
+        "convex"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-10",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "chenlanliu26anisotropicdg"
+      ],
+      "summary": "满足单调性和两端 ±1 极限的 R^4 各向异性 Allen–Cahn 整解被证明是一维。",
+      "formulation": "F 为偶、除原点外正、一次齐次且 C^{4,α} 的凸 Minkowski norm，W 为满足双阱非退化条件的 C^{3,α} 势。若 u∈C^2(R^4) 解 div(F(Du)DF(Du))=W'(u)、u_{x4}>0 且逐个 x∈R^3 有 u(x,x4)→±1，则 u 一维。",
+      "known": "几何核心是：R^4 中每个非平凡、全局极小且为 generalized subgraph 的各向异性周长对象都是半空间。",
+      "gap": "必须保留 limiting assumption、F 的光滑/偶/凸条件及 generalized-subgraph 极小性；不是无极限条件或所有各向异性稳定解的分类。",
+      "method": "各向异性 tilt-excess 衰减、improvement of flatness 与 Liouville 论证。",
+      "relevance": "把 Minkowski norm、各向异性极小面与 Allen–Cahn 相变统一在同一刚性问题中。",
+      "next_step": "核对 tilt-excess 衰减对 F 的椭圆常数依赖，并比较去掉两端极限条件时的真正障碍。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按 Theorem 1.1 建档；精确保留 limiting assumption。"
+        }
+      ]
+    },
+    {
+      "id": "boundary-yamabe-singularity-classification",
+      "title": "边界 Yamabe 孤立奇点的全局分类与唯一渐近",
+      "title_en": "Classification and Unique Asymptotics for Isolated Singularities in the Boundary Yamabe Equation",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "conformal",
+        "hessian"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-05",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "jinliaoxiong26boundaryyamabe"
+      ],
+      "summary": "Jin–Liao–Xiong 在所有 n≥3 中分类半空间穿孔域的正奇解，并证明半球局部非可去边界奇点具有唯一全局模型渐近。",
+      "formulation": "对平坦 boundary Yamabe 方程在穿孔半空间上的正奇解，非平稳柱面剖面均周期，并由 Hamiltonian energy 在平移意义下唯一决定；半球中任意非可去孤立边界奇点解以代数相对误差趋于唯一全局奇解。",
+      "known": "在每个平稳或周期剖面处，线性化方程解空间为二维；作者用 Hamiltonian 方法替代经典二维相平面方法。",
+      "gap": "这是 63 页 v1；本次核到摘要级主结论，未独立审查局部分岔、紧性和唯一渐近的谱论证。",
+      "method": "柱面化、Hamiltonian 能量、局部分岔、紧性、线性化核分类与调制渐近。",
+      "relevance": "与共形临界方程、孤立奇点、谱核和 blow-up 分析直接相关，并可与有限奇集的 singular Yamabe 拼接问题区分。",
+      "next_step": "精读 Hamiltonian 参数化的单射性和周期支的全局延拓，再比较有限奇集构造中每个端的局部模型。",
+      "company": "",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "由 11-05 重叠窗口首次收入；不把局部奇点分类误写成闭流形有限奇集存在定理的验证。"
+        }
+      ]
+    },
+    {
+      "id": "alphaproof-code-signal",
+      "title": "Google DeepMind AlphaProof Code：从人工审批规格到机器码级 Lean 验证",
+      "title_en": "AlphaProof Code: Human-Approved Specifications and Machine-Code-Level Lean Verification",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-11-10",
+      "added_on": "2026-11-13",
+      "updated_on": "2026-11-13",
+      "checked_on": "2026-11-13",
+      "priority": 3,
+      "source_ids": [
+        "deepmind26alphaproofcode",
+        "deepmind26alphaproofpaper"
+      ],
+      "summary": "DeepMind 发布多 agent 形式验证框架，并报告把 Signal 的关键安全性质连接到未改动实现编译出的 AArch64 机器码。",
+      "formulation": "人和 specification agent 将文献模型转为 Lean 规格，reviewer agents 批评草稿并由人批准；orchestrator/workers 产生证明，gatekeeper 仅在 Lean kernel 检查且 comparator 匹配 held-out 规格时接受。",
+      "known": "技术报告称生成约 650 万行机器检查 Lean，基于约 2.6 万行可信规格与 AArch64 语义，覆盖 PQXDH/Triple Ratchet 的前向保密、认证、妥协后安全与握手保密；官方还回注两例已修 bug，系统证明不安全。",
+      "gap": "证明只相对已批准规格、AArch64 语义、密码原语假设与外部调用 contract 成立；本站未重放 artifact。四周、1% 人工复核和首次声明均为官方报告，不是本次独立审计。",
+      "method": "spec-writer + 双 reviewer、人工审批、orchestrator/worker prover team、Lean kernel、held-out comparator 与显式 TCB。",
+      "relevance": "这是数学科研 agent 可直接借鉴的证据架构：把问题定义、候选证明和最终门卫分离，并令模型输出始终不受信任。",
+      "next_step": "在较小公开 artifact 上重放构建，审计规格非空性、允许公理、外部 contract 和 comparator，再评估迁移到自然语言数学证明的边界。",
+      "company": "Google DeepMind",
+      "issues": [
+        "20261106-20261113"
+      ],
+      "history": [
+        {
+          "date": "2026-11-13",
+          "note": "本期按官方博客与技术报告建档；区分机器检查、规格正确性与独立数学接受。"
         }
       ]
     }
