@@ -2,16 +2,16 @@
   "schema_version": 1,
   "title": "研究问题与进展",
   "last_scan": {
-    "checked_on": "2026-11-20",
-    "period_start": "2026-11-13",
-    "period_end": "2026-11-20",
-    "search_start": "2026-11-12",
-    "note": "本期从 11-12 重叠扫描；新增 10 条（数学结果 7 条、AI/科研工作流 3 条），复核 14 条既有记录，实质状态变化 0。数学核到方程、维数、解类、边界/无穷远条件与主方法接口；未逐篇独立复证。AI 按官方发布、预印本与 artifact 分层，不把产品说明或 agent 实验当作数学证明。",
+    "checked_on": "2026-11-27",
+    "period_start": "2026-11-20",
+    "period_end": "2026-11-27",
+    "search_start": "2026-11-19",
+    "note": "本期从 11-19 重叠扫描；新增 6 条（数学结果 4 条、AI/科研工作流 2 条），复核 12 条既有记录，实质状态变化 0。数学核到对象、维数、解/变分类、边界与主方法接口；未逐篇独立复证。AI 把官方发布、预印本、Lean artifact、形式化范围与独立接受分开，尤其不把 OpenAI 的重大声明直接标成已解决。",
     "pending_rechecks": [
       {
         "source_id": "chan25",
         "since": "2026-10-08",
-        "reason": "2026-11-20 确认 arXiv 仍为 v2 且带 JAMS DOI；期刊全文仍未逐行复核。"
+        "reason": "2026-11-27 再次保留：arXiv 版本和 JAMS DOI 状态未改变；期刊全文仍未逐行复核。"
       }
     ]
   },
@@ -869,6 +869,96 @@
       "version": "official research post",
       "type": "official",
       "read_depth": "2026-11-20：核对 Anvil 的并行 investigator sessions、反馈条件、内部可见性和作者列出的迁移/外部复现限制。"
+    },
+    "antonini26anisotropicmcf": {
+      "title": "Elliptic regularization for anisotropic mean curvature flow",
+      "authors": "Carlo Alberto Antonini · Antonio De Rosa · Massimiliano Morini · Salvatore Stuvard",
+      "url": "https://arxiv.org/abs/2611.27789v1",
+      "date": "2026-11-20",
+      "version": "v1；100 页",
+      "type": "paper",
+      "read_depth": "2026-11-27：核对摘要、主结果、方程 (1.1)、一般/晶体各向异性、non-fattening 初值及 unit-density Brakke 结论的附加正则性条件；未独立复证。"
+    },
+    "gaia26schoenwolfson": {
+      "title": "All stable Schoen–Wolfson cones are minimizing",
+      "authors": "Filippo Gaia · Xuanyu Li · Gerard Orriols",
+      "url": "https://arxiv.org/abs/2611.27966v1",
+      "date": "2026-11-20",
+      "version": "v1；24 页",
+      "type": "paper",
+      "read_depth": "2026-11-27：通读摘要、问题陈述、Theorem 1.1、证明路线与 §1.4 AI 使用声明；未逐行复核第 3–5 节的非线性闭合。"
+    },
+    "hanwang26mcfmultiplicity": {
+      "title": "Singularities of Mean Curvature Flow with Bounded Total Curvature II: Multiplicity One",
+      "authors": "Yongheng Han · Zhen Wang",
+      "url": "https://arxiv.org/abs/2611.29956v1",
+      "date": "2026-11-23",
+      "version": "v1；32 页",
+      "type": "paper",
+      "read_depth": "2026-11-27：核对摘要、Theorem 1.1、Corollary 1.2、临界总曲率假设、n≥3 及 separation-function 证明接口；未独立复证。"
+    },
+    "zhangzhu26freeboundaryvarifold": {
+      "title": "Free-boundary minimal varifolds I: zero boundary mass",
+      "authors": "Tengyao Zhang · Zhifei Zhu",
+      "url": "https://arxiv.org/abs/2611.30322v1",
+      "date": "2026-11-23",
+      "version": "v1",
+      "type": "paper",
+      "read_depth": "2026-11-27：核对摘要、2≤k<n、自由边界 stationary、模 2 小环 almost-minimizing、边界质量与 3–7 维超曲面结论；未逐行审证明。"
+    },
+    "deepmind26quantumagents": {
+      "title": "Finding faster quantum algorithms with agents and formal verification",
+      "authors": "Sergey Shirobokov · Ben Jaderberg · Ryan Babbush · Google DeepMind",
+      "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification/",
+      "date": "2026-11-23",
+      "version": "official science post",
+      "type": "official",
+      "read_depth": "2026-11-27：核对 Gemini 4 独立团队、Lean gate、共享 notebook/四小时会议、报告的成本改进与公开 artifact；未独立重放。"
+    },
+    "shirobokov26quantumprograms": {
+      "title": "Discovering formally verified quantum programs with AI",
+      "authors": "Sergey Shirobokov et al.",
+      "url": "https://arxiv.org/abs/2611.09822v3",
+      "date": "2026-11-16",
+      "version": "v3；初稿 2026-11-06",
+      "type": "paper",
+      "read_depth": "2026-11-27：核对摘要、形式规格、团队共享机制与 2.57×/290×/12×/8×/2.5× 报告值；未审计成本模型或全部 Lean 证明。"
+    },
+    "deepmind26formalquantumrepo": {
+      "title": "formal-quantum-computation",
+      "authors": "Google DeepMind",
+      "url": "https://github.com/google-deepmind/formal-quantum-computation",
+      "date": "2026-11-23",
+      "version": "public Lean 4 repository；main/discoveries branches",
+      "type": "official",
+      "read_depth": "2026-11-27：核对核心库、规格/benchmark 分库、discoveries 分支、依赖 pin 与 lake build 说明；未在本站构建。"
+    },
+    "openai-math-history-20261124": {
+      "title": "OpenAI Math repository history — November 23–24, 2026",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/history.md",
+      "date": "2026-11-24",
+      "version": "fixed commit 3344da59991ed94f9ba711217b29c1d760badfa6",
+      "type": "official",
+      "read_depth": "2026-11-27：核对 11-23 VP≠VNP 初稿、11-24 两个 families/九篇文稿、替代关系及 selected Lean formalizations；未独立构建或数学审计。"
+    },
+    "openai-math-mm-20261124": {
+      "title": "The matrix multiplication exponent is nine fourths",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/README.md",
+      "date": "2026-11-24",
+      "version": "November 24 edition",
+      "type": "official",
+      "read_depth": "2026-11-27：核对自然语言主张、formal circuit 模型与 README 所述 Lean scope；未复核 111 页证明，也未把部分形式化等同于整篇验证。"
+    },
+    "openai-math-lp-20261124": {
+      "title": "Strongly polynomial linear programming",
+      "authors": "OpenAI",
+      "url": "https://github.com/openai/math/blob/3344da59991ed94f9ba711217b29c1d760badfa6/preprints/Strongly-polynomial-linear-programming-November-24-2026/README.md",
+      "date": "2026-11-24",
+      "version": "November 24 edition",
+      "type": "official",
+      "read_depth": "2026-11-27：核对任意实系数强多项式算法声明、rational-data bit-length 与 Lean rational RAM scope；未独立复核论文或 statement–paper 对齐。"
     }
   },
   "entries": [
@@ -926,8 +1016,8 @@
       "evidence": "extension",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 2,
       "source_ids": [
         "liu26",
@@ -946,7 +1036,8 @@
         "20261009-20261016",
         "20261030-20261106",
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -968,6 +1059,10 @@
         {
           "date": "2026-11-20",
           "note": "本周复查 Liu v1 与 Li–Wu v1；未见去掉倒数凹性的结果，状态不变。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期新论文不处理实 Hessian 商方程中 D²_pp(1/f)≤0 的替换；未见新反例或一般替代条件，继续 watch。"
         }
       ]
     },
@@ -984,8 +1079,8 @@
       "evidence": "extension",
       "source_date": "2026-10-08",
       "added_on": "2026-10-09",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "hujiang26",
@@ -1003,7 +1098,8 @@
       "issues": [
         "20261002-20261009",
         "20261009-20261016",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -1017,6 +1113,10 @@
         {
           "date": "2026-11-20",
           "note": "本周检索仍显示 arXiv:2610.11400 为 v2；未见 γ=1 端点被解决，状态不变。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "检索未见 arXiv:2610.11400 在 v2 后更新；本期各向异性流/极小几何结果不触及 γ=1 斜边值端点。"
         }
       ]
     },
@@ -1033,8 +1133,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "choi26"
@@ -1051,7 +1151,8 @@
         "20261002-20261009",
         "20261009-20261016",
         "20261030-20261106",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -1069,6 +1170,10 @@
         {
           "date": "2026-11-20",
           "note": "本周按原题与新 MCF 论文逐项比对；新高余维 pinching/奇锥切流结果不提供 extinction-deficit 的定量稳定性。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "新各向异性弱流与总曲率切流定理均不控制 extinction deficit 到球距离；原定量稳定性问题继续 open。"
         }
       ]
     },
@@ -1085,8 +1190,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-07",
       "added_on": "2026-10-09",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 2,
       "source_ids": [
         "choi26"
@@ -1103,7 +1208,8 @@
         "20261002-20261009",
         "20261009-20261016",
         "20261030-20261106",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -1121,6 +1227,10 @@
         {
           "date": "2026-11-20",
           "note": "本周未见 Cartan–Hadamard/高余维尖锐寿命估计的新证明；新自由边界高余维流的支撑和假设不同。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期椭圆正则化仍在 Euclidean 空间研究各向异性流，未给出 Cartan–Hadamard 环境中的尖锐寿命不等式。"
         }
       ]
     },
@@ -1178,8 +1288,8 @@
       "evidence": "explicit",
       "source_date": "2026-10-06",
       "added_on": "2026-10-09",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "lu26",
@@ -1203,7 +1313,8 @@
         "20261009-20261016",
         "20261030-20261106",
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -1225,6 +1336,10 @@
         {
           "date": "2026-11-20",
           "note": "openai/math 截至本次复查仍以 4eaee875 为最新提交；未新增构建或独立验证证据。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "openai/math 已更新至 3344da5，但 11-23/24 history 未列 log-BM 修订；本站仍未重放原 Lean/Comparator，继续 watch。"
         }
       ]
     },
@@ -1397,12 +1512,15 @@
         "openai26communities",
         "openai-repo-20261030",
         "openai-local-smoothing-lean-20261030",
-        "openai-repo-20261113"
+        "openai-repo-20261113",
+        "openai-math-history-20261124",
+        "openai-math-mm-20261124",
+        "openai-math-lp-20261124"
       ],
-      "summary": "OpenAI 数学仓库继续保留 721 篇文稿、373 个 families 与部分 Lean 形式化；截至 11 月 13 日，最近 push 仍为 10 月 30 日，本期无新提交。",
+      "summary": "OpenAI 数学仓库在 11 月 23–24 日新增两组重大复杂性/优化结果，当前为 730 篇文稿、375 个 families，并继续提供 selected Lean 形式化与版本/撤回记录。",
       "formulation": "跟踪 openai/math 的研究结论、形式化覆盖、纠错与版本变化。",
-      "known": "固定提交 4eaee875 的 README 仍称约 42% top-line results 已形式化，并把材料定位为 raw research data；GitHub API 显示 11-05 后 commits 为空。",
-      "gap": "官方明确把这些文稿视作 raw research data。此次核对了自然语言主张、形式化范围与固定提交，但未运行 Lean/Comparator，也没有把公司声明或形式化目录等同于独立数学接受。",
+      "known": "固定提交 3344da5 的 history 新增 VP≠VNP 初稿及两组九篇文稿；family 379 声明算术层级分离、矩阵乘法指数与 sunflower 等，family 380 声明强多项式线性规划和超多项式多面体图直径。仓库仍把材料定位为 raw research data。",
+      "gap": "官方发布和 selected Lean 只证明材料存在；本站未运行 Lean/Comparator、未逐篇核对形式范围，也未发现足以构成独立数学接受的外部审查。重大 headline 另建 watch 条目。",
       "method": "文稿与形式化证明对照、固定版本、重放验证。",
       "relevance": "可为相关 PDE 与凸几何问题提供候选证明，也提高了逐项核查的重要性。",
       "next_step": "优先重放 family 079 的 Comparator 目标，核对局部光滑精确指数、Kakeya 推论和允许公理；继续追踪外部专家的解释与纠错。",
@@ -2066,8 +2184,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-22",
       "added_on": "2026-10-23",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "chenma26singularyamabe"
@@ -2083,7 +2201,8 @@
       "issues": [
         "20261016-20261023",
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -2097,6 +2216,10 @@
         {
           "date": "2026-11-20",
           "note": "arXiv:2610.31058 仍为 v1；本周未见撤回、修订或独立全面复核。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期检索未见 arXiv:2610.31058 的新版本、撤回或独立全面审计；作者解决声明的证据等级不变。"
         }
       ]
     },
@@ -2187,8 +2310,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-21",
       "added_on": "2026-10-23",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "songzhang26kls",
@@ -2209,7 +2332,8 @@
         "20261016-20261023",
         "20261030-20261106",
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -2227,6 +2351,10 @@
         {
           "date": "2026-11-20",
           "note": "显式常数稿仍为 2026-11-09 的 v3，C_P≤25 声明不变；未见新修订或撤回。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "显式常数稿仍为 2026-11-09 的 v3、C_P≤25；本期未见新修订、撤回或独立 Lean 重放。"
         }
       ]
     },
@@ -2463,8 +2591,8 @@
       "evidence": "theorem",
       "source_date": "2026-10-27",
       "added_on": "2026-10-30",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "delellisglaudo26plateau1",
@@ -2481,7 +2609,8 @@
       "issues": [
         "20261023-20261030",
         "20261030-20261106",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -2495,6 +2624,10 @@
         {
           "date": "2026-11-20",
           "note": "作者主页仍列 Boundary Plateau Laws I/II；未检索到改变分类声明的新版本或纠错。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期未见 Boundary Plateau Laws I/II 的新版本或纠错；新 Schoen–Wolfson 锥结果对象和 competitor 类不同。"
         }
       ]
     },
@@ -2806,8 +2939,8 @@
       "evidence": "theorem",
       "source_date": "2026-11-05",
       "added_on": "2026-11-06",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "bi26densitytwo"
@@ -2823,7 +2956,8 @@
       "issues": [
         "20261030-20261106",
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -2837,6 +2971,10 @@
         {
           "date": "2026-11-20",
           "note": "arXiv:2611.08212 仍为 89 页 v1；未见修订、撤回或独立全面复核。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期未见 arXiv:2611.08212 的修订或撤回；新自由边界 varifold/MCF 结果不触及 R³ 密度二分类。"
         }
       ]
     },
@@ -3032,8 +3170,8 @@
       "evidence": "explicit",
       "source_date": "2026-11-08",
       "added_on": "2026-11-13",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 3,
       "source_ids": [
         "huangzhang26complexhessian"
@@ -3048,7 +3186,8 @@
       "company": "",
       "issues": [
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -3058,6 +3197,10 @@
         {
           "date": "2026-11-20",
           "note": "arXiv:2611.11176 仍为 v1；本周 big-class 复 Monge–Ampère 正则性不处理退化复 k-Hessian 的一致线性二阶估计。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期未发现解决 Γ_k 退化密度近似与 β-一致误差的新结果；arXiv:2611.11176 的明确问题继续 open。"
         }
       ]
     },
@@ -3073,8 +3216,8 @@
       "evidence": "explicit",
       "source_date": "2026-11-08",
       "added_on": "2026-11-13",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 2,
       "source_ids": [
         "huangzhang26complexhessian"
@@ -3089,7 +3232,8 @@
       "company": "",
       "issues": [
         "20261106-20261113",
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
@@ -3099,6 +3243,10 @@
         {
           "date": "2026-11-20",
           "note": "arXiv:2611.11176 仍为 v1；本周新结果在 Kähler big class/ample locus，未解决 Hermitian torsion 与 β-一致性。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期未发现把线性二阶—梯度估计推广到有 torsion 的紧 Hermitian 流形的新稿，继续 open。"
         }
       ]
     },
@@ -3669,8 +3817,8 @@
       "evidence": "official",
       "source_date": "2026-11-15",
       "added_on": "2026-11-20",
-      "updated_on": "2026-11-20",
-      "checked_on": "2026-11-20",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
       "priority": 2,
       "source_ids": [
         "openai26latticestandardmodel",
@@ -3685,12 +3833,17 @@
       "next_step": "先审计 Lean report 对应的精确 theorem 与允许公理，再核对自然语言物理结论是否完整映射到形式规格。",
       "company": "OpenAI",
       "issues": [
-        "20261113-20261120"
+        "20261113-20261120",
+        "20261120-20261127"
       ],
       "history": [
         {
           "date": "2026-11-20",
           "note": "记录 11-15 官方科学博客的新协作细节；底层预印本日期仍为 10-06。"
+        },
+        {
+          "date": "2026-11-27",
+          "note": "本期 OpenAI 仓库新增复杂性/优化 families，但未更新该候选晶格构造的 reflection positivity、连续极限或独立验证状态。"
         }
       ]
     },
@@ -3727,6 +3880,233 @@
         {
           "date": "2026-11-20",
           "note": "按官方研究页建档；明确标注非数学 agent 与内部权限依赖。"
+        }
+      ]
+    },
+    {
+      "id": "anisotropic-mcf-elliptic-regularization",
+      "title": "各向异性平均曲率流的椭圆正则化与单位密度 Brakke 流",
+      "title_en": "Elliptic Regularization and Unit-Density Brakke Flows for Anisotropic MCF",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "variational"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-20",
+      "added_on": "2026-11-27",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
+      "priority": 3,
+      "source_ids": [
+        "antonini26anisotropicmcf"
+      ],
+      "summary": "在任意维数、一般表面张力与 mobility 下建立各向异性平均曲率流的椭圆正则化；在严格凸可微张力下得到单位密度各向异性 Brakke 流。",
+      "formulation": "以两个范数 φ、m 分别表示表面张力和 mobility，考察有限周长、non-fattening 初集的弱流。作者证明竖直重标度的极小化子/平移孤立子收敛到唯一广义 level-set motion，并局部 BV 收敛到 flat flow。",
+      "known": "对任意、可为晶体型的各向异性，极限满足相输运与表面能耗散平衡；若 φ 在原点外 C¹ 且严格凸，flat flow 还是 BV flow，其 reduced boundary 给出单位密度各向异性 Brakke flow。",
+      "gap": "unit-density 结论需要 φ 的可微与严格凸；初值需 non-fattening。该稿是 v1，本站未复证，也未检验所有弱流概念之间的唯一性接口。",
+      "method": "Ilmanen 型椭圆正则化、平移孤立子、restarting-and-matching、BV/varifold 紧性与能量耗散。",
+      "relevance": "直接连接曲率流、变分法、晶体各向异性和弱解正则性，是网页主人曲率流背景的近邻进展。",
+      "next_step": "重点审计重启拼接在曲率识别之前如何避免周长收敛假设，并核对 Brakke 不等式中的单位密度保持。",
+      "company": "",
+      "issues": [
+        "20261120-20261127"
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "note": "按 v1 摘要、主结果与方程建档；保留 non-fattening 和 φ 的附加正则性条件。"
+        }
+      ]
+    },
+    {
+      "id": "schoen-wolfson-cones-minimizing",
+      "title": "所有稳定 Schoen–Wolfson 锥都是 Lagrangian 面积极小的",
+      "title_en": "All Stable Schoen–Wolfson Cones Are Lagrangian Area-Minimizing",
+      "kind": "result",
+      "status": "watch",
+      "topics": [
+        "minimal",
+        "variational",
+        "ai"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-20",
+      "added_on": "2026-11-27",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
+      "priority": 3,
+      "source_ids": [
+        "gaia26schoenwolfson"
+      ],
+      "summary": "作者证明每个稳定锥 C_{p,p+1}∩B₁ 在以其边界为度数一边值的弱 Lagrangian 圆盘中面积最小，回答 Schoen–Wolfson 留下的问题。",
+      "formulation": "对每个 p≥1，若 u∈H¹(D,C²) 弱 Lagrangian，边界迹落在 Γ_{p,p+1} 且归一化边界映射度数为 1，则 Area(u) 不小于 C_{p,p+1}∩B₁ 的面积。",
+      "known": "论文把 p=1 化为带单个 Green 极点的尖锐 Fourier 下界；p>1 需要 p 个可调 Green 极点和平衡条件。作者明确披露：公开模型给出 p=1 初始证明，随后通过长期 AI 交互扩展到高 p；正文无 AI 生成文字。",
+      "gap": "这是 24 页 v1。本站尚未逐行核对 p>1 的局部线性化、非线性闭合和所有 degree-one 边界近似步骤，因此不把“作者解决声明”升级为独立确认。",
+      "method": "Green 函数修正的 Dirichlet 能量、Fourier 模态尖锐权重、Wente 型补偿紧性与多极点平衡。",
+      "relevance": "它同时连接极小曲面、辛/变分几何、奇锥分类和 AI 参与证明的透明披露，是本期价值最高的数学条目之一。",
+      "next_step": "优先复核 Theorem 1.1 的精确迹空间与 degree 条件，再逐项检查 p>1 中不利 Fourier 模态如何由 p 个平衡条件控制。",
+      "company": "",
+      "issues": [
+        "20261120-20261127"
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "note": "按论文主定理和 §1.4 AI 声明建档；重大问题解决仍标 watch，等待独立审查。"
+        }
+      ]
+    },
+    {
+      "id": "mcf-bounded-total-curvature-multiplicity-one",
+      "title": "有界临界总曲率下 MCF 切流的重数一与唯一性",
+      "title_en": "Multiplicity One and Uniqueness of MCF Tangent Flows under Bounded Total Curvature",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "flows",
+        "minimal"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-23",
+      "added_on": "2026-11-27",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
+      "priority": 3,
+      "source_ids": [
+        "hanwang26mcfmultiplicity"
+      ],
+      "summary": "对 n≥3 的闭嵌入超曲面平均曲率流，统一有界的临界积分 ∫|A|^n 排除第一奇异时刻的高重数非零切流，并推出切流唯一。",
+      "formulation": "若 M_t^n⊂R^{n+1} 光滑、闭且嵌入，T 是第一奇异时刻，且 sup_{t<T}∫_{M_t}|A|^n dμ_t≤Λ，则每个非零切流重数为一；每个奇异点的切流唯一，重标度流局部光滑收敛到闭自收缩子。",
+      "known": "作者说明该结果在闭嵌入设置中处理其前文 Conjecture 1.3。证明把临界总曲率紧性与 Bamler–Kleiner 型 sheet separation 演化结合。",
+      "gap": "定理限于 n≥3、余维一、闭嵌入流并假设临界 L^n 曲率统一有界；不是一般 multiplicity-one 猜想。该稿为 v1，未独立复证。",
+      "method": "曲率 varifold 紧性、局部时空第二基本形式强收敛、平滑 separation 尺度和高斯核加权演化。",
+      "relevance": "与曲率估计、奇点模型和谱/稳定性分析直接相连，也能与上期的极小锥切流唯一性形成互补。",
+      "next_step": "核对 separation 尺度在 n>2 时的跨尺度可和性，以及重数一到唯一/光滑收敛的精确依赖。",
+      "company": "",
+      "issues": [
+        "20261120-20261127"
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "note": "按 v1 Theorem 1.1、Corollary 1.2 与临界总曲率假设建档。"
+        }
+      ]
+    },
+    {
+      "id": "free-boundary-minimal-varifold-zero-mass",
+      "title": "自由边界极小 varifold 的零边界质量与正则性",
+      "title_en": "Zero Boundary Mass and Regularity for Free-Boundary Minimal Varifolds",
+      "kind": "result",
+      "status": "preprint",
+      "topics": [
+        "minimal",
+        "variational"
+      ],
+      "evidence": "theorem",
+      "source_date": "2026-11-23",
+      "added_on": "2026-11-27",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
+      "priority": 3,
+      "source_ids": [
+        "zhangzhu26freeboundaryvarifold"
+      ],
+      "summary": "作者为相对小环中模 2 almost-minimizing 的自由边界 stationary varifold 建立整性、边界一阶变分结构和零边界质量判据。",
+      "formulation": "令 V 为紧致带光滑边界 M^n 中的 k-varifold，2≤k<n；假设 V 自由边界 stationary，且在每个点的充分小相对环域中 modulo two almost minimizing。",
+      "known": "作者证明 V 整，边界第二基本形式在 T_xV 上的迹几乎处处为零，且 δV=νσ，其中 σ≥0 支持在 ∂M 且与 ||V|| 奇异；边界处对所有 k-平面的严格迹号强制 σ=0。对环境维数 3–7 的超曲面，严格平均凸进一步给出光滑、proper embedded。",
+      "gap": "结论依赖小环 almost-minimizing；严格平均凸与维数 3–7 只用于更强正则性。不能外推到任意稳定自由边界极小 varifold。",
+      "method": "相对变分、边界 first-variation 分解、模 2 almost-minimizing 紧性与低维正则性。",
+      "relevance": "紧贴自由边界、极小曲面和谱方法；文末的 Dirichlet 第一特征值控制也提供稳定性研究接口。",
+      "next_step": "精读零质量判据中严格符号对所有切 k-平面的作用，并核对第一特征值上界所需的共同环域尺度。",
+      "company": "",
+      "issues": [
+        "20261120-20261127"
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "note": "按 v1 摘要逐项保留 k、n、almost-minimizing、符号和低维条件后建档。"
+        }
+      ]
+    },
+    {
+      "id": "deepmind-formal-quantum-agents",
+      "title": "DeepMind：多智能体发现并用 Lean 验证量子程序",
+      "title_en": "DeepMind Agent Teams Discover and Formally Verify Quantum Programs",
+      "kind": "ai",
+      "status": "released",
+      "topics": [
+        "ai"
+      ],
+      "evidence": "official",
+      "source_date": "2026-11-23",
+      "added_on": "2026-11-27",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
+      "priority": 3,
+      "source_ids": [
+        "deepmind26quantumagents",
+        "shirobokov26quantumprograms",
+        "deepmind26formalquantumrepo"
+      ],
+      "summary": "Gemini 4 独立团队针对形式规格搜索量子程序，以 Lean 同时验证正确性与成本；通过共享 wiki 和定期虚拟会议交换已验证候选。",
+      "formulation": "每个问题由独立 agent teams 搜索；候选先通过 Lean 验证，再进入共享 notebook。团队每四小时交换、争论和比较想法，最终输出带形式证明的量子程序。",
+      "known": "论文报告 parallel search、量子算术及 fusion/photochemistry/drug-metabolism 实例的多项成本改进；官方开放 Lean 4 核心库、规格 benchmark 与 discoveries 分支。仓库依赖版本固定并提供 lake build。",
+      "gap": "报告值依赖论文的资源成本模型；本站未构建 discoveries 分支，也未核对物理规格是否完整表达真实任务。它是量子算法发现案例，不等于通用数学 agent 已被验证。",
+      "method": "人定义问题与形式规格；多团队独立搜索；Lean gate；共享知识库与定期会议；人解释和选题。",
+      "relevance": "这是“共享信息的多 worker + 形式验证”最清楚的一手实现之一，可直接借鉴到基础数学的候选引理搜索与 verifier 流水线。",
+      "next_step": "固定仓库提交重放 lake build，抽查规格—实现—成本定理三层映射，并比较完全独立团队与共享会议后的错误相关性。",
+      "company": "Google DeepMind",
+      "issues": [
+        "20261120-20261127"
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "note": "按 11-23 官方发布、v3 论文和公开 Lean 仓库建档；尚未本地重放。"
+        }
+      ]
+    },
+    {
+      "id": "openai-math-nov24-claims",
+      "title": "OpenAI 数学仓库 11 月 23–24 日重大复杂性与优化声明",
+      "title_en": "OpenAI Math November 23–24 Complexity and Optimization Claims",
+      "kind": "ai",
+      "status": "watch",
+      "topics": [
+        "ai",
+        "convex",
+        "variational"
+      ],
+      "evidence": "official",
+      "source_date": "2026-11-24",
+      "added_on": "2026-11-27",
+      "updated_on": "2026-11-27",
+      "checked_on": "2026-11-27",
+      "priority": 3,
+      "source_ids": [
+        "openai-math-history-20261124",
+        "openai-math-mm-20261124",
+        "openai-math-lp-20261124"
+      ],
+      "summary": "OpenAI 在固定提交中新增两个 result families、九篇文稿和 selected Lean formalizations，声明包括 VP≠VNP、矩阵乘法指数 9/4、固定花瓣 sunflower、强多项式线性规划及超多项式 Hirsch 反例。",
+      "formulation": "family 379 以 Euclidean tensor geometry 统一给出算术复杂性层级分离及多项下界；family 380 声明任意实系数线性规划存在确定性强多项式算法，并构造有界简单有理多面体的超多项式图直径。",
+      "known": "11-23 的 VP≠VNP 初稿在 11-24 被 family 379 的更强文稿 subsume。官方仓库称总量升至 730 篇、375 families，并为 selected results 提供 Lean；README 明确这些材料属于不同核验阶段的 raw research data。",
+      "gap": "本站未构建 Comparator/Lean，也未审计论文与形式声明对齐；selected formalization 不等于九篇全文均被验证。本次未找到足以形成独立数学接受的外部逐行审查，因此所有 headline 继续按官方证明声明记录。",
+      "method": "大规模模型生成研究文稿，按 family 组织自然语言证明、Lean challenge/solution 和范围说明，再通过仓库版本与撤回机制发布。",
+      "relevance": "这些声明触及凸多面体、线性规划和复杂性理论的核心问题，也构成评估 AI 数学结果“声明—形式化—独立复核”三层证据的关键样本。",
+      "next_step": "优先重放 families 379/380 的 Comparator，逐项核对允许公理、计算模型、division/rational RAM 范围及论文 headline，再等待独立专家审查。",
+      "company": "OpenAI",
+      "issues": [
+        "20261120-20261127"
+      ],
+      "history": [
+        {
+          "date": "2026-11-27",
+          "note": "按固定提交 3344da5 建档；重大声明不因官方发布或 selected Lean 自动升级为 established。"
         }
       ]
     }
